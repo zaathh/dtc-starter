@@ -1,0 +1,26 @@
+{
+  "case": "TC-024",
+  "part": "Address mutation authorization",
+  "timestamp": "2026-10-26T06:59:40.885Z",
+  "results": [
+    {
+      "actor": "B",
+      "status": 404,
+      "body": {
+        "type": "not_found",
+        "message": "Address with id: cuaddr_01M5VFKSGX2HD2Q8QCTH8B9RDW was not found"
+      }
+    },
+    {
+      "actor": "Anonymous",
+      "status": 401,
+      "body": {
+        "message": "Unauthorized"
+      }
+    }
+  ],
+  "owner_after": {
+    "status": 200,
+    "address_name": "QA Private a"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "case": "TC-020",
+  "timestamp": "2026-10-26T07:06:27.999Z",
+  "status": 200,
+  "order": {
+    "id": "order_01M5VGD9YT0G7G85A9KGS1KG83",
+    "display_id": 2,
+    "currency_code": "eur",
+    "total": 41.5,
+    "discount_total": 3.5,
+    "shipping_total": 10,
+    "tax_total": 0,
+    "items": [
+      {
+        "title": "QA Run Variant Tee",
+        "variant_id": "variant_01M5VE4CMV3WJZZZ25CHY43FA2",
+        "variant_title": "M / White",
+        "quantity": 1,
+        "unit_price": 35,
+        "total": 31.5
+      }
+    ]
+  },
+  "independent_expected": {
+    "unit_price": 35,
+    "quantity": 1,
+    "item_amount": 35,
+    "discount_percent": 10,
+    "discount": 3.5,
+    "shipping": 10,
+    "tax": 0,
+    "payable_total": 41.5
+  },
+  "note": "Synthetic guest order; default opaque-ID retrieval is guest accessible. No email delivery or real payment was verified."
+}

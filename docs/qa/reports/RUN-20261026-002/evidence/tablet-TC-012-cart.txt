@@ -1,0 +1,90 @@
+Browser tab: 8, Title: "Cart", URL: "http://localhost:8000/dk/cart".
+1 AXWebArea Cart, URL: localhost:8000/dk/cart
+	2 container
+		3 container
+			4 button (collapsed) Menu, Secondary Actions: Expand
+			5 link Description: MEDUSA STORE, Value: localhost:8000/dk
+			6 link Description: Search products, Value: localhost:8000/dk/search
+			7 button (collapsed) Cart (1), Secondary Actions: Expand
+				8 link Description: Cart (1), Value: localhost:8000/dk/cart
+		9 heading Already have an account?, Value: 2
+			10 text Already have an account?
+		11 text Sign in for a better experience.
+		12 link Description: Sign in, Value: localhost:8000/dk/account
+		13 heading Cart, Value: 2
+			14 text Cart
+		15 table
+			16 row
+				17 cell
+					18 text Item
+				19 cell
+					20 text Quantity
+				21 cell
+					22 text Total
+			23 row
+				24 cell
+					25 link localhost:8000/dk/products/qa-20261026-001-variant
+				26 cell
+					27 text QA Run Variant Tee
+					28 container
+						29 text Variant:  M / White
+				30 cell
+					31 button
+						32 image
+					33 container
+						34 pop up button (collapsed, settable) Value: 1, Secondary Actions: Expand
+							35 menu
+								36 (disabled) Select...
+								37 1
+								38 2
+								39 3
+								40 4
+								41 5
+								42 6
+								43 7
+								44 8
+								45 9
+								46 10
+								47 (selected) 1
+						48 image
+				49 cell
+					50 text €35.00
+		51 container
+			52 heading Summary, Value: 2
+				53 text Summary
+			54 button
+			55 text Subtotal (excl. shipping and taxes) €35.00 Shipping €0.00 Taxes €0.00 Total €35.00
+			56 link Description: Go to checkout, Value: localhost:8000/dk/checkout?step=address
+		57 container
+			58 link Description: MEDUSA STORE, Value: localhost:8000/dk
+			59 text Categories
+			60 content list
+				61 container
+					62 link Description: Shirts, Value: localhost:8000/dk/categories/shirts
+				63 container
+					64 link Description: Sweatshirts, Value: localhost:8000/dk/categories/sweatshirts
+				65 container
+					66 link Description: Merch, Value: localhost:8000/dk/categories/merch
+				67 container
+					68 link Description: Pants, Value: localhost:8000/dk/categories/pants
+			69 text Customer service
+			70 content list
+				71 link Description: Shipping information, Value: localhost:8000/dk/shipping
+				72 link Description: Return policy, Value: localhost:8000/dk/returns
+				73 link Description: Terms of service, Value: localhost:8000/dk/terms
+				74 link Description: Privacy policy, Value: localhost:8000/dk/privacy
+				75 link Description: Contact, Value: localhost:8000/dk/contact
+				76 link Description: Search, Value: localhost:8000/dk/search
+			77 text Medusa
+			78 content list
+				79 link Description: GitHub, Value: github.com/medusajs
+				80 link Description: Documentation, Value: docs.medusajs.com/
+				81 link Description: Source code, Value: github.com/medusajs/dtc-starter
+			82 text ©  2026  Medusa Store. All rights reserved. Powered by
+			83 link medusajs.com/
+			84 text &
+			85 link nextjs.org/
+		86 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+			87 image
+
+The focused UI element is 1 AXWebArea Cart, URL: localhost:8000/dk/cart

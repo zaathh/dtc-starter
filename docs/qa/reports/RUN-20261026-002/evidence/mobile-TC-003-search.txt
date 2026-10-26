@@ -1,0 +1,52 @@
+Browser tab: 8, Title: "Search results for \"QA Run Product 13\"", URL: "http://localhost:8000/dk/search?q=QA+Run+Product+13".
+1 AXWebArea Search results for "QA Run Product 13", URL: localhost:8000/dk/search?q=QA+Run+Product+13
+	2 container
+		3 container
+			4 button (collapsed) Menu, ID: headlessui-popover-button-_R_1mj9esnelb_, Secondary Actions: Expand
+			5 link Description: MEDUSA STORE, Value: localhost:8000/dk
+			6 link Description: Search products, Value: localhost:8000/dk/search
+			7 button (collapsed) Cart (0), ID: headlessui-popover-button-_R_6vj9esnelb_, Secondary Actions: Expand
+				8 link Description: Cart (0), Value: localhost:8000/dk/cart
+		9 heading Search results for "QA Run Product 13", Value: 1
+			10 text Search results for "QA Run Product 13"
+		11 container
+			12 text Search products
+			13 search text field (settable) Search products, Value: QA Run Product 13, ID: search-q
+			14 button Search
+		15 container
+			16 text 1 product  found
+		17 content list
+			18 link Description: QA Run Product 13 €13.00, Value: localhost:8000/dk/products/qa-20261026-001-item-13
+		19 container
+			20 link Description: MEDUSA STORE, Value: localhost:8000/dk
+			21 text Categories
+			22 content list
+				23 container
+					24 link Description: Shirts, Value: localhost:8000/dk/categories/shirts
+				25 container
+					26 link Description: Sweatshirts, Value: localhost:8000/dk/categories/sweatshirts
+				27 container
+					28 link Description: Merch, Value: localhost:8000/dk/categories/merch
+				29 container
+					30 link Description: Pants, Value: localhost:8000/dk/categories/pants
+			31 text Customer service
+			32 content list
+				33 link Description: Shipping information, Value: localhost:8000/dk/shipping
+				34 link Description: Return policy, Value: localhost:8000/dk/returns
+				35 link Description: Terms of service, Value: localhost:8000/dk/terms
+				36 link Description: Privacy policy, Value: localhost:8000/dk/privacy
+				37 link Description: Contact, Value: localhost:8000/dk/contact
+				38 link Description: Search, Value: localhost:8000/dk/search
+			39 text Medusa
+			40 content list
+				41 link Description: GitHub, Value: github.com/medusajs
+				42 link Description: Documentation, Value: docs.medusajs.com/
+				43 link Description: Source code, Value: github.com/medusajs/dtc-starter
+			44 text ©  2026  Medusa Store. All rights reserved. Powered by
+			45 link medusajs.com/
+			46 text &
+			47 link nextjs.org/
+		48 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+			49 image
+
+The focused UI element is 1 AXWebArea Search results for "QA Run Product 13", URL: localhost:8000/dk/search?q=QA+Run+Product+13

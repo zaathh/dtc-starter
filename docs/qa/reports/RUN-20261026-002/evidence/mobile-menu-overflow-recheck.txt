@@ -1,0 +1,65 @@
+Browser tab: 8, Title: "Medusa Next.js Starter Template", URL: "http://localhost:8000/dk".
+1 AXWebArea Medusa Next.js Starter Template, URL: localhost:8000/dk
+	2 container
+		3 container
+			4 button (expanded) Menu, ID: headlessui-popover-button-_R_1mj9esnelb_, Secondary Actions: Collapse
+			5 container headlessui-popover-panel-_r_0_
+				6 button Close menu
+					7 image
+				8 content list
+					9 link Description: Home, Value: localhost:8000/dk
+					10 link Description: Store, Value: localhost:8000/dk/store
+					11 link Description: Account, Value: localhost:8000/dk/account
+					12 link Description: Cart, Value: localhost:8000/dk/cart
+				13 container
+					14 pop up button (collapsed) Shipping to: Denmark, ID: headlessui-listbox-button-_r_4_, Secondary Actions: Expand
+						15 text Shipping to:
+						16 image
+						17 text Denmark
+				18 image
+				19 text ©
+				20 text 2026
+				21 text  Medusa Store. All rights reserved.
+			22 link Description: MEDUSA STORE, Value: localhost:8000/dk
+			23 link Description: Search products, Value: localhost:8000/dk/search
+			24 button (collapsed) Cart (0), ID: headlessui-popover-button-_R_6vj9esnelb_, Secondary Actions: Expand
+				25 link Description: Cart (0), Value: localhost:8000/dk/cart
+		26 container
+			27 heading Ecommerce Starter Template, Value: 1
+				28 text Ecommerce Starter Template
+			29 heading Powered by Medusa and Next.js, Value: 2
+				30 text Powered by Medusa and Next.js
+			31 link Description: View on GitHub, Value: github.com/medusajs/dtc-starter
+		32 container
+			33 link Description: MEDUSA STORE, Value: localhost:8000/dk
+			34 text Categories
+			35 content list
+				36 container
+					37 link Description: Shirts, Value: localhost:8000/dk/categories/shirts
+				38 container
+					39 link Description: Sweatshirts, Value: localhost:8000/dk/categories/sweatshirts
+				40 container
+					41 link Description: Merch, Value: localhost:8000/dk/categories/merch
+				42 container
+					43 link Description: Pants, Value: localhost:8000/dk/categories/pants
+			44 text Customer service
+			45 content list
+				46 link Description: Shipping information, Value: localhost:8000/dk/shipping
+				47 link Description: Return policy, Value: localhost:8000/dk/returns
+				48 link Description: Terms of service, Value: localhost:8000/dk/terms
+				49 link Description: Privacy policy, Value: localhost:8000/dk/privacy
+				50 link Description: Contact, Value: localhost:8000/dk/contact
+				51 link Description: Search, Value: localhost:8000/dk/search
+			52 text Medusa
+			53 content list
+				54 link Description: GitHub, Value: github.com/medusajs
+				55 link Description: Documentation, Value: docs.medusajs.com/
+				56 link Description: Source code, Value: github.com/medusajs/dtc-starter
+			57 text ©  2026  Medusa Store. All rights reserved. Powered by
+			58 link medusajs.com/
+			59 text &
+			60 link nextjs.org/
+		61 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+			62 image
+
+The focused UI element is 4 button (expanded) Menu, ID: headlessui-popover-button-_R_1mj9esnelb_, Secondary Actions: Collapse

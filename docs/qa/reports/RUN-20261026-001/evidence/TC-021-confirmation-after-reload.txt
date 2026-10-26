@@ -1,0 +1,93 @@
+2026-10-26T07:07:00.009Z
+Browser tab: 7, Title: "Order Confirmed", URL: "http://localhost:8000/dk/order/order_01M5VGD9YT0G7G85A9KGS1KG83/confirmed".
+1 AXWebArea Order Confirmed, URL: localhost:8000/dk/order/order_01M5VGD9YT0G7G85A9KGS1KG83/confirmed
+	2 container
+		3 container
+			4 button (collapsed) Menu, ID: headlessui-popover-button-_R_1mj9esnelb_, Secondary Actions: Expand
+			5 link Description: MEDUSA STORE, Value: localhost:8000/dk
+			6 link Description: Search products, Value: localhost:8000/dk/search
+			7 link Description: Account, Value: localhost:8000/dk/account
+			8 button (collapsed) Cart (0), ID: headlessui-popover-button-_R_6vj9esnelb_, Secondary Actions: Expand
+				9 link Description: Cart (0), Value: localhost:8000/dk/cart
+		10 heading Thank you! Your order was placed successfully., Value: 1
+			11 text Thank you! Your order was placed successfully.
+		12 container
+			13 text We have sent the order confirmation details to qa-20261026-001-guest@example.test .
+		14 container
+			15 text Order date: Mon Oct 26 2026
+		16 container
+			17 text Order number:  2
+		18 heading Summary, Value: 2
+			19 text Summary
+		20 container
+			21 container QA Run Variant Tee Variant: M / White
+				22 text QA Run Variant Tee
+				23 container
+					24 text Variant:  M / White
+			25 container 1x €35.00 €31.50 €35.00 €31.50
+				26 container
+					27 text 1 x
+				28 text €35.00
+				29 text €31.50
+				30 text €35.00
+				31 text €31.50
+		32 text Subtotal (excl. shipping and taxes) €35.00 Shipping €10.00 Discount - €3.50 Taxes €0.00 Total €41.50
+		33 heading Delivery, Value: 2
+			34 text Delivery
+		35 text Shipping Address
+		36 container
+			37 text QA Guest
+		38 text 2 Fictional QA Street
+		39 container
+			40 text 2100 , Copenhagen
+		41 text DK
+		42 text Contact
+		43 text qa-20261026-001-guest@example.test
+		44 text Method
+		45 container
+			46 text Standard Shipping  ( €10.00 )
+		47 heading Payment, Value: 2
+			48 text Payment
+		49 text Payment method
+		50 text Manual Payment
+		51 text Payment details
+		52 image
+		53 text €41.50 paid at 10/26/2026, 2:04:47 PM
+		54 heading Need help?, Value: 2
+			55 text Need help?
+		56 content list
+			57 link Description: Contact, Value: localhost:8000/dk/contact
+			58 link Description: Returns & Exchanges, Value: localhost:8000/dk/contact
+		59 container
+			60 link Description: MEDUSA STORE, Value: localhost:8000/dk
+			61 text Categories
+			62 content list
+				63 container
+					64 link Description: Shirts, Value: localhost:8000/dk/categories/shirts
+				65 container
+					66 link Description: Sweatshirts, Value: localhost:8000/dk/categories/sweatshirts
+				67 container
+					68 link Description: Merch, Value: localhost:8000/dk/categories/merch
+				69 container
+					70 link Description: Pants, Value: localhost:8000/dk/categories/pants
+			71 text Customer service
+			72 content list
+				73 link Description: Shipping information, Value: localhost:8000/dk/shipping
+				74 link Description: Return policy, Value: localhost:8000/dk/returns
+				75 link Description: Terms of service, Value: localhost:8000/dk/terms
+				76 link Description: Privacy policy, Value: localhost:8000/dk/privacy
+				77 link Description: Contact, Value: localhost:8000/dk/contact
+				78 link Description: Search, Value: localhost:8000/dk/search
+			79 text Medusa
+			80 content list
+				81 link Description: GitHub, Value: github.com/medusajs
+				82 link Description: Documentation, Value: docs.medusajs.com/
+				83 link Description: Source code, Value: github.com/medusajs/dtc-starter
+			84 text ©  2026  Medusa Store. All rights reserved. Powered by
+			85 link medusajs.com/
+			86 text &
+			87 link nextjs.org/
+		88 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+			89 image
+
+The focused UI element is 1 AXWebArea Order Confirmed, URL: localhost:8000/dk/order/order_01M5VGD9YT0G7G85A9KGS1KG83/confirmed

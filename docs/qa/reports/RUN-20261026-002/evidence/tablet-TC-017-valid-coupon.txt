@@ -1,0 +1,100 @@
+Browser tab: 8, Title: "Cart", URL: "http://localhost:8000/dk/cart".
+1 AXWebArea Cart, URL: localhost:8000/dk/cart
+	2 container
+		3 container
+			4 button (collapsed) Menu, ID: headlessui-popover-button-_R_1mj9esnelb_, Secondary Actions: Expand
+			5 link Description: MEDUSA STORE, Value: localhost:8000/dk
+			6 link Description: Search products, Value: localhost:8000/dk/search
+			7 button (collapsed) Cart (1), ID: headlessui-popover-button-_R_6vj9esnelb_, Secondary Actions: Expand
+				8 link Description: Cart (1), Value: localhost:8000/dk/cart
+		9 heading Already have an account?, Value: 2
+			10 text Already have an account?
+		11 text Sign in for a better experience.
+		12 link Description: Sign in, Value: localhost:8000/dk/account
+		13 heading Cart, Value: 2
+			14 text Cart
+		15 table
+			16 row
+				17 cell
+					18 text Item
+				19 cell
+					20 text Quantity
+				21 cell
+					22 text Total
+			23 row
+				24 cell
+					25 link localhost:8000/dk/products/qa-20261026-001-variant
+				26 cell
+					27 text QA Run Variant Tee
+					28 container
+						29 text Variant:  M / White
+				30 cell
+					31 button
+						32 image
+					33 container
+						34 pop up button (collapsed, settable) Value: 1, Secondary Actions: Expand
+							35 menu
+								36 (disabled) Select...
+								37 (selected) 1
+								38 2
+								39 3
+								40 4
+								41 5
+								42 6
+								43 7
+								44 8
+								45 9
+								46 10
+								47 1
+						48 image
+				49 cell
+					89 text €35.00
+					50 text €31.50
+		51 container
+			52 heading Summary, Value: 2
+				53 text Summary
+			54 button
+			55 text field (settable) promotion-input
+			56 button Apply
+			90 heading Promotion(s) applied:, Value: 2
+				91 text Promotion(s) applied:
+			92 text QA20261026TEN ( 10% )
+			93 button Remove discount code from order
+				94 image
+				95 text Remove discount code from order
+			58 text Subtotal (excl. shipping and taxes) €35.00 Shipping €0.00 Discount - €3.50 Taxes €0.00 Total €31.50
+			59 link Description: Go to checkout, Value: localhost:8000/dk/checkout?step=address
+		60 container
+			61 link Description: MEDUSA STORE, Value: localhost:8000/dk
+			62 text Categories
+			63 content list
+				64 container
+					65 link Description: Shirts, Value: localhost:8000/dk/categories/shirts
+				66 container
+					67 link Description: Sweatshirts, Value: localhost:8000/dk/categories/sweatshirts
+				68 container
+					69 link Description: Merch, Value: localhost:8000/dk/categories/merch
+				70 container
+					71 link Description: Pants, Value: localhost:8000/dk/categories/pants
+			72 text Customer service
+			73 content list
+				74 link Description: Shipping information, Value: localhost:8000/dk/shipping
+				75 link Description: Return policy, Value: localhost:8000/dk/returns
+				76 link Description: Terms of service, Value: localhost:8000/dk/terms
+				77 link Description: Privacy policy, Value: localhost:8000/dk/privacy
+				78 link Description: Contact, Value: localhost:8000/dk/contact
+				79 link Description: Search, Value: localhost:8000/dk/search
+			80 text Medusa
+			81 content list
+				82 link Description: GitHub, Value: github.com/medusajs
+				83 link Description: Documentation, Value: docs.medusajs.com/
+				84 link Description: Source code, Value: github.com/medusajs/dtc-starter
+			85 text ©  2026  Medusa Store. All rights reserved. Powered by
+			86 link medusajs.com/
+			87 text &
+			88 link nextjs.org/
+		96 button Open Next.js Dev Tools
+			97 container
+				98 text Rendering . . .
+
+The focused UI element is 1 AXWebArea Cart, URL: localhost:8000/dk/cart

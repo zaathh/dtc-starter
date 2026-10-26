@@ -1,0 +1,317 @@
+{
+  "run_id": "RUN-20261026-001",
+  "report_generated_at": "2026-10-26T14:10:49.063816+07:00",
+  "application_commit": "204130a32d80b704ab509069dcc1a2f8a61f51c1",
+  "planning_commit": "a5e33cc0de528eb7b20eeb547543ee65b8bbb66a",
+  "execution_branch": "test/manual-qa",
+  "executor": "AI-assisted initial execution using interactive browser actions and individually initiated HTTP requests; portfolio owner subsequently reported manually checking all 26 test cases and confirming the findings",
+  "included_cases": 26,
+  "counts": {
+    "Pass": 25,
+    "Fail": 1,
+    "Blocked": 0,
+    "Not Run": 0,
+    "Not Applicable": 0
+  },
+  "p1_counts": {
+    "Pass": 17,
+    "Fail": 0,
+    "Blocked": 0,
+    "Not Run": 0
+  },
+  "disposition": "Completed with defects; no overall application acceptance or residual-risk waiver",
+  "results": [
+    {
+      "case_id": "TC-001",
+      "criteria_risks": "AC-015 / RISK-007",
+      "priority": "P2",
+      "status": "Pass",
+      "actual_result": "Home displayed the starter heading, menu, account/cart and category/policy links.",
+      "evidence": [
+        "TC-001-home.jpg"
+      ]
+    },
+    {
+      "case_id": "TC-002",
+      "criteria_risks": "AC-001 / RISK-005",
+      "priority": "P2",
+      "status": "Pass",
+      "actual_result": "The dedicated QA category displayed only QA fixture products across its two pages.",
+      "evidence": [
+        "TC-002-TC-006-category-page1.txt"
+      ]
+    },
+    {
+      "case_id": "TC-003",
+      "criteria_risks": "AC-002 / RISK-005",
+      "priority": "P2",
+      "status": "Pass",
+      "actual_result": "Searching QA Run Product 13 displayed exactly one matching product at EUR 13.00.",
+      "evidence": [
+        "TC-003-search-match.txt"
+      ]
+    },
+    {
+      "case_id": "TC-004",
+      "criteria_risks": "AC-002 / RISK-005",
+      "priority": "P2",
+      "status": "Pass",
+      "actual_result": "The run-specific nonexistent token returned 0 products and a usable no-match message.",
+      "evidence": [
+        "TC-004-search-empty.txt"
+      ]
+    },
+    {
+      "case_id": "TC-005",
+      "criteria_risks": "AC-003 / RISK-005",
+      "priority": "P2",
+      "status": "Pass",
+      "actual_result": "Inspected category results followed ascending EUR 1\u201312 and descending EUR 45, 40, 20, 13\u20135 order on page 1.",
+      "evidence": [
+        "TC-005-price-ascending.txt",
+        "TC-005-price-descending.txt"
+      ]
+    },
+    {
+      "case_id": "TC-006",
+      "criteria_risks": "AC-003 / RISK-005, RISK-011",
+      "priority": "P2",
+      "status": "Pass",
+      "actual_result": "Recorded 12 handles on page 1 and 4 on page 2: union 16, intersection 0, matching the 16 prepared category members.",
+      "evidence": [
+        "TC-002-TC-006-category-page1.txt",
+        "TC-006-category-page2.txt"
+      ]
+    },
+    {
+      "case_id": "TC-007",
+      "criteria_risks": "AC-004 / RISK-004",
+      "priority": "P1",
+      "status": "Pass",
+      "actual_result": "M and White were selected; the page showed EUR 35.00 and the matching fixture variant ID in the URL after hydration.",
+      "evidence": [
+        "TC-007-variant-M-White.txt"
+      ]
+    },
+    {
+      "case_id": "TC-008",
+      "criteria_risks": "AC-015 / RISK-007",
+      "priority": "P2",
+      "status": "Pass",
+      "actual_result": "A nonexistent product displayed Page not found and a frontpage link.",
+      "evidence": [
+        "TC-008-product-not-found.jpg"
+      ]
+    },
+    {
+      "case_id": "TC-009",
+      "criteria_risks": "AC-005 / RISK-004",
+      "priority": "P1",
+      "status": "Pass",
+      "actual_result": "The stock-0 fixture displayed Out of stock and a disabled purchase button.",
+      "evidence": [
+        "TC-009-zero-stock.txt"
+      ]
+    },
+    {
+      "case_id": "TC-010",
+      "criteria_risks": "AC-005 / RISK-004",
+      "priority": "P1",
+      "status": "Pass",
+      "actual_result": "Store API rejected quantity 2 for stock 1 with HTTP 400 insufficient_inventory; re-read cart contained no items.",
+      "evidence": [
+        "TC-010-stock-boundary.json"
+      ]
+    },
+    {
+      "case_id": "TC-011",
+      "criteria_risks": "AC-006 / RISK-002",
+      "priority": "P1",
+      "status": "Pass",
+      "actual_result": "The initially empty anonymous cart showed an empty-state message and Explore products, without a checkout action.",
+      "evidence": [
+        "TC-011-empty-cart.txt"
+      ]
+    },
+    {
+      "case_id": "TC-012",
+      "criteria_risks": "AC-004, AC-006 / RISK-004",
+      "priority": "P1",
+      "status": "Pass",
+      "actual_result": "Cart contained QA Run Variant Tee, M / White, quantity 1 and EUR 35.00 after one add.",
+      "evidence": [
+        "TC-012-cart-selected-variant.txt"
+      ]
+    },
+    {
+      "case_id": "TC-013",
+      "criteria_risks": "AC-006, AC-007 / RISK-001",
+      "priority": "P1",
+      "status": "Pass",
+      "actual_result": "Changing quantity to 2 produced a EUR 70.00 line/subtotal/total, with zero shipping and tax at that state.",
+      "evidence": [
+        "TC-013-quantity-two-total-seventy.txt"
+      ]
+    },
+    {
+      "case_id": "TC-014",
+      "criteria_risks": "AC-006 / RISK-004",
+      "priority": "P1",
+      "status": "Pass",
+      "actual_result": "Reload retained the M / White line, quantity 2 and EUR 70.00 total.",
+      "evidence": [
+        "TC-014-cart-after-reload.txt"
+      ]
+    },
+    {
+      "case_id": "TC-015",
+      "criteria_risks": "AC-006 / RISK-002",
+      "priority": "P1",
+      "status": "Pass",
+      "actual_result": "Removing the QA line returned the cart to Cart (0) and the empty-state message.",
+      "evidence": [
+        "TC-015-item-removed.txt"
+      ]
+    },
+    {
+      "case_id": "TC-016",
+      "criteria_risks": "AC-008 / RISK-001",
+      "priority": "P1",
+      "status": "Pass",
+      "actual_result": "Invalid code produced explicit rejection feedback; the single EUR 35.00 item had no discount and total remained EUR 35.00.",
+      "evidence": [
+        "TC-016-invalid-coupon.txt"
+      ]
+    },
+    {
+      "case_id": "TC-017",
+      "criteria_risks": "AC-007, AC-008 / RISK-001",
+      "priority": "P1",
+      "status": "Pass",
+      "actual_result": "QA20261026TEN applied 10% to EUR 35.00: discount EUR 3.50 and pre-shipping total EUR 31.50.",
+      "evidence": [
+        "TC-017-valid-coupon-total.txt"
+      ]
+    },
+    {
+      "case_id": "TC-018",
+      "criteria_risks": "AC-009 / RISK-002",
+      "priority": "P1",
+      "status": "Pass",
+      "actual_result": "Submitting an empty address stayed at step=address and displayed Please fill out this field at First name.",
+      "evidence": [
+        "TC-018-required-address-fields.jpg"
+      ]
+    },
+    {
+      "case_id": "TC-019",
+      "criteria_risks": "AC-009 / RISK-002",
+      "priority": "P1",
+      "status": "Pass",
+      "actual_result": "Fictional DK address advanced to delivery; Standard Shipping was EUR 10.00. Returning to Address preserved entered data; resubmission retained the shipping choice.",
+      "evidence": [
+        "TC-019-delivery-and-total.txt",
+        "TC-019-address-persisted.txt"
+      ]
+    },
+    {
+      "case_id": "TC-020",
+      "criteria_risks": "AC-007, AC-010 / RISK-001, RISK-002",
+      "priority": "P1",
+      "status": "Pass",
+      "actual_result": "Manual Payment created UI order number 2. Persisted M / White quantity 1 matched EUR 35.00 \u2212 3.50 + 10.00 + 0.00 = EUR 41.50.",
+      "evidence": [
+        "TC-020-order-confirmed.jpg",
+        "TC-020-persisted-order.json"
+      ]
+    },
+    {
+      "case_id": "TC-021",
+      "criteria_risks": "AC-011 / RISK-002",
+      "priority": "P1",
+      "status": "Pass",
+      "actual_result": "Repeating completion on an isolated authenticated API cart returned the same order ID twice; order_cart held one distinct order. UI confirmation reload retained order number 2.",
+      "evidence": [
+        "TC-021-repeat-completion.json",
+        "TC-021-confirmation-after-reload.txt"
+      ]
+    },
+    {
+      "case_id": "TC-022",
+      "criteria_risks": "AC-012 / RISK-003",
+      "priority": "P1",
+      "status": "Pass",
+      "actual_result": "Wrong synthetic credentials displayed Invalid email or password and did not show account data.",
+      "evidence": [
+        "TC-022-invalid-login.txt"
+      ]
+    },
+    {
+      "case_id": "TC-023",
+      "criteria_risks": "AC-012 / RISK-003",
+      "priority": "P1",
+      "status": "Pass",
+      "actual_result": "Valid A credentials showed A account and one address; logout plus reload showed the login form again.",
+      "evidence": [
+        "TC-023-valid-login.txt",
+        "TC-023-after-logout.txt"
+      ]
+    },
+    {
+      "case_id": "TC-024",
+      "criteria_risks": "AC-013 / RISK-003",
+      "priority": "P1",
+      "status": "Pass",
+      "actual_result": "Address read/update as B returned 404 and anonymous returned 401; A address stayed unchanged. A private order history contained its order, B history was empty and anonymous history returned 401. Guest order-by-ID capability was excluded as documented.",
+      "evidence": [
+        "TC-024-address-ownership.json",
+        "TC-024-address-mutation.json",
+        "TC-024-order-history-ownership.json"
+      ]
+    },
+    {
+      "case_id": "TC-025",
+      "criteria_risks": "AC-015 / RISK-007",
+      "priority": "P2",
+      "status": "Fail",
+      "actual_result": "Account Customer Service link navigated to /dk/customer-service and rendered Page not found in two UI attempts; independent HTTP request returned 404. Five footer policy/contact targets returned 200; Contact rendered documented starter placeholder text. See BUG-001.",
+      "evidence": [
+        "TC-025-account-help-link.txt",
+        "BUG-001-customer-service-404.jpg",
+        "BUG-001-customer-service-404-reproduction2.txt",
+        "TC-025-link-responses.json",
+        "TC-025-contact-page.txt"
+      ]
+    },
+    {
+      "case_id": "TC-026",
+      "criteria_risks": "AC-014 / RISK-006",
+      "priority": "P2",
+      "status": "Pass",
+      "actual_result": "Country selector changed Denmark to France at /fr/contact; the France product page showed EUR 20.00. Returning to the DK product route remained usable; different-region currencies and populated-cart transitions were not evaluated.",
+      "evidence": [
+        "TC-026-country-France.txt",
+        "TC-026-France-EUR.txt",
+        "TC-007-variant-M-White.txt"
+      ]
+    }
+  ],
+  "documentation_verified_at": "2026-10-26T14:27:26.018520+07:00",
+  "documentation_checks": [
+    "Local Markdown links and whitespace",
+    "Unique case IDs and actual result counts",
+    "Evidence references and JPEG file signatures",
+    "Known local credentials absent from text artifacts"
+  ],
+  "owner_reported_verification": {
+    "reported_date": "2026-10-26",
+    "timezone": "Asia/Jakarta",
+    "source": "Direct owner statements in mentoring conversation",
+    "record": "HUMAN_VERIFICATION.md",
+    "evidence_level": "Owner report; no screenshots or detailed execution log supplied",
+    "original_counts_unchanged": true,
+    "bug_001_status": "Open; owner reported reproduction, not a fix retest",
+    "test_cases_verified": 26,
+    "scope": "All 26 test cases; supersedes the earlier six-flow confirmation"
+  }
+}

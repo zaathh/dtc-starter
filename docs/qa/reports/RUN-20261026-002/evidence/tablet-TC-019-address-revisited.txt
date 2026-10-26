@@ -1,0 +1,88 @@
+Browser tab: 8, Title: "Checkout", URL: "http://localhost:8000/dk/checkout?step=address".
+1 AXWebArea Checkout, URL: localhost:8000/dk/checkout?step=address
+	3 container
+		4 link Description: BACK, Value: localhost:8000/dk/cart
+		5 link Description: MEDUSA STORE, Value: localhost:8000/dk
+		80 heading Shipping Address, Value: 2
+			81 text Shipping Address
+		142 container
+			143 text field (settable) QA
+			144 container
+				145 text First name *
+			146 text field (settable) Tablet
+			147 container
+				148 text Last name *
+			149 text field (settable) 1 Test Street
+			150 container
+				151 text Address *
+			152 text field (settable)
+			153 text Company
+			154 text field (settable) 2100
+			155 container
+				156 text Postal code *
+			157 text field (settable) Copenhagen
+			158 container
+				159 text City *
+			160 pop up button (collapsed, settable) Value: Denmark, Secondary Actions: Expand
+				161 menu
+					162 (disabled) Country
+					163 (selected) Denmark
+					164 France
+					165 Germany
+					166 Italy
+					167 Spain
+					168 Sweden
+					169 United Kingdom
+			170 image
+			171 text field (settable)
+			172 text State / Province
+			173 checkbox (settable, integer) Description: Billing address same as shipping address, Value: 1, ID: checkbox
+			174 text field (settable) Description: Enter a valid email address., Value: <redacted>
+			175 container
+				176 text Email *
+			177 text field (settable)
+			178 text Phone
+			179 button Continue to delivery
+		95 heading Delivery, Value: 2
+			96 text Delivery
+			180 image
+		181 button Edit
+		182 text Method
+		183 container
+			184 text Standard Shipping €10.00
+		108 heading Payment, Value: 2
+			109 text Payment
+		110 heading Review, Value: 2
+			111 text Review
+		112 container
+			113 heading In your Cart, Value: 2
+				114 text In your Cart
+			115 text Subtotal (excl. shipping and taxes) €35.00 Shipping €10.00 Discount - €3.50 Taxes €0.00 Total €41.50
+			116 container
+				117 link localhost:8000/dk/products/qa-20261026-001-variant
+				118 container QA Run Variant Tee Variant: M / White
+					119 text QA Run Variant Tee
+					120 container
+						121 text Variant:  M / White
+				122 container 1x €35.00 €31.50 €35.00 €31.50
+					123 container
+						124 text 1 x
+					125 text €35.00
+					126 text €31.50
+					127 text €35.00
+					128 text €31.50
+			129 button
+			130 heading Promotion(s) applied:, Value: 2
+				131 text Promotion(s) applied:
+			132 text QA20261026TEN ( 10% )
+			133 button Remove discount code from order
+				134 image
+				135 text Remove discount code from order
+		76 text Powered by
+		77 link medusajs.com/
+		78 text &
+		79 link nextjs.org/
+	140 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+		141 image
+
+The focused UI element is 1 AXWebArea Checkout, URL: localhost:8000/dk/checkout?step=address

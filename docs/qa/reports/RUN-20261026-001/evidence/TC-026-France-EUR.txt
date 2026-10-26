@@ -1,0 +1,73 @@
+2026-10-26T06:57:36.130Z
+Browser tab: 7, Title: "QA Run Variant Tee | Medusa Store", URL: "http://localhost:8000/fr/products/qa-20261026-001-variant?v_id=variant_01M5VE4CMTGMJ3NK6TX5VN5N2P".
+1 AXWebArea QA Run Variant Tee | Medusa Store, URL: localhost:8000/fr/products/qa-20261026-001-variant?v_id=variant_01M5VE4CMTGMJ3NK6TX5VN5N2P
+	2 container
+		3 container
+			4 button (collapsed) Menu, ID: headlessui-popover-button-_R_1mj9esnelb_, Secondary Actions: Expand
+			5 link Description: MEDUSA STORE, Value: localhost:8000/fr
+			6 link Description: Search products, Value: localhost:8000/fr/search
+			7 link Description: Account, Value: localhost:8000/fr/account
+			62 button (collapsed) Cart (0), ID: headlessui-popover-button-_R_6vj9esnelb_, Secondary Actions: Expand
+				63 link Description: Cart (0), Value: localhost:8000/fr/cart
+		9 container
+			10 heading QA Run Variant Tee, Value: 1
+				11 text QA Run Variant Tee
+			12 heading Product Information, Value: 3
+				13 text Product Information
+				14 button (collapsed) ID: radix-_R_6bpbn5ritp9esnelb_, Secondary Actions: Expand
+			15 heading Shipping & Returns, Value: 3
+				16 text Shipping & Returns
+				17 button (collapsed) ID: radix-_R_abpbn5ritp9esnelb_, Secondary Actions: Expand
+			18 container
+				19 container Select Size
+					20 container
+						21 text Select  Size
+					22 radio button (settable, integer) Description: S, Value: 1, ID: options-opt_01M5VE4CHDXNEQYHXZEFQ3FKV4--S
+					23 radio button (settable, integer) Description: M, Value: 0, ID: options-opt_01M5VE4CHDXNEQYHXZEFQ3FKV4--M
+				24 container Select Color
+					25 container
+						26 text Select  Color
+					27 radio button (settable, integer) Description: Black, Value: 1, ID: options-opt_01M5VE4CHDE8DBZQYMHM3R0R8J--Black
+					28 radio button (settable, integer) Description: White, Value: 0, ID: options-opt_01M5VE4CHDE8DBZQYMHM3R0R8J--White
+				29 text €20.00 In stock
+				30 button Add to cart
+		64 text Related products
+		65 text You might also want to check out these products.
+		66 content list
+			67 link Description: Medusa Shorts Medusa Shorts €10.00, Value: localhost:8000/fr/products/shorts
+			68 link Description: Medusa T-Shirt Medusa T-Shirt €10.00, Value: localhost:8000/fr/products/t-shirt
+			69 link Description: Medusa Sweatshirt Medusa Sweatshirt €10.00, Value: localhost:8000/fr/products/sweatshirt
+			70 link Description: Medusa Sweatpants Medusa Sweatpants €10.00, Value: localhost:8000/fr/products/sweatpants
+		31 container
+			32 link Description: MEDUSA STORE, Value: localhost:8000/fr
+			33 text Categories
+			34 content list
+				35 container
+					36 link Description: Shirts, Value: localhost:8000/fr/categories/shirts
+				37 container
+					38 link Description: Sweatshirts, Value: localhost:8000/fr/categories/sweatshirts
+				39 container
+					40 link Description: Merch, Value: localhost:8000/fr/categories/merch
+				41 container
+					42 link Description: Pants, Value: localhost:8000/fr/categories/pants
+			43 text Customer service
+			44 content list
+				45 link Description: Shipping information, Value: localhost:8000/fr/shipping
+				46 link Description: Return policy, Value: localhost:8000/fr/returns
+				47 link Description: Terms of service, Value: localhost:8000/fr/terms
+				48 link Description: Privacy policy, Value: localhost:8000/fr/privacy
+				49 link Description: Contact, Value: localhost:8000/fr/contact
+				50 link Description: Search, Value: localhost:8000/fr/search
+			51 text Medusa
+			52 content list
+				53 link Description: GitHub, Value: github.com/medusajs
+				54 link Description: Documentation, Value: docs.medusajs.com/
+				55 link Description: Source code, Value: github.com/medusajs/dtc-starter
+			56 text ©  2026  Medusa Store. All rights reserved. Powered by
+			57 link medusajs.com/
+			58 text &
+			59 link nextjs.org/
+		60 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+			61 image
+
+The focused UI element is 1 AXWebArea QA Run Variant Tee | Medusa Store, URL: localhost:8000/fr/products/qa-20261026-001-variant?v_id=variant_01M5VE4CMTGMJ3NK6TX5VN5N2P

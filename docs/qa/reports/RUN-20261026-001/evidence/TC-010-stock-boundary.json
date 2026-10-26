@@ -1,0 +1,23 @@
+{
+  "case": "TC-010",
+  "timestamp": "2026-10-26T06:51:51.226Z",
+  "method": "Manually initiated Store API requests",
+  "precondition": {
+    "variant_id": "variant_01M5VE4CMVKAA2CTJ4WJ0QRQBK",
+    "configured_stock": 1,
+    "manage_inventory": true,
+    "allow_backorder": false
+  },
+  "request": {
+    "quantity": 2
+  },
+  "response": {
+    "status": 400,
+    "body": {
+      "code": "insufficient_inventory",
+      "type": "not_allowed",
+      "message": "Some variant does not have the required inventory"
+    }
+  },
+  "persisted_items": []
+}

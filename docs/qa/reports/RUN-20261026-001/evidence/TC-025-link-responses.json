@@ -1,0 +1,50 @@
+{
+  "case": "TC-025",
+  "timestamp": "2026-10-26T06:53:10.030Z",
+  "method": "Individually inspected HTTP navigation targets",
+  "results": [
+    {
+      "route": "shipping",
+      "url": "http://localhost:8000/dk/shipping",
+      "status": 200,
+      "title": "Shipping information",
+      "html_contains_not_found_fallback": true
+    },
+    {
+      "route": "returns",
+      "url": "http://localhost:8000/dk/returns",
+      "status": 200,
+      "title": "Return policy",
+      "html_contains_not_found_fallback": true
+    },
+    {
+      "route": "terms",
+      "url": "http://localhost:8000/dk/terms",
+      "status": 200,
+      "title": "Terms of service",
+      "html_contains_not_found_fallback": true
+    },
+    {
+      "route": "privacy",
+      "url": "http://localhost:8000/dk/privacy",
+      "status": 200,
+      "title": "Privacy policy",
+      "html_contains_not_found_fallback": true
+    },
+    {
+      "route": "contact",
+      "url": "http://localhost:8000/dk/contact",
+      "status": 200,
+      "title": "Contact",
+      "html_contains_not_found_fallback": true
+    },
+    {
+      "route": "customer-service",
+      "url": "http://localhost:8000/dk/customer-service",
+      "status": 404,
+      "title": "404",
+      "html_contains_not_found_fallback": true
+    }
+  ],
+  "interpretation": "Raw Next.js HTML can include serialized not-found fallback text on successful pages. That substring is not a rendered-page verdict. Customer-service HTTP 404 was separately confirmed by UI click."
+}

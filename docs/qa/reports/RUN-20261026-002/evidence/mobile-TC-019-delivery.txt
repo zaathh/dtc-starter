@@ -1,0 +1,70 @@
+Browser tab: 8, Title: "Checkout", URL: "http://localhost:8000/dk/checkout?step=delivery".
+1 AXWebArea Checkout, URL: localhost:8000/dk/checkout?step=delivery
+	3 container
+		4 link Description: BACK, Value: localhost:8000/dk/cart
+		5 link Description: MEDUSA STORE, Value: localhost:8000/dk
+		82 heading Shipping Address, Value: 2
+			83 text Shipping Address
+			84 image
+		85 button Edit
+		86 text Shipping Address
+		87 container
+			88 text QA Mobile
+		89 text 1 Test Street
+		90 container
+			91 text 2100 , Copenhagen
+		92 text DK
+		93 text Contact
+		94 text qa-20261026-002-mobile@example.test
+		95 text Billing Address
+		96 text Billing and delivery address are the same.
+		97 heading Delivery, Value: 2
+			98 text Delivery
+		99 text Shipping method How would you like you order delivered
+		100 headlessui-radiogroup-_r_5_
+			101 radio button Standard Shipping €10.00, Value: 1, ID: headlessui-radio-_r_6_
+				102 radio button 1
+				103 text Standard Shipping
+				104 text €10.00
+			105 radio button Express Shipping €10.00, Value: 0, ID: headlessui-radio-_r_7_
+				106 radio button 1
+				107 text Express Shipping
+				108 text €10.00
+		109 button Continue to payment
+		110 heading Payment, Value: 2
+			111 text Payment
+		112 heading Review, Value: 2
+			113 text Review
+		114 container
+			115 heading In your Cart, Value: 2
+				116 text In your Cart
+			117 text Subtotal (excl. shipping and taxes) €35.00 Shipping €10.00 Discount - €3.50 Taxes €0.00 Total €41.50
+			118 container
+				119 link localhost:8000/dk/products/qa-20261026-001-variant
+				120 container QA Run Variant Tee Variant: M / White
+					121 text QA Run Variant Tee
+					122 container
+						123 text Variant:  M / White
+				124 container 1x €35.00 €31.50 €35.00 €31.50
+					125 container
+						126 text 1 x
+					127 text €35.00
+					128 text €31.50
+					129 text €35.00
+					130 text €31.50
+			131 button
+			132 heading Promotion(s) applied:, Value: 2
+				133 text Promotion(s) applied:
+			134 text QA20261026TEN ( 10% )
+			135 button Remove discount code from order
+				136 image
+				137 text Remove discount code from order
+		76 text Powered by
+		77 link medusajs.com/
+		78 text &
+		79 link nextjs.org/
+	80 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+		81 image
+	138 text Checkout
+
+The focused UI element is 101 radio button Standard Shipping €10.00, Value: 1, ID: headlessui-radio-_r_6_

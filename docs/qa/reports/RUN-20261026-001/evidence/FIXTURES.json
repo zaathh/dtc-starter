@@ -1,0 +1,996 @@
+{
+  "namespace": "qa-20261026-001",
+  "prepared_at": "2026-10-26T06:24:58.529Z",
+  "category": {
+    "id": "pcat_01M5VE4CGVWPMJPM7G5XVK8GG1",
+    "name": "QA Run 20261026",
+    "description": "",
+    "handle": "qa-20261026-001",
+    "mpath": "pcat_01M5VE4CGVWPMJPM7G5XVK8GG1",
+    "is_active": true,
+    "is_internal": false,
+    "rank": 4,
+    "external_id": null,
+    "metadata": null,
+    "created_at": "2026-10-26T06:24:57.883Z",
+    "updated_at": "2026-10-26T06:24:57.883Z",
+    "deleted_at": null,
+    "category_children": [],
+    "products": []
+  },
+  "region": {
+    "id": "reg_01M5V9SZY1HSYFB6E0WYPVEJ77",
+    "name": "Europe",
+    "currency_code": "eur"
+  },
+  "sales_channel_id": "sc_01M5V9SZX31BV9HRQ6SAST9W7N",
+  "location_id": "sloc_01M5V9SZYXJZFYFZBKVYHHFNBW",
+  "products": [
+    {
+      "id": "prod_01M5VE4CHC1ZM08D3NGRF123EB",
+      "handle": "qa-20261026-001-item-03",
+      "title": "QA Run Product 03",
+      "variants": [
+        {
+          "id": "variant_01M5VE4CMSDJ3RR2RQJSN1YZ19",
+          "title": "One",
+          "sku": "qa-20261026-001-item-03",
+          "inventory_items": []
+        }
+      ]
+    },
+    {
+      "id": "prod_01M5VE4CHC2TSWDH778BZ514V4",
+      "handle": "qa-20261026-001-item-08",
+      "title": "QA Run Product 08",
+      "variants": [
+        {
+          "id": "variant_01M5VE4CMT2THBWTWVNPFVF5NZ",
+          "title": "One",
+          "sku": "qa-20261026-001-item-08",
+          "inventory_items": []
+        }
+      ]
+    },
+    {
+      "id": "prod_01M5VE4CHC4TQRFGPE1GEKHKCY",
+      "handle": "qa-20261026-001-item-09",
+      "title": "QA Run Product 09",
+      "variants": [
+        {
+          "id": "variant_01M5VE4CMTZTBHQF38FQPM1MAA",
+          "title": "One",
+          "sku": "qa-20261026-001-item-09",
+          "inventory_items": []
+        }
+      ]
+    },
+    {
+      "id": "prod_01M5VE4CHC6ECPXT55Z3VXN9AM",
+      "handle": "qa-20261026-001-zero-stock",
+      "title": "QA Run zero-stock",
+      "variants": [
+        {
+          "id": "variant_01M5VE4CMVEV19QDKSH8ESJQTE",
+          "title": "One",
+          "sku": "qa-20261026-001-zero-stock",
+          "inventory_items": [
+            {
+              "inventory_item_id": "iitem_01M5VE4CN93K9DNVFQHHX94QM8",
+              "variant_id": "variant_01M5VE4CMVEV19QDKSH8ESJQTE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prod_01M5VE4CHC9JJJ9VMWJ0X15KHY",
+      "handle": "qa-20261026-001-item-04",
+      "title": "QA Run Product 04",
+      "variants": [
+        {
+          "id": "variant_01M5VE4CMTT0QA35VP6R4EAAG7",
+          "title": "One",
+          "sku": "qa-20261026-001-item-04",
+          "inventory_items": []
+        }
+      ]
+    },
+    {
+      "id": "prod_01M5VE4CHCA9RRZQ6EVFN5M8EP",
+      "handle": "qa-20261026-001-item-10",
+      "title": "QA Run Product 10",
+      "variants": [
+        {
+          "id": "variant_01M5VE4CMTH5WG7F9WETVM3T3S",
+          "title": "One",
+          "sku": "qa-20261026-001-item-10",
+          "inventory_items": []
+        }
+      ]
+    },
+    {
+      "id": "prod_01M5VE4CHCCKTDW17YM2PD5GG6",
+      "handle": "qa-20261026-001-item-06",
+      "title": "QA Run Product 06",
+      "variants": [
+        {
+          "id": "variant_01M5VE4CMTKRZY1K86A7A4C1XK",
+          "title": "One",
+          "sku": "qa-20261026-001-item-06",
+          "inventory_items": []
+        }
+      ]
+    },
+    {
+      "id": "prod_01M5VE4CHCE65DC7AXVGZNRZ8C",
+      "handle": "qa-20261026-001-variant",
+      "title": "QA Run Variant Tee",
+      "variants": [
+        {
+          "id": "variant_01M5VE4CMTGMJ3NK6TX5VN5N2P",
+          "title": "S / Black",
+          "sku": "qa-20261026-001-S-Black",
+          "inventory_items": []
+        },
+        {
+          "id": "variant_01M5VE4CMV3WJZZZ25CHY43FA2",
+          "title": "M / White",
+          "sku": "qa-20261026-001-M-White",
+          "inventory_items": []
+        },
+        {
+          "id": "variant_01M5VE4CMVGW4R40KDCF7RQECD",
+          "title": "S / White",
+          "sku": "qa-20261026-001-S-White",
+          "inventory_items": []
+        },
+        {
+          "id": "variant_01M5VE4CMVV6KB0NHM6N5XW3MT",
+          "title": "M / Black",
+          "sku": "qa-20261026-001-M-Black",
+          "inventory_items": []
+        }
+      ]
+    },
+    {
+      "id": "prod_01M5VE4CHCEGEGFWE75KQG9C46",
+      "handle": "qa-20261026-001-item-13",
+      "title": "QA Run Product 13",
+      "variants": [
+        {
+          "id": "variant_01M5VE4CMTZWAGVT2KDGR42BDS",
+          "title": "One",
+          "sku": "qa-20261026-001-item-13",
+          "inventory_items": []
+        }
+      ]
+    },
+    {
+      "id": "prod_01M5VE4CHCJ526PMB2GVF63031",
+      "handle": "qa-20261026-001-item-02",
+      "title": "QA Run Product 02",
+      "variants": [
+        {
+          "id": "variant_01M5VE4CMSQMHYWVNRH1HABV6S",
+          "title": "One",
+          "sku": "qa-20261026-001-item-02",
+          "inventory_items": []
+        }
+      ]
+    },
+    {
+      "id": "prod_01M5VE4CHCJR3RHZSASXD7X2HQ",
+      "handle": "qa-20261026-001-item-12",
+      "title": "QA Run Product 12",
+      "variants": [
+        {
+          "id": "variant_01M5VE4CMT1BETE7Y8KYN9SMFW",
+          "title": "One",
+          "sku": "qa-20261026-001-item-12",
+          "inventory_items": []
+        }
+      ]
+    },
+    {
+      "id": "prod_01M5VE4CHCS0QET7DEBXC0BP2B",
+      "handle": "qa-20261026-001-one-stock",
+      "title": "QA Run one-stock",
+      "variants": [
+        {
+          "id": "variant_01M5VE4CMVKAA2CTJ4WJ0QRQBK",
+          "title": "One",
+          "sku": "qa-20261026-001-one-stock",
+          "inventory_items": [
+            {
+              "inventory_item_id": "iitem_01M5VE4CN98HS8W3TBDF30ED1P",
+              "variant_id": "variant_01M5VE4CMVKAA2CTJ4WJ0QRQBK"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prod_01M5VE4CHCTE15Y3C7TJXHAP9N",
+      "handle": "qa-20261026-001-item-01",
+      "title": "QA Run Product 01",
+      "variants": [
+        {
+          "id": "variant_01M5VE4CMSPSMW6WXCXE4BDSV7",
+          "title": "One",
+          "sku": "qa-20261026-001-item-01",
+          "inventory_items": []
+        }
+      ]
+    },
+    {
+      "id": "prod_01M5VE4CHCVE4W480FCKJ7035R",
+      "handle": "qa-20261026-001-item-11",
+      "title": "QA Run Product 11",
+      "variants": [
+        {
+          "id": "variant_01M5VE4CMTNR2RFHJDNNKT7X54",
+          "title": "One",
+          "sku": "qa-20261026-001-item-11",
+          "inventory_items": []
+        }
+      ]
+    },
+    {
+      "id": "prod_01M5VE4CHCVXEWHR1Z75QQFXA5",
+      "handle": "qa-20261026-001-item-05",
+      "title": "QA Run Product 05",
+      "variants": [
+        {
+          "id": "variant_01M5VE4CMT0FWN37SR19414ZDA",
+          "title": "One",
+          "sku": "qa-20261026-001-item-05",
+          "inventory_items": []
+        }
+      ]
+    },
+    {
+      "id": "prod_01M5VE4CHCYVX7VYF22A2S3FTQ",
+      "handle": "qa-20261026-001-item-07",
+      "title": "QA Run Product 07",
+      "variants": [
+        {
+          "id": "variant_01M5VE4CMTE15GRY29101XKWEJ",
+          "title": "One",
+          "sku": "qa-20261026-001-item-07",
+          "inventory_items": []
+        }
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "status": "published",
+      "shipping_profile_id": "sp_01M5V9SZW45CJ4BKK2KXKCCD1M",
+      "category_ids": [
+        "pcat_01M5VE4CGVWPMJPM7G5XVK8GG1"
+      ],
+      "sales_channels": [
+        {
+          "id": "sc_01M5V9SZX31BV9HRQ6SAST9W7N"
+        }
+      ],
+      "metadata": {
+        "qa_run": "qa-20261026-001"
+      },
+      "title": "QA Run Product 01",
+      "handle": "qa-20261026-001-item-01",
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One",
+          "sku": "qa-20261026-001-item-01",
+          "options": {
+            "Size": "One"
+          },
+          "manage_inventory": false,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "published",
+      "shipping_profile_id": "sp_01M5V9SZW45CJ4BKK2KXKCCD1M",
+      "category_ids": [
+        "pcat_01M5VE4CGVWPMJPM7G5XVK8GG1"
+      ],
+      "sales_channels": [
+        {
+          "id": "sc_01M5V9SZX31BV9HRQ6SAST9W7N"
+        }
+      ],
+      "metadata": {
+        "qa_run": "qa-20261026-001"
+      },
+      "title": "QA Run Product 02",
+      "handle": "qa-20261026-001-item-02",
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One",
+          "sku": "qa-20261026-001-item-02",
+          "options": {
+            "Size": "One"
+          },
+          "manage_inventory": false,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "published",
+      "shipping_profile_id": "sp_01M5V9SZW45CJ4BKK2KXKCCD1M",
+      "category_ids": [
+        "pcat_01M5VE4CGVWPMJPM7G5XVK8GG1"
+      ],
+      "sales_channels": [
+        {
+          "id": "sc_01M5V9SZX31BV9HRQ6SAST9W7N"
+        }
+      ],
+      "metadata": {
+        "qa_run": "qa-20261026-001"
+      },
+      "title": "QA Run Product 03",
+      "handle": "qa-20261026-001-item-03",
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One",
+          "sku": "qa-20261026-001-item-03",
+          "options": {
+            "Size": "One"
+          },
+          "manage_inventory": false,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "published",
+      "shipping_profile_id": "sp_01M5V9SZW45CJ4BKK2KXKCCD1M",
+      "category_ids": [
+        "pcat_01M5VE4CGVWPMJPM7G5XVK8GG1"
+      ],
+      "sales_channels": [
+        {
+          "id": "sc_01M5V9SZX31BV9HRQ6SAST9W7N"
+        }
+      ],
+      "metadata": {
+        "qa_run": "qa-20261026-001"
+      },
+      "title": "QA Run Product 04",
+      "handle": "qa-20261026-001-item-04",
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One",
+          "sku": "qa-20261026-001-item-04",
+          "options": {
+            "Size": "One"
+          },
+          "manage_inventory": false,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "published",
+      "shipping_profile_id": "sp_01M5V9SZW45CJ4BKK2KXKCCD1M",
+      "category_ids": [
+        "pcat_01M5VE4CGVWPMJPM7G5XVK8GG1"
+      ],
+      "sales_channels": [
+        {
+          "id": "sc_01M5V9SZX31BV9HRQ6SAST9W7N"
+        }
+      ],
+      "metadata": {
+        "qa_run": "qa-20261026-001"
+      },
+      "title": "QA Run Product 05",
+      "handle": "qa-20261026-001-item-05",
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One",
+          "sku": "qa-20261026-001-item-05",
+          "options": {
+            "Size": "One"
+          },
+          "manage_inventory": false,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "published",
+      "shipping_profile_id": "sp_01M5V9SZW45CJ4BKK2KXKCCD1M",
+      "category_ids": [
+        "pcat_01M5VE4CGVWPMJPM7G5XVK8GG1"
+      ],
+      "sales_channels": [
+        {
+          "id": "sc_01M5V9SZX31BV9HRQ6SAST9W7N"
+        }
+      ],
+      "metadata": {
+        "qa_run": "qa-20261026-001"
+      },
+      "title": "QA Run Product 06",
+      "handle": "qa-20261026-001-item-06",
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One",
+          "sku": "qa-20261026-001-item-06",
+          "options": {
+            "Size": "One"
+          },
+          "manage_inventory": false,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "published",
+      "shipping_profile_id": "sp_01M5V9SZW45CJ4BKK2KXKCCD1M",
+      "category_ids": [
+        "pcat_01M5VE4CGVWPMJPM7G5XVK8GG1"
+      ],
+      "sales_channels": [
+        {
+          "id": "sc_01M5V9SZX31BV9HRQ6SAST9W7N"
+        }
+      ],
+      "metadata": {
+        "qa_run": "qa-20261026-001"
+      },
+      "title": "QA Run Product 07",
+      "handle": "qa-20261026-001-item-07",
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One",
+          "sku": "qa-20261026-001-item-07",
+          "options": {
+            "Size": "One"
+          },
+          "manage_inventory": false,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "published",
+      "shipping_profile_id": "sp_01M5V9SZW45CJ4BKK2KXKCCD1M",
+      "category_ids": [
+        "pcat_01M5VE4CGVWPMJPM7G5XVK8GG1"
+      ],
+      "sales_channels": [
+        {
+          "id": "sc_01M5V9SZX31BV9HRQ6SAST9W7N"
+        }
+      ],
+      "metadata": {
+        "qa_run": "qa-20261026-001"
+      },
+      "title": "QA Run Product 08",
+      "handle": "qa-20261026-001-item-08",
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One",
+          "sku": "qa-20261026-001-item-08",
+          "options": {
+            "Size": "One"
+          },
+          "manage_inventory": false,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "published",
+      "shipping_profile_id": "sp_01M5V9SZW45CJ4BKK2KXKCCD1M",
+      "category_ids": [
+        "pcat_01M5VE4CGVWPMJPM7G5XVK8GG1"
+      ],
+      "sales_channels": [
+        {
+          "id": "sc_01M5V9SZX31BV9HRQ6SAST9W7N"
+        }
+      ],
+      "metadata": {
+        "qa_run": "qa-20261026-001"
+      },
+      "title": "QA Run Product 09",
+      "handle": "qa-20261026-001-item-09",
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One",
+          "sku": "qa-20261026-001-item-09",
+          "options": {
+            "Size": "One"
+          },
+          "manage_inventory": false,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "published",
+      "shipping_profile_id": "sp_01M5V9SZW45CJ4BKK2KXKCCD1M",
+      "category_ids": [
+        "pcat_01M5VE4CGVWPMJPM7G5XVK8GG1"
+      ],
+      "sales_channels": [
+        {
+          "id": "sc_01M5V9SZX31BV9HRQ6SAST9W7N"
+        }
+      ],
+      "metadata": {
+        "qa_run": "qa-20261026-001"
+      },
+      "title": "QA Run Product 10",
+      "handle": "qa-20261026-001-item-10",
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One",
+          "sku": "qa-20261026-001-item-10",
+          "options": {
+            "Size": "One"
+          },
+          "manage_inventory": false,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "published",
+      "shipping_profile_id": "sp_01M5V9SZW45CJ4BKK2KXKCCD1M",
+      "category_ids": [
+        "pcat_01M5VE4CGVWPMJPM7G5XVK8GG1"
+      ],
+      "sales_channels": [
+        {
+          "id": "sc_01M5V9SZX31BV9HRQ6SAST9W7N"
+        }
+      ],
+      "metadata": {
+        "qa_run": "qa-20261026-001"
+      },
+      "title": "QA Run Product 11",
+      "handle": "qa-20261026-001-item-11",
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One",
+          "sku": "qa-20261026-001-item-11",
+          "options": {
+            "Size": "One"
+          },
+          "manage_inventory": false,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 11
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "published",
+      "shipping_profile_id": "sp_01M5V9SZW45CJ4BKK2KXKCCD1M",
+      "category_ids": [
+        "pcat_01M5VE4CGVWPMJPM7G5XVK8GG1"
+      ],
+      "sales_channels": [
+        {
+          "id": "sc_01M5V9SZX31BV9HRQ6SAST9W7N"
+        }
+      ],
+      "metadata": {
+        "qa_run": "qa-20261026-001"
+      },
+      "title": "QA Run Product 12",
+      "handle": "qa-20261026-001-item-12",
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One",
+          "sku": "qa-20261026-001-item-12",
+          "options": {
+            "Size": "One"
+          },
+          "manage_inventory": false,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "published",
+      "shipping_profile_id": "sp_01M5V9SZW45CJ4BKK2KXKCCD1M",
+      "category_ids": [
+        "pcat_01M5VE4CGVWPMJPM7G5XVK8GG1"
+      ],
+      "sales_channels": [
+        {
+          "id": "sc_01M5V9SZX31BV9HRQ6SAST9W7N"
+        }
+      ],
+      "metadata": {
+        "qa_run": "qa-20261026-001"
+      },
+      "title": "QA Run Product 13",
+      "handle": "qa-20261026-001-item-13",
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One",
+          "sku": "qa-20261026-001-item-13",
+          "options": {
+            "Size": "One"
+          },
+          "manage_inventory": false,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "published",
+      "shipping_profile_id": "sp_01M5V9SZW45CJ4BKK2KXKCCD1M",
+      "category_ids": [
+        "pcat_01M5VE4CGVWPMJPM7G5XVK8GG1"
+      ],
+      "sales_channels": [
+        {
+          "id": "sc_01M5V9SZX31BV9HRQ6SAST9W7N"
+        }
+      ],
+      "metadata": {
+        "qa_run": "qa-20261026-001"
+      },
+      "title": "QA Run Variant Tee",
+      "handle": "qa-20261026-001-variant",
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "S",
+            "M"
+          ]
+        },
+        {
+          "title": "Color",
+          "values": [
+            "Black",
+            "White"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "S / Black",
+          "sku": "qa-20261026-001-S-Black",
+          "options": {
+            "Size": "S",
+            "Color": "Black"
+          },
+          "manage_inventory": false,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 20
+            }
+          ]
+        },
+        {
+          "title": "S / White",
+          "sku": "qa-20261026-001-S-White",
+          "options": {
+            "Size": "S",
+            "Color": "White"
+          },
+          "manage_inventory": false,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 25
+            }
+          ]
+        },
+        {
+          "title": "M / Black",
+          "sku": "qa-20261026-001-M-Black",
+          "options": {
+            "Size": "M",
+            "Color": "Black"
+          },
+          "manage_inventory": false,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 30
+            }
+          ]
+        },
+        {
+          "title": "M / White",
+          "sku": "qa-20261026-001-M-White",
+          "options": {
+            "Size": "M",
+            "Color": "White"
+          },
+          "manage_inventory": false,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 35
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "published",
+      "shipping_profile_id": "sp_01M5V9SZW45CJ4BKK2KXKCCD1M",
+      "category_ids": [
+        "pcat_01M5VE4CGVWPMJPM7G5XVK8GG1"
+      ],
+      "sales_channels": [
+        {
+          "id": "sc_01M5V9SZX31BV9HRQ6SAST9W7N"
+        }
+      ],
+      "metadata": {
+        "qa_run": "qa-20261026-001"
+      },
+      "title": "QA Run zero-stock",
+      "handle": "qa-20261026-001-zero-stock",
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One",
+          "sku": "qa-20261026-001-zero-stock",
+          "options": {
+            "Size": "One"
+          },
+          "manage_inventory": true,
+          "allow_backorder": false,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 40
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "published",
+      "shipping_profile_id": "sp_01M5V9SZW45CJ4BKK2KXKCCD1M",
+      "category_ids": [
+        "pcat_01M5VE4CGVWPMJPM7G5XVK8GG1"
+      ],
+      "sales_channels": [
+        {
+          "id": "sc_01M5V9SZX31BV9HRQ6SAST9W7N"
+        }
+      ],
+      "metadata": {
+        "qa_run": "qa-20261026-001"
+      },
+      "title": "QA Run one-stock",
+      "handle": "qa-20261026-001-one-stock",
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One",
+          "sku": "qa-20261026-001-one-stock",
+          "options": {
+            "Size": "One"
+          },
+          "manage_inventory": true,
+          "allow_backorder": false,
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 45
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "coupon": "QA20261026TEN",
+  "accounts": [
+    {
+      "label": "a",
+      "email": "qa-20261026-001-a@example.test",
+      "customer_id": "cus_01M5VFKSDHPZMZSRS5AZER41K1",
+      "address_id": "cuaddr_01M5VFKSGX2HD2Q8QCTH8B9RDW"
+    },
+    {
+      "label": "b",
+      "email": "qa-20261026-001-b@example.test",
+      "customer_id": "cus_01M5VFKSKPQ62NP278JSAKRKE2",
+      "address_id": "cuaddr_01M5VFKSPBXWW387208Z0S0N6E"
+    }
+  ],
+  "note": "Synthetic local fixtures only. Passwords and tokens excluded."
+}

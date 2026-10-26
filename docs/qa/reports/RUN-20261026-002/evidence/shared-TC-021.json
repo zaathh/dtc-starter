@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-26T11:21:25.112Z",
+  "method": "Individually initiated local HTTP checks; shared across viewports",
+  "cart_id": "cart_01M5VG1QDCBC5XSJKNG9AW9EZ2",
+  "responses": [
+    {
+      "status": 200,
+      "type": "order",
+      "order_id": "order_01M5VG1R2WR76BC6WP1FAHWRCA"
+    },
+    {
+      "status": 200,
+      "type": "order",
+      "order_id": "order_01M5VG1R2WR76BC6WP1FAHWRCA"
+    }
+  ]
+}

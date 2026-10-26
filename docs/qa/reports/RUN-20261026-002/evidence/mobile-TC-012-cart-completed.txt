@@ -1,0 +1,43 @@
+Browser tab: 8, Title: "Cart", URL: "http://localhost:8000/dk/cart".
+1 AXWebArea Cart, URL: localhost:8000/dk/cart
+	2 container
+		3 container
+			4 button (collapsed) Menu, Secondary Actions: Expand
+			5 link Description: MEDUSA STORE, Value: localhost:8000/dk
+			6 link Description: Search products, Value: localhost:8000/dk/search
+			7 button (collapsed) Cart (1), Secondary Actions: Expand
+				8 link Description: Cart (1), Value: localhost:8000/dk/cart
+		9 link Description: MEDUSA STORE, Value: localhost:8000/dk
+		10 text Categories
+		11 content list
+			12 container
+				13 link Description: Shirts, Value: localhost:8000/dk/categories/shirts
+			14 container
+				15 link Description: Sweatshirts, Value: localhost:8000/dk/categories/sweatshirts
+			16 container
+				17 link Description: Merch, Value: localhost:8000/dk/categories/merch
+			18 container
+				19 link Description: Pants, Value: localhost:8000/dk/categories/pants
+		20 text Customer service
+		21 content list
+			22 link Description: Shipping information, Value: localhost:8000/dk/shipping
+			23 link Description: Return policy, Value: localhost:8000/dk/returns
+			24 link Description: Terms of service, Value: localhost:8000/dk/terms
+			25 link Description: Privacy policy, Value: localhost:8000/dk/privacy
+			26 link Description: Contact, Value: localhost:8000/dk/contact
+			27 link Description: Search, Value: localhost:8000/dk/search
+		28 text Medusa
+		29 content list
+			30 link Description: GitHub, Value: github.com/medusajs
+			31 link Description: Documentation, Value: docs.medusajs.com/
+			32 link Description: Source code, Value: github.com/medusajs/dtc-starter
+		33 container
+			34 text ©  2026  Medusa Store. All rights reserved.
+		35 text Powered by
+		36 link medusajs.com/
+		37 text &
+		38 link nextjs.org/
+	39 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+		40 image
+
+The focused UI element is 1 AXWebArea Cart, URL: localhost:8000/dk/cart

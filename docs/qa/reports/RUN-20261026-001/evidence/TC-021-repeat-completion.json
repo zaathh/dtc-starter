@@ -1,0 +1,72 @@
+{
+  "case": "TC-021",
+  "timestamp": "2026-10-26T06:58:28.730Z",
+  "method": "Manually initiated API checkout and repeated completion",
+  "trace": [
+    {
+      "method": "POST",
+      "path": "/store/carts",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/store/carts/cart_01M5VG1QDCBC5XSJKNG9AW9EZ2/line-items",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/store/carts/cart_01M5VG1QDCBC5XSJKNG9AW9EZ2",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/store/shipping-options?cart_id=cart_01M5VG1QDCBC5XSJKNG9AW9EZ2",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/store/carts/cart_01M5VG1QDCBC5XSJKNG9AW9EZ2/shipping-methods",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/store/payment-collections",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/store/payment-collections/pay_col_01M5VG1QY4ZEVX7E84TSZP2E4Z/payment-sessions",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/store/carts/cart_01M5VG1QDCBC5XSJKNG9AW9EZ2",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/store/carts/cart_01M5VG1QDCBC5XSJKNG9AW9EZ2/complete",
+      "status": 200
+    }
+  ],
+  "cart_id": "cart_01M5VG1QDCBC5XSJKNG9AW9EZ2",
+  "customer_id": "cus_01M5VFKSDHPZMZSRS5AZER41K1",
+  "before": {
+    "subtotal": 11,
+    "discount_total": 0,
+    "shipping_total": 10,
+    "tax_total": 0,
+    "total": 11
+  },
+  "first": {
+    "type": "order",
+    "order_id": "order_01M5VG1R2WR76BC6WP1FAHWRCA",
+    "total": 11
+  },
+  "repeat": {
+    "status": 200,
+    "type": "order",
+    "order_id": "order_01M5VG1R2WR76BC6WP1FAHWRCA"
+  },
+  "persisted_order_count_for_cart": 1
+}

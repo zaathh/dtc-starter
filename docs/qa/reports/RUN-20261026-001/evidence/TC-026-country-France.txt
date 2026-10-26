@@ -1,0 +1,49 @@
+2026-10-26T06:57:29.329Z
+Browser tab: 7, Title: "Contact", URL: "http://localhost:8000/fr/contact".
+1 AXWebArea Contact, URL: localhost:8000/fr/contact
+	2 container
+		3 container
+			4 button (collapsed) Menu, ID: headlessui-popover-button-_r_19_, Secondary Actions: Expand
+			5 link Description: MEDUSA STORE, Value: localhost:8000/fr
+			6 link Description: Search products, Value: localhost:8000/fr/search
+			7 link Description: Account, Value: localhost:8000/fr/account
+			8 button (collapsed) Cart (0), ID: headlessui-popover-button-_r_1d_, Secondary Actions: Expand
+				9 link Description: Cart (0), Value: localhost:8000/fr/cart
+		10 heading Contact, Value: 1
+			11 text Contact
+		12 text This is placeholder content from the Medusa starter. Replace it with your store's own text before launch.
+		13 container
+			14 text Questions about an order, shipping or returns? Contact  Medusa Store customer service and include your order number.
+		15 container
+			16 link Description: MEDUSA STORE, Value: localhost:8000/fr
+			17 text Categories
+			18 content list
+				19 container
+					20 link Description: Shirts, Value: localhost:8000/fr/categories/shirts
+				21 container
+					22 link Description: Sweatshirts, Value: localhost:8000/fr/categories/sweatshirts
+				23 container
+					24 link Description: Merch, Value: localhost:8000/fr/categories/merch
+				25 container
+					26 link Description: Pants, Value: localhost:8000/fr/categories/pants
+			27 text Customer service
+			28 content list
+				29 link Description: Shipping information, Value: localhost:8000/fr/shipping
+				30 link Description: Return policy, Value: localhost:8000/fr/returns
+				31 link Description: Terms of service, Value: localhost:8000/fr/terms
+				32 link Description: Privacy policy, Value: localhost:8000/fr/privacy
+				33 link Description: Contact, Value: localhost:8000/fr/contact
+				34 link Description: Search, Value: localhost:8000/fr/search
+			35 text Medusa
+			36 content list
+				37 link Description: GitHub, Value: github.com/medusajs
+				38 link Description: Documentation, Value: docs.medusajs.com/
+				39 link Description: Source code, Value: github.com/medusajs/dtc-starter
+			40 text ©  2026  Medusa Store. All rights reserved. Powered by
+			41 link medusajs.com/
+			42 text &
+			43 link nextjs.org/
+		44 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+			45 image
+
+The focused UI element is 1 AXWebArea Contact, URL: localhost:8000/fr/contact

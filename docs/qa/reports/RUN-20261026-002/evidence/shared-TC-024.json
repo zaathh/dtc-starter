@@ -1,0 +1,60 @@
+{
+  "at": "2026-10-26T11:21:25.331Z",
+  "method": "Individually initiated local HTTP checks; shared across viewports",
+  "reads": [
+    {
+      "actor": "A",
+      "status": 200,
+      "address_id": "cuaddr_01M5VFKSGX2HD2Q8QCTH8B9RDW",
+      "address_name": "QA Private a"
+    },
+    {
+      "actor": "B",
+      "status": 404,
+      "message": "Address with id: cuaddr_01M5VFKSGX2HD2Q8QCTH8B9RDW was not found"
+    },
+    {
+      "actor": "Anonymous",
+      "status": 401,
+      "message": "Unauthorized"
+    }
+  ],
+  "mutations": [
+    {
+      "actor": "B",
+      "status": 404,
+      "message": "Address with id: cuaddr_01M5VFKSGX2HD2Q8QCTH8B9RDW was not found"
+    },
+    {
+      "actor": "Anonymous",
+      "status": 401,
+      "message": "Unauthorized"
+    }
+  ],
+  "orders": [
+    {
+      "actor": "A",
+      "status": 200,
+      "orders": [
+        {
+          "id": "order_01M5VG1R2WR76BC6WP1FAHWRCA"
+        }
+      ]
+    },
+    {
+      "actor": "B",
+      "status": 200,
+      "orders": []
+    },
+    {
+      "actor": "Anonymous",
+      "status": 401,
+      "message": "Unauthorized"
+    }
+  ],
+  "owner_after": {
+    "status": 200,
+    "address_name": "QA Private a"
+  },
+  "scope_note": "Guest order-by-ID capability is excluded; private order history and address ownership are checked."
+}

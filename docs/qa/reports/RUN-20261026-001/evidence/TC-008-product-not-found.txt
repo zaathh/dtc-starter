@@ -1,0 +1,48 @@
+2026-10-26T06:51:01.904Z
+Browser tab: 7, Title: "404", URL: "http://localhost:8000/dk/products/qa-20261026-001-missing".
+1 AXWebArea 404, URL: localhost:8000/dk/products/qa-20261026-001-missing
+	2 container
+		3 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+			4 image
+		5 container
+			6 button (collapsed) Menu, ID: headlessui-popover-button-_r_a_, Secondary Actions: Expand
+			7 link Description: MEDUSA STORE, Value: localhost:8000/dk
+			8 link Description: Search products, Value: localhost:8000/dk/search
+			9 link Description: Account, Value: localhost:8000/dk/account
+			10 button (collapsed) Cart (0), ID: headlessui-popover-button-_r_e_, Secondary Actions: Expand
+				11 link Description: Cart (0), Value: localhost:8000/dk/cart
+		12 heading Page not found, Value: 1
+			13 text Page not found
+		14 text The page you tried to access does not exist.
+		15 link Description: Go to frontpage, Value: localhost:8000/dk
+		16 container
+			17 link Description: MEDUSA STORE, Value: localhost:8000/dk
+			18 text Categories
+			19 content list
+				20 container
+					21 link Description: Shirts, Value: localhost:8000/dk/categories/shirts
+				22 container
+					23 link Description: Sweatshirts, Value: localhost:8000/dk/categories/sweatshirts
+				24 container
+					25 link Description: Merch, Value: localhost:8000/dk/categories/merch
+				26 container
+					27 link Description: Pants, Value: localhost:8000/dk/categories/pants
+			28 text Customer service
+			29 content list
+				30 link Description: Shipping information, Value: localhost:8000/dk/shipping
+				31 link Description: Return policy, Value: localhost:8000/dk/returns
+				32 link Description: Terms of service, Value: localhost:8000/dk/terms
+				33 link Description: Privacy policy, Value: localhost:8000/dk/privacy
+				34 link Description: Contact, Value: localhost:8000/dk/contact
+				35 link Description: Search, Value: localhost:8000/dk/search
+			36 text Medusa
+			37 content list
+				38 link Description: GitHub, Value: github.com/medusajs
+				39 link Description: Documentation, Value: docs.medusajs.com/
+				40 link Description: Source code, Value: github.com/medusajs/dtc-starter
+			41 text ©  2026  Medusa Store. All rights reserved. Powered by
+			42 link medusajs.com/
+			43 text &
+			44 link nextjs.org/
+
+The focused UI element is 1 AXWebArea 404, URL: localhost:8000/dk/products/qa-20261026-001-missing

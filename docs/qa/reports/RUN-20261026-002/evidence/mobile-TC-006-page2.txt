@@ -1,0 +1,56 @@
+Browser tab: 8, Title: "QA Run 20261026 | Medusa Store | Medusa Store", URL: "http://localhost:8000/dk/categories/qa-20261026-001?page=2".
+1 AXWebArea QA Run 20261026 | Medusa Store | Medusa Store, URL: localhost:8000/dk/categories/qa-20261026-001?page=2
+	2 container
+		3 container
+			4 button (collapsed) Menu, ID: headlessui-popover-button-_R_1mj9esnelb_, Secondary Actions: Expand
+			5 link Description: MEDUSA STORE, Value: localhost:8000/dk
+			6 link Description: Search products, Value: localhost:8000/dk/search
+			7 button (collapsed) Cart (0), ID: headlessui-popover-button-_R_6vj9esnelb_, Secondary Actions: Expand
+				8 link Description: Cart (0), Value: localhost:8000/dk/cart
+		9 text Sort by
+		10 image
+		11 text Latest Arrivals
+		12 text Price: Low -> High
+		13 text Price: High -> Low
+		14 heading QA Run 20261026, Value: 1
+			15 text QA Run 20261026
+		16 content list
+			62 link Description: QA Run Product 06 €6.00, Value: localhost:8000/dk/products/qa-20261026-001-item-06
+			63 link Description: QA Run Product 10 €10.00, Value: localhost:8000/dk/products/qa-20261026-001-item-10
+			64 link Description: QA Run Product 09 €9.00, Value: localhost:8000/dk/products/qa-20261026-001-item-09
+			65 link Description: QA Run Product 01 €1.00, Value: localhost:8000/dk/products/qa-20261026-001-item-01
+		29 button 1
+		30 button (disabled) 2
+		31 container
+			32 link Description: MEDUSA STORE, Value: localhost:8000/dk
+			33 text Categories
+			34 content list
+				35 container
+					36 link Description: Shirts, Value: localhost:8000/dk/categories/shirts
+				37 container
+					38 link Description: Sweatshirts, Value: localhost:8000/dk/categories/sweatshirts
+				39 container
+					40 link Description: Merch, Value: localhost:8000/dk/categories/merch
+				41 container
+					42 link Description: Pants, Value: localhost:8000/dk/categories/pants
+			43 text Customer service
+			44 content list
+				45 link Description: Shipping information, Value: localhost:8000/dk/shipping
+				46 link Description: Return policy, Value: localhost:8000/dk/returns
+				47 link Description: Terms of service, Value: localhost:8000/dk/terms
+				48 link Description: Privacy policy, Value: localhost:8000/dk/privacy
+				49 link Description: Contact, Value: localhost:8000/dk/contact
+				50 link Description: Search, Value: localhost:8000/dk/search
+			51 text Medusa
+			52 content list
+				53 link Description: GitHub, Value: github.com/medusajs
+				54 link Description: Documentation, Value: docs.medusajs.com/
+				55 link Description: Source code, Value: github.com/medusajs/dtc-starter
+			56 text ©  2026  Medusa Store. All rights reserved. Powered by
+			57 link medusajs.com/
+			58 text &
+			59 link nextjs.org/
+		60 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+			61 image
+
+The focused UI element is 1 AXWebArea QA Run 20261026 | Medusa Store | Medusa Store, URL: localhost:8000/dk/categories/qa-20261026-001?page=2

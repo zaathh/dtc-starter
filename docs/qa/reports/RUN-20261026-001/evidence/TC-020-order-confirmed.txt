@@ -1,0 +1,94 @@
+2026-10-26T07:05:38.794Z
+Browser tab: 7, Title: "Order Confirmed", URL: "http://localhost:8000/dk/order/order_01M5VGD9YT0G7G85A9KGS1KG83/confirmed".
+1 AXWebArea Order Confirmed, URL: localhost:8000/dk/order/order_01M5VGD9YT0G7G85A9KGS1KG83/confirmed
+	2 container
+		93 container
+			94 button (collapsed) Menu, ID: headlessui-popover-button-_r_o_, Secondary Actions: Expand
+			95 link Description: MEDUSA STORE, Value: localhost:8000/dk
+			96 link Description: Search products, Value: localhost:8000/dk/search
+			97 link Description: Account, Value: localhost:8000/dk/account
+			98 button (collapsed) Cart (0), ID: headlessui-popover-button-_r_s_, Secondary Actions: Expand
+				99 link Description: Cart (0), Value: localhost:8000/dk/cart
+		100 heading Thank you! Your order was placed successfully., Value: 1
+			101 text Thank you! Your order was placed successfully.
+		102 container
+			103 text We have sent the order confirmation details to qa-20261026-001-guest@example.test .
+		104 container
+			105 text Order date: Mon Oct 26 2026
+		106 container
+			107 text Order number:  2
+		108 heading Summary, Value: 2
+			109 text Summary
+		110 container
+			111 container QA Run Variant Tee Variant: M / White
+				112 text QA Run Variant Tee
+				113 container
+					114 text Variant:  M / White
+			115 container 1x €35.00 €31.50 €35.00 €31.50
+				116 container
+					117 text 1 x
+				118 text €35.00
+				119 text €31.50
+				120 text €35.00
+				121 text €31.50
+		122 text Subtotal (excl. shipping and taxes) €35.00 Shipping €10.00 Discount - €3.50 Taxes €0.00 Total €41.50
+		123 heading Delivery, Value: 2
+			124 text Delivery
+		125 text Shipping Address
+		126 container
+			127 text QA Guest
+		128 text 2 Fictional QA Street
+		129 container
+			130 text 2100 , Copenhagen
+		131 text DK
+		132 text Contact
+		133 text qa-20261026-001-guest@example.test
+		134 text Method
+		135 container
+			136 text Standard Shipping  ( €10.00 )
+		137 heading Payment, Value: 2
+			138 text Payment
+		139 text Payment method
+		140 text Manual Payment
+		141 text Payment details
+		142 image
+		143 text €41.50 paid at 10/26/2026, 2:04:47 PM
+		144 heading Need help?, Value: 2
+			145 text Need help?
+		146 content list
+			147 link Description: Contact, Value: localhost:8000/dk/contact
+			148 link Description: Returns & Exchanges, Value: localhost:8000/dk/contact
+		149 container
+			150 link Description: MEDUSA STORE, Value: localhost:8000/dk
+			151 text Categories
+			152 content list
+				153 container
+					154 link Description: Shirts, Value: localhost:8000/dk/categories/shirts
+				155 container
+					156 link Description: Sweatshirts, Value: localhost:8000/dk/categories/sweatshirts
+				157 container
+					158 link Description: Merch, Value: localhost:8000/dk/categories/merch
+				159 container
+					160 link Description: Pants, Value: localhost:8000/dk/categories/pants
+			161 text Customer service
+			162 content list
+				163 link Description: Shipping information, Value: localhost:8000/dk/shipping
+				164 link Description: Return policy, Value: localhost:8000/dk/returns
+				165 link Description: Terms of service, Value: localhost:8000/dk/terms
+				166 link Description: Privacy policy, Value: localhost:8000/dk/privacy
+				167 link Description: Contact, Value: localhost:8000/dk/contact
+				168 link Description: Search, Value: localhost:8000/dk/search
+			169 text Medusa
+			170 content list
+				171 link Description: GitHub, Value: github.com/medusajs
+				172 link Description: Documentation, Value: docs.medusajs.com/
+				173 link Description: Source code, Value: github.com/medusajs/dtc-starter
+			174 text ©  2026  Medusa Store. All rights reserved. Powered by
+			175 link medusajs.com/
+			176 text &
+			177 link nextjs.org/
+		91 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+			92 image
+		178 text Thank you! Your order was placed successfully.
+
+The focused UI element is 1 AXWebArea Order Confirmed, URL: localhost:8000/dk/order/order_01M5VGD9YT0G7G85A9KGS1KG83/confirmed

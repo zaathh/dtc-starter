@@ -1,0 +1,51 @@
+Browser tab: 8, Title: "Search results for \"qa-20261026-002-no-match\"", URL: "http://localhost:8000/dk/search?q=qa-20261026-002-no-match".
+1 AXWebArea Search results for "qa-20261026-002-no-match", URL: localhost:8000/dk/search?q=qa-20261026-002-no-match
+	2 container
+		3 container
+			4 button (collapsed) Menu, ID: headlessui-popover-button-_R_1mj9esnelb_, Secondary Actions: Expand
+			5 link Description: MEDUSA STORE, Value: localhost:8000/dk
+			6 link Description: Search products, Value: localhost:8000/dk/search
+			7 button (collapsed) Cart (0), ID: headlessui-popover-button-_R_6vj9esnelb_, Secondary Actions: Expand
+				8 link Description: Cart (0), Value: localhost:8000/dk/cart
+		9 heading Search results for "qa-20261026-002-no-match", Value: 1
+			10 text Search results for "qa-20261026-002-no-match"
+		11 container
+			12 text Search products
+			13 search text field (settable) Search products, Value: qa-20261026-002-no-match, ID: search-q
+			14 button Search
+		15 container
+			16 text 0 products  found
+		17 text No products match your search. Try a different keyword.
+		18 container
+			19 link Description: MEDUSA STORE, Value: localhost:8000/dk
+			20 text Categories
+			21 content list
+				22 container
+					23 link Description: Shirts, Value: localhost:8000/dk/categories/shirts
+				24 container
+					25 link Description: Sweatshirts, Value: localhost:8000/dk/categories/sweatshirts
+				26 container
+					27 link Description: Merch, Value: localhost:8000/dk/categories/merch
+				28 container
+					29 link Description: Pants, Value: localhost:8000/dk/categories/pants
+			30 text Customer service
+			31 content list
+				32 link Description: Shipping information, Value: localhost:8000/dk/shipping
+				33 link Description: Return policy, Value: localhost:8000/dk/returns
+				34 link Description: Terms of service, Value: localhost:8000/dk/terms
+				35 link Description: Privacy policy, Value: localhost:8000/dk/privacy
+				36 link Description: Contact, Value: localhost:8000/dk/contact
+				37 link Description: Search, Value: localhost:8000/dk/search
+			38 text Medusa
+			39 content list
+				40 link Description: GitHub, Value: github.com/medusajs
+				41 link Description: Documentation, Value: docs.medusajs.com/
+				42 link Description: Source code, Value: github.com/medusajs/dtc-starter
+			43 text ©  2026  Medusa Store. All rights reserved. Powered by
+			44 link medusajs.com/
+			45 text &
+			46 link nextjs.org/
+		47 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+			48 image
+
+The focused UI element is 1 AXWebArea Search results for "qa-20261026-002-no-match", URL: localhost:8000/dk/search?q=qa-20261026-002-no-match
