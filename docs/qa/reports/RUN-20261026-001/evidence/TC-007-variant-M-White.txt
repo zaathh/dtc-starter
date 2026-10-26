@@ -1,0 +1,73 @@
+2026-10-26T06:51:35.601Z
+Browser tab: 7, Title: "QA Run Variant Tee | Medusa Store", URL: "http://localhost:8000/dk/products/qa-20261026-001-variant?v_id=variant_01M5VE4CMV3WJZZZ25CHY43FA2".
+1 AXWebArea QA Run Variant Tee | Medusa Store, URL: localhost:8000/dk/products/qa-20261026-001-variant?v_id=variant_01M5VE4CMV3WJZZZ25CHY43FA2
+	2 container
+		3 container
+			4 button (collapsed) Menu, ID: headlessui-popover-button-_R_1mj9esnelb_, Secondary Actions: Expand
+			5 link Description: MEDUSA STORE, Value: localhost:8000/dk
+			6 link Description: Search products, Value: localhost:8000/dk/search
+			7 link Description: Account, Value: localhost:8000/dk/account
+			8 button (collapsed) Cart (0), ID: headlessui-popover-button-_R_6vj9esnelb_, Secondary Actions: Expand
+				9 link Description: Cart (0), Value: localhost:8000/dk/cart
+		10 container
+			11 heading QA Run Variant Tee, Value: 1
+				12 text QA Run Variant Tee
+			13 heading Product Information, Value: 3
+				14 text Product Information
+				15 button (collapsed) ID: radix-_R_6bpbn5ritp9esnelb_, Secondary Actions: Expand
+			16 heading Shipping & Returns, Value: 3
+				17 text Shipping & Returns
+				18 button (collapsed) ID: radix-_R_abpbn5ritp9esnelb_, Secondary Actions: Expand
+			19 container
+				20 container Select Size
+					21 container
+						22 text Select  Size
+					23 radio button (settable, integer) Description: S, Value: 0, ID: options-opt_01M5VE4CHDXNEQYHXZEFQ3FKV4--S
+					24 radio button (settable, integer) Description: M, Value: 1, ID: options-opt_01M5VE4CHDXNEQYHXZEFQ3FKV4--M
+				25 container Select Color
+					26 container
+						27 text Select  Color
+					28 radio button (settable, integer) Description: Black, Value: 0, ID: options-opt_01M5VE4CHDE8DBZQYMHM3R0R8J--Black
+					29 radio button (settable, integer) Description: White, Value: 1, ID: options-opt_01M5VE4CHDE8DBZQYMHM3R0R8J--White
+				30 text €35.00 In stock
+				31 button Add to cart
+		32 text Related products
+		33 text You might also want to check out these products.
+		34 content list
+			35 link Description: Medusa Shorts Medusa Shorts €10.00, Value: localhost:8000/dk/products/shorts
+			36 link Description: Medusa T-Shirt Medusa T-Shirt €10.00, Value: localhost:8000/dk/products/t-shirt
+			37 link Description: Medusa Sweatshirt Medusa Sweatshirt €10.00, Value: localhost:8000/dk/products/sweatshirt
+			38 link Description: Medusa Sweatpants Medusa Sweatpants €10.00, Value: localhost:8000/dk/products/sweatpants
+		39 container
+			40 link Description: MEDUSA STORE, Value: localhost:8000/dk
+			41 text Categories
+			42 content list
+				43 container
+					44 link Description: Shirts, Value: localhost:8000/dk/categories/shirts
+				45 container
+					46 link Description: Sweatshirts, Value: localhost:8000/dk/categories/sweatshirts
+				47 container
+					48 link Description: Merch, Value: localhost:8000/dk/categories/merch
+				49 container
+					50 link Description: Pants, Value: localhost:8000/dk/categories/pants
+			51 text Customer service
+			52 content list
+				53 link Description: Shipping information, Value: localhost:8000/dk/shipping
+				54 link Description: Return policy, Value: localhost:8000/dk/returns
+				55 link Description: Terms of service, Value: localhost:8000/dk/terms
+				56 link Description: Privacy policy, Value: localhost:8000/dk/privacy
+				57 link Description: Contact, Value: localhost:8000/dk/contact
+				58 link Description: Search, Value: localhost:8000/dk/search
+			59 text Medusa
+			60 content list
+				61 link Description: GitHub, Value: github.com/medusajs
+				62 link Description: Documentation, Value: docs.medusajs.com/
+				63 link Description: Source code, Value: github.com/medusajs/dtc-starter
+			64 text ©  2026  Medusa Store. All rights reserved. Powered by
+			65 link medusajs.com/
+			66 text &
+			67 link nextjs.org/
+		68 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+			69 image
+
+The focused UI element is 29 radio button (settable, integer) Description: White, Value: 1, ID: options-opt_01M5VE4CHDE8DBZQYMHM3R0R8J--White

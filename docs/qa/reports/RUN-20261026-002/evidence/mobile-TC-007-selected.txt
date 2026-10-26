@@ -1,0 +1,72 @@
+Browser tab: 8, Title: "QA Run Variant Tee | Medusa Store", URL: "http://localhost:8000/dk/products/qa-20261026-001-variant".
+1 AXWebArea QA Run Variant Tee | Medusa Store, URL: localhost:8000/dk/products/qa-20261026-001-variant
+	2 container
+		3 container
+			4 button (collapsed) Menu, ID: headlessui-popover-button-_R_1mj9esnelb_, Secondary Actions: Expand
+			5 link Description: MEDUSA STORE, Value: localhost:8000/dk
+			6 link Description: Search products, Value: localhost:8000/dk/search
+			7 button (collapsed) Cart (0), ID: headlessui-popover-button-_R_6vj9esnelb_, Secondary Actions: Expand
+				8 link Description: Cart (0), Value: localhost:8000/dk/cart
+		9 container
+			10 heading QA Run Variant Tee, Value: 1
+				11 text QA Run Variant Tee
+			12 heading Product Information, Value: 3
+				13 text Product Information
+				14 button (collapsed) ID: radix-_R_6bpbn5ritp9esnelb_, Secondary Actions: Expand
+			15 heading Shipping & Returns, Value: 3
+				16 text Shipping & Returns
+				17 button (collapsed) ID: radix-_R_abpbn5ritp9esnelb_, Secondary Actions: Expand
+			18 container Select Size
+				19 container
+					20 text Select  Size
+				21 radio button (settable, integer) Description: S, Value: 0, ID: options-opt_01M5VE4CHDXNEQYHXZEFQ3FKV4--S
+				22 radio button (settable, integer) Description: M, Value: 1, ID: options-opt_01M5VE4CHDXNEQYHXZEFQ3FKV4--M
+			23 container Select Color
+				24 container
+					25 text Select  Color
+				26 radio button (settable, integer) Description: Black, Value: 0, ID: options-opt_01M5VE4CHDE8DBZQYMHM3R0R8J--Black
+				27 radio button (settable, integer) Description: White, Value: 1, ID: options-opt_01M5VE4CHDE8DBZQYMHM3R0R8J--White
+			28 text €35.00
+			29 text In stock
+			30 button Add to cart
+		31 text Related products
+		32 text You might also want to check out these products.
+		33 content list
+			34 link Description: Medusa Shorts Medusa Shorts €10.00, Value: localhost:8000/dk/products/shorts
+			35 link Description: Medusa T-Shirt Medusa T-Shirt €10.00, Value: localhost:8000/dk/products/t-shirt
+			36 link Description: Medusa Sweatshirt Medusa Sweatshirt €10.00, Value: localhost:8000/dk/products/sweatshirt
+			37 link Description: Medusa Sweatpants Medusa Sweatpants €10.00, Value: localhost:8000/dk/products/sweatpants
+		38 container
+			39 link Description: MEDUSA STORE, Value: localhost:8000/dk
+			40 text Categories
+			41 content list
+				42 container
+					43 link Description: Shirts, Value: localhost:8000/dk/categories/shirts
+				44 container
+					45 link Description: Sweatshirts, Value: localhost:8000/dk/categories/sweatshirts
+				46 container
+					47 link Description: Merch, Value: localhost:8000/dk/categories/merch
+				48 container
+					49 link Description: Pants, Value: localhost:8000/dk/categories/pants
+			50 text Customer service
+			51 content list
+				52 link Description: Shipping information, Value: localhost:8000/dk/shipping
+				53 link Description: Return policy, Value: localhost:8000/dk/returns
+				54 link Description: Terms of service, Value: localhost:8000/dk/terms
+				55 link Description: Privacy policy, Value: localhost:8000/dk/privacy
+				56 link Description: Contact, Value: localhost:8000/dk/contact
+				57 link Description: Search, Value: localhost:8000/dk/search
+			58 text Medusa
+			59 content list
+				60 link Description: GitHub, Value: github.com/medusajs
+				61 link Description: Documentation, Value: docs.medusajs.com/
+				62 link Description: Source code, Value: github.com/medusajs/dtc-starter
+			63 text ©  2026  Medusa Store. All rights reserved. Powered by
+			64 link medusajs.com/
+			65 text &
+			66 link nextjs.org/
+		67 button Open Next.js Dev Tools
+			68 container
+				69 text Rendering . . .
+
+The focused UI element is 27 radio button (settable, integer) Description: White, Value: 1, ID: options-opt_01M5VE4CHDE8DBZQYMHM3R0R8J--White

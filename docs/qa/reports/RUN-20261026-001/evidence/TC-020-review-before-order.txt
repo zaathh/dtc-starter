@@ -1,0 +1,74 @@
+2026-10-26T07:04:47.108Z
+Browser tab: 7, Title: "Checkout", URL: "http://localhost:8000/dk/checkout?step=review".
+1 AXWebArea Checkout, URL: localhost:8000/dk/checkout?step=review
+	2 container
+		93 container
+			94 link Description: BACK TO SHOPPING CART, Value: localhost:8000/dk/cart
+			95 link Description: MEDUSA STORE, Value: localhost:8000/dk
+			170 heading Shipping Address, Value: 2
+				171 text Shipping Address
+				172 image
+			173 button Edit
+			174 text Shipping Address
+			175 container
+				176 text QA Guest
+			177 text 2 Fictional QA Street
+			178 container
+				179 text 2100 , Copenhagen
+			180 text DK
+			181 text Contact
+			182 text qa-20261026-001-guest@example.test
+			183 text Billing Address
+			184 text Billing and delivery address are the same.
+			185 heading Delivery, Value: 2
+				186 text Delivery
+				226 image
+			227 button Edit
+			228 text Method
+			229 container
+				230 text Standard Shipping €10.00
+			198 heading Payment, Value: 2
+				199 text Payment
+				231 image
+			232 button Edit
+			233 text Payment method
+			234 text Manual Payment
+			235 text Payment details
+			236 image
+			237 text Another step will appear
+			200 heading Review, Value: 2
+				201 text Review
+			238 text By clicking the Place Order button, you confirm that you have read, understand and accept our Terms of Use, Terms of Sale and Returns Policy and acknowledge that you have read Medusa Store's Privacy Policy.
+			239 button Place order
+			202 container
+				203 heading In your Cart, Value: 2
+					204 text In your Cart
+				205 text Subtotal (excl. shipping and taxes) €35.00 Shipping €10.00 Discount - €3.50 Taxes €0.00 Total €41.50
+				206 container
+					207 link localhost:8000/dk/products/qa-20261026-001-variant
+					208 container QA Run Variant Tee Variant: M / White
+						209 text QA Run Variant Tee
+						210 container
+							211 text Variant:  M / White
+					212 container 1x €35.00 €31.50 €35.00 €31.50
+						213 container
+							214 text 1 x
+						215 text €35.00
+						216 text €31.50
+						217 text €35.00
+						218 text €31.50
+				219 button
+				220 heading Promotion(s) applied:, Value: 2
+					221 text Promotion(s) applied:
+				222 text QA20261026TEN ( 10% )
+				223 button Remove discount code from order
+					224 image
+					225 text Remove discount code from order
+			166 text Powered by
+			167 link medusajs.com/
+			168 text &
+			169 link nextjs.org/
+		91 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+			92 image
+
+The focused UI element is 1 AXWebArea Checkout, URL: localhost:8000/dk/checkout?step=review

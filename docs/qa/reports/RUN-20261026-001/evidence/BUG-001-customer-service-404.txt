@@ -1,0 +1,12 @@
+2026-10-26T06:54:23.997Z
+Browser tab: 7, Title: "404", URL: "http://localhost:8000/dk/customer-service".
+1 AXWebArea 404, URL: localhost:8000/dk/customer-service
+	2 container
+		3 heading Page not found, Value: 1
+			4 text Page not found
+		5 text The page you tried to access does not exist.
+		6 link Description: Go to frontpage, Value: localhost:8000/
+	7 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+		8 image
+
+The focused UI element is 1 AXWebArea 404, URL: localhost:8000/dk/customer-service

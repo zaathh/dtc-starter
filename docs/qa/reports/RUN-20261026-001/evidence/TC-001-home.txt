@@ -1,0 +1,6 @@
+2026-10-26T06:25:02.064Z
+Browser tab: 7, Title: "Medusa Next.js Starter Template", URL: "http://localhost:8000/".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+~			3 button (collapsed) Menu, ID: headlessui-popover-button-_R_1mj9esnelb_, Secondary Actions: Expand
+~			7 button (collapsed) Cart (0), ID: headlessui-popover-button-_R_6vj9esnelb_, Secondary Actions: Expand
+The focused UI element is 0 AXWebArea Medusa Next.js Starter Template, URL: localhost:8000/

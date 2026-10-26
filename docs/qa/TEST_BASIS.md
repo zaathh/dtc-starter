@@ -1,11 +1,13 @@
 # Test Basis and Traceability Register
 
-Version: 1.0. Planning date: October 26, 2026 (Asia/Jakarta).
+Version: 1.1. Planning date: October 26, 2026 (Asia/Jakarta).
 Related plan: [QA_TEST_PLAN.md](QA_TEST_PLAN.md).
 
 ## Authority and interpretation
 
-All criteria below are **Proposed — pending review**. They are project-specific candidate expectations, not requirements approved by Medusa or a client. The user's request to improve documentation authorizes drafting these criteria; it does not constitute approval of every proposed business rule.
+The full criteria below remain subject to business review. On October 26, 2026, the portfolio owner explicitly authorized the **basic local acceptance baseline** and synthetic local fixtures for Phase 3. This accepts the concrete case-level expectations in the first manual suite, not every detailed edge case or a requirement approved by Medusa/client stakeholders.
+
+Accepted subset: straightforward product discovery/navigation, selected variants, configured inventory boundaries, cart consistency, independently calculated fixture amounts, a single configured promotion, required checkout fields, supported DK delivery/manual payment, session behavior, and private account address/history isolation. Complex tax/discount policies, unsupported-country rules, guest-order capability restrictions, verification/transfer, responsive/cross-browser coverage, accessibility, and numeric performance budgets are not resolved by that approval.
 
 Source classifications:
 
@@ -14,7 +16,7 @@ Source classifications:
 - **Proposed quality criterion:** the QA project proposes a testable outcome for owner review.
 - **External reference:** an applicable standard or documented protocol informs the evaluation.
 
-For each criterion, resolve the stated decision before formal Pass/Fail testing. Exploratory checks can record observations while the criterion remains proposed. An observation inconsistent with an unapproved assumption is an investigation candidate, not automatically a product defect.
+For each formal case, resolve its specific expected behavior before assigning Pass/Fail. A scoped baseline acceptance does not resolve every open detail of its broader criterion. Exploratory checks can record observations while the criterion remains proposed. An observation inconsistent with an unapproved assumption is an investigation candidate, not automatically a product defect.
 
 ## Candidate acceptance criteria
 
@@ -41,25 +43,25 @@ For each criterion, resolve the stated decision before formal Pass/Fail testing.
 
 ## Traceability seed
 
-This is a planning register, not a test execution matrix. No detailed test cases or formal runs exist yet. In Phase 3, replace the case/run placeholders with actual IDs and links; preserve one-to-many relationships.
+The first [manual suite](test-cases/MANUAL_TEST_CASES.md) and [run report](reports/RUN-20261026-001/REPORT.md) now exist. The mapping below links actual cases and evidence while retaining pending broader requirements. Pass for a case does not mean the entire parent criterion is satisfied.
 
 | Criterion | Related risk | Criterion status | Case design | Execution evidence |
 | --- | --- | --- | --- | --- |
-| AC-001 | RISK-005 | Proposed | Not designed | Not Run |
-| AC-002 | RISK-005 | Proposed | Not designed | Not Run |
-| AC-003 | RISK-005, RISK-011 | Proposed | Not designed | Not Run |
-| AC-004 | RISK-004 | Proposed | Not designed | Not Run |
-| AC-005 | RISK-004 | Proposed | Not designed | Not Run |
-| AC-006 | RISK-004, RISK-002 | Proposed | Not designed | Not Run |
-| AC-007 | RISK-001 | Proposed | Not designed | Not Run |
-| AC-008 | RISK-001 | Proposed | Not designed | Not Run |
-| AC-009 | RISK-002 | Proposed | Not designed | Not Run |
-| AC-010 | RISK-002 | Proposed | Not designed | Not Run |
-| AC-011 | RISK-002 | Proposed | Not designed | Not Run |
-| AC-012 | RISK-003, RISK-013 | Proposed | Not designed | Not Run |
-| AC-013 | RISK-003 | Proposed | Not designed | Not Run |
-| AC-014 | RISK-006 | Proposed | Not designed | Not Run |
-| AC-015 | RISK-007 | Proposed | Not designed | Not Run |
+| AC-001 | RISK-005 | Local baseline subset accepted; full criterion pending | [Case definitions](test-cases/MANUAL_TEST_CASES.md): TC-002 | [RUN-20261026-001](reports/RUN-20261026-001/REPORT.md): Run recorded; scoped cases Pass |
+| AC-002 | RISK-005 | Local baseline subset accepted; full criterion pending | [Case definitions](test-cases/MANUAL_TEST_CASES.md): TC-003, TC-004 | [RUN-20261026-001](reports/RUN-20261026-001/REPORT.md): Run recorded; scoped cases Pass |
+| AC-003 | RISK-005, RISK-011 | Local baseline subset accepted; full criterion pending | [Case definitions](test-cases/MANUAL_TEST_CASES.md): TC-005, TC-006 | [RUN-20261026-001](reports/RUN-20261026-001/REPORT.md): Run recorded; scoped cases Pass |
+| AC-004 | RISK-004 | Local baseline subset accepted; full criterion pending | [Case definitions](test-cases/MANUAL_TEST_CASES.md): TC-007, TC-012 | [RUN-20261026-001](reports/RUN-20261026-001/REPORT.md): Run recorded; scoped cases Pass |
+| AC-005 | RISK-004 | Local baseline subset accepted; full criterion pending | [Case definitions](test-cases/MANUAL_TEST_CASES.md): TC-009, TC-010 | [RUN-20261026-001](reports/RUN-20261026-001/REPORT.md): Run recorded; scoped cases Pass |
+| AC-006 | RISK-004, RISK-002 | Local baseline subset accepted; full criterion pending | [Case definitions](test-cases/MANUAL_TEST_CASES.md): TC-011–TC-015 | [RUN-20261026-001](reports/RUN-20261026-001/REPORT.md): Run recorded; scoped cases Pass |
+| AC-007 | RISK-001 | Local baseline subset accepted; full criterion pending | [Case definitions](test-cases/MANUAL_TEST_CASES.md): TC-013, TC-017, TC-020 | [RUN-20261026-001](reports/RUN-20261026-001/REPORT.md): Run recorded; scoped cases Pass |
+| AC-008 | RISK-001 | Local baseline subset accepted; full criterion pending | [Case definitions](test-cases/MANUAL_TEST_CASES.md): TC-016, TC-017 | [RUN-20261026-001](reports/RUN-20261026-001/REPORT.md): Run recorded; scoped cases Pass |
+| AC-009 | RISK-002 | Local baseline subset accepted; full criterion pending | [Case definitions](test-cases/MANUAL_TEST_CASES.md): TC-018, TC-019 | [RUN-20261026-001](reports/RUN-20261026-001/REPORT.md): Run recorded; scoped cases Pass |
+| AC-010 | RISK-002 | Local baseline subset accepted; full criterion pending | [Case definitions](test-cases/MANUAL_TEST_CASES.md): TC-020 | [RUN-20261026-001](reports/RUN-20261026-001/REPORT.md): Run recorded; scoped cases Pass |
+| AC-011 | RISK-002 | Local baseline subset accepted; full criterion pending | [Case definitions](test-cases/MANUAL_TEST_CASES.md): TC-021 | [RUN-20261026-001](reports/RUN-20261026-001/REPORT.md): Run recorded; scoped cases Pass |
+| AC-012 | RISK-003, RISK-013 | Local baseline subset accepted; full criterion pending | [Case definitions](test-cases/MANUAL_TEST_CASES.md): TC-022, TC-023 | [RUN-20261026-001](reports/RUN-20261026-001/REPORT.md): Run recorded; scoped cases Pass |
+| AC-013 | RISK-003 | Local baseline subset accepted; full criterion pending | [Case definitions](test-cases/MANUAL_TEST_CASES.md): TC-024 | [RUN-20261026-001](reports/RUN-20261026-001/REPORT.md): Run recorded; scoped cases Pass |
+| AC-014 | RISK-006 | Local baseline subset accepted; full criterion pending | [Case definitions](test-cases/MANUAL_TEST_CASES.md): TC-026 | [RUN-20261026-001](reports/RUN-20261026-001/REPORT.md): Run recorded; scoped cases Pass |
+| AC-015 | RISK-007 | Local baseline subset accepted; full criterion pending | [Case definitions](test-cases/MANUAL_TEST_CASES.md): TC-001, TC-008, TC-025 | [RUN-20261026-001](reports/RUN-20261026-001/REPORT.md): Run recorded; TC-025 Fail |
 | AC-016 | RISK-008 | Proposed | Not designed | Not Run |
 | AC-017 | RISK-009, RISK-012 | Proposed | Not designed | Not Run |
 | AC-018 | RISK-003, RISK-013 | Proposed | Not designed | Not Run |
@@ -68,9 +70,9 @@ This is a planning register, not a test execution matrix. No detailed test cases
 
 | ID | Open decision | Current disposition | Decision owner / due gate |
 | --- | --- | --- | --- |
-| DEC-001 | Detailed business acceptance rules | Proposed criteria above; not upstream/client-approved | Portfolio owner with mentor support / before affected formal cases |
-| DEC-002 | Dedicated synthetic accounts, inventory, promotion and pagination fixtures | Not prepared by Phase 2; preserve existing user data | Portfolio owner / before affected execution |
-| DEC-003 | Manual payment versus Stripe scope | Manual/system proposed for local end-to-end flow; Stripe deferred | Portfolio owner / before checkout cases |
+| DEC-001 | Detailed business acceptance rules | Basic local baseline accepted by owner on 2026-10-26; advanced rules above remain pending; no upstream/client sign-off | Portfolio owner with mentor support / before affected formal cases |
+| DEC-002 | Dedicated synthetic accounts, inventory, promotion and pagination fixtures | Owner authorized 2026-10-26; 16 QA products, stock 0/1, coupon, and A/B accounts prepared without resetting old data; see run manifest | Portfolio owner / before affected execution |
+| DEC-003 | Manual payment versus Stripe scope | Owner authorized simulated orders on 2026-10-26; manual/system exercised in first cycle; Stripe remains deferred | Portfolio owner / before checkout cases |
 | DEC-004 | Email verification and transfer delivery | No real recipients; local token or email-sink approach undecided | Portfolio owner / before verification/transfer cases |
 | DEC-005 | Exact browser versions and physical-device coverage | Planned browser matrix only; physical devices not committed | Portfolio owner / before run manifest |
 | DEC-006 | Numeric performance budgets | TBD after baseline; no numeric promise | Portfolio owner / Phase 5 baseline review |
@@ -95,3 +97,7 @@ For each resolved decision append the date, actual approver, rationale, criterio
 - [Lighthouse variability guidance](https://github.com/GoogleChrome/lighthouse/blob/main/docs/variability.md)
 
 No code observation in this register is a verified defect report.
+
+## Phase 3 decision and execution record
+
+The human owner explicitly replied “Yes” to local synthetic data and the basic portfolio acceptance baseline on 2026-10-26. This record paraphrases that authorization; it does not invent approval for remaining detailed rules. The concrete 26-case suite was prepared before execution. Results: 25 Pass, 1 Fail within the declared scope. See the run for all limitations and evidence. No criterion-wide completion percentage is claimed.

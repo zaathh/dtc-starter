@@ -1,0 +1,62 @@
+Browser tab: 8, Title: "Sign in", URL: "http://localhost:8000/dk/account".
+1 AXWebArea Sign in, URL: localhost:8000/dk/account
+	2 container
+		3 container
+			4 button (collapsed) Menu, ID: headlessui-popover-button-_R_1mj9esnelb_, Secondary Actions: Expand
+			5 link Description: MEDUSA STORE, Value: localhost:8000/dk
+			6 link Description: Search products, Value: localhost:8000/dk/search
+			7 button (collapsed) Cart (0), ID: headlessui-popover-button-_R_6vj9esnelb_, Secondary Actions: Expand
+				8 link Description: Cart (0), Value: localhost:8000/dk/cart
+		9 heading WELCOME BACK, Value: 1
+			10 text WELCOME BACK
+		11 text Sign in to access an enhanced shopping experience.
+		12 container
+			13 text field (settable) Enter a valid email address.
+			14 container
+				15 text Email *
+			16 text field (settable)
+			17 container
+				18 text Password *
+			19 button
+				20 image
+			21 button Sign in
+		22 text Not a member?
+		23 button Join us
+		24 text .
+		25 heading Got questions?, Value: 3
+			26 text Got questions?
+		27 text You can find frequently asked questions and answers on our customer service page.
+		28 link Description: Customer Service, Value: localhost:8000/dk/customer-service
+		29 container
+			30 link Description: MEDUSA STORE, Value: localhost:8000/dk
+			31 text Categories
+			32 content list
+				33 container
+					34 link Description: Shirts, Value: localhost:8000/dk/categories/shirts
+				35 container
+					36 link Description: Sweatshirts, Value: localhost:8000/dk/categories/sweatshirts
+				37 container
+					38 link Description: Merch, Value: localhost:8000/dk/categories/merch
+				39 container
+					40 link Description: Pants, Value: localhost:8000/dk/categories/pants
+			41 text Customer service
+			42 content list
+				43 link Description: Shipping information, Value: localhost:8000/dk/shipping
+				44 link Description: Return policy, Value: localhost:8000/dk/returns
+				45 link Description: Terms of service, Value: localhost:8000/dk/terms
+				46 link Description: Privacy policy, Value: localhost:8000/dk/privacy
+				47 link Description: Contact, Value: localhost:8000/dk/contact
+				48 link Description: Search, Value: localhost:8000/dk/search
+			49 text Medusa
+			50 content list
+				51 link Description: GitHub, Value: github.com/medusajs
+				52 link Description: Documentation, Value: docs.medusajs.com/
+				53 link Description: Source code, Value: github.com/medusajs/dtc-starter
+			54 text ©  2026  Medusa Store. All rights reserved. Powered by
+			55 link medusajs.com/
+			56 text &
+			57 link nextjs.org/
+		58 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+			59 image
+
+The focused UI element is 1 AXWebArea Sign in, URL: localhost:8000/dk/account

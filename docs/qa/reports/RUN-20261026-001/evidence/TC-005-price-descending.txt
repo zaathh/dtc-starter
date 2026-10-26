@@ -1,0 +1,67 @@
+2026-10-26T06:49:56.197Z
+Browser tab: 7, Title: "QA Run 20261026 | Medusa Store | Medusa Store", URL: "http://localhost:8000/dk/categories/qa-20261026-001?sortBy=price_desc".
+1 AXWebArea QA Run 20261026 | Medusa Store | Medusa Store, URL: localhost:8000/dk/categories/qa-20261026-001?sortBy=price_desc
+	2 container
+		3 container
+			4 button (collapsed) Menu, ID: headlessui-popover-button-_R_1mj9esnelb_, Secondary Actions: Expand
+			5 link Description: MEDUSA STORE, Value: localhost:8000/dk
+			6 link Description: Search products, Value: localhost:8000/dk/search
+			7 link Description: Account, Value: localhost:8000/dk/account
+			8 button (collapsed) Cart (0), ID: headlessui-popover-button-_R_6vj9esnelb_, Secondary Actions: Expand
+				9 link Description: Cart (0), Value: localhost:8000/dk/cart
+		10 text Sort by
+		12 text Latest Arrivals
+		13 text Price: Low -> High
+		78 image
+		14 text Price: High -> Low
+		15 heading QA Run 20261026, Value: 1
+			16 text QA Run 20261026
+		17 content list
+			79 link Description: QA Run one-stock €45.00, Value: localhost:8000/dk/products/qa-20261026-001-one-stock
+			80 link Description: QA Run zero-stock €40.00, Value: localhost:8000/dk/products/qa-20261026-001-zero-stock
+			81 link Description: QA Run Variant Tee €20.00, Value: localhost:8000/dk/products/qa-20261026-001-variant
+			82 link Description: QA Run Product 13 €13.00, Value: localhost:8000/dk/products/qa-20261026-001-item-13
+			76 link Description: QA Run Product 12 €12.00, Value: localhost:8000/dk/products/qa-20261026-001-item-12
+			83 link Description: QA Run Product 11 €11.00, Value: localhost:8000/dk/products/qa-20261026-001-item-11
+			84 link Description: QA Run Product 10 €10.00, Value: localhost:8000/dk/products/qa-20261026-001-item-10
+			85 link Description: QA Run Product 09 €9.00, Value: localhost:8000/dk/products/qa-20261026-001-item-09
+			86 link Description: QA Run Product 08 €8.00, Value: localhost:8000/dk/products/qa-20261026-001-item-08
+			87 link Description: QA Run Product 07 €7.00, Value: localhost:8000/dk/products/qa-20261026-001-item-07
+			88 link Description: QA Run Product 06 €6.00, Value: localhost:8000/dk/products/qa-20261026-001-item-06
+			89 link Description: QA Run Product 05 €5.00, Value: localhost:8000/dk/products/qa-20261026-001-item-05
+		30 button (disabled) 1
+		31 button 2
+		32 container
+			33 link Description: MEDUSA STORE, Value: localhost:8000/dk
+			34 text Categories
+			35 content list
+				36 container
+					37 link Description: Shirts, Value: localhost:8000/dk/categories/shirts
+				38 container
+					39 link Description: Sweatshirts, Value: localhost:8000/dk/categories/sweatshirts
+				40 container
+					41 link Description: Merch, Value: localhost:8000/dk/categories/merch
+				42 container
+					43 link Description: Pants, Value: localhost:8000/dk/categories/pants
+			44 text Customer service
+			45 content list
+				46 link Description: Shipping information, Value: localhost:8000/dk/shipping
+				47 link Description: Return policy, Value: localhost:8000/dk/returns
+				48 link Description: Terms of service, Value: localhost:8000/dk/terms
+				49 link Description: Privacy policy, Value: localhost:8000/dk/privacy
+				50 link Description: Contact, Value: localhost:8000/dk/contact
+				51 link Description: Search, Value: localhost:8000/dk/search
+			52 text Medusa
+			53 content list
+				54 link Description: GitHub, Value: github.com/medusajs
+				55 link Description: Documentation, Value: docs.medusajs.com/
+				56 link Description: Source code, Value: github.com/medusajs/dtc-starter
+			57 text ©  2026  Medusa Store. All rights reserved. Powered by
+			58 link medusajs.com/
+			59 text &
+			60 link nextjs.org/
+		61 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+			62 image
+		77 text QA Run 20261026
+
+The focused UI element is 1 AXWebArea QA Run 20261026 | Medusa Store | Medusa Store, URL: localhost:8000/dk/categories/qa-20261026-001?sortBy=price_desc

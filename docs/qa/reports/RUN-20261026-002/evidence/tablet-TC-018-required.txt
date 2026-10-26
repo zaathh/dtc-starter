@@ -1,0 +1,84 @@
+Browser tab: 8, Title: "Checkout", URL: "http://localhost:8000/dk/checkout?step=address".
+1 AXWebArea Checkout, URL: localhost:8000/dk/checkout?step=address
+	2 container Please fill out this field.
+	3 container
+		4 link Description: BACK, Value: localhost:8000/dk/cart
+		5 link Description: MEDUSA STORE, Value: localhost:8000/dk
+		6 heading Shipping Address, Value: 2
+			7 text Shipping Address
+		8 container
+			9 text field (settable)
+			10 container
+				11 text First name *
+			12 text field (settable)
+			13 container
+				14 text Last name *
+			15 text field (settable)
+			16 container
+				17 text Address *
+			18 text field (settable)
+			19 text Company
+			20 text field (settable)
+			21 container
+				22 text Postal code *
+			23 text field (settable)
+			24 container
+				25 text City *
+			26 pop up button (collapsed, settable) Value: Country, Secondary Actions: Expand
+				27 menu
+					28 (disabled) Country
+					29 Denmark
+					30 France
+					31 Germany
+					32 Italy
+					33 Spain
+					34 Sweden
+					35 United Kingdom
+			36 image
+			37 text field (settable)
+			38 text State / Province
+			39 checkbox (settable, integer) Description: Billing address same as shipping address, Value: 1, ID: checkbox
+			40 text field (settable) Enter a valid email address.
+			41 container
+				42 text Email *
+			43 text field (settable)
+			44 text Phone
+			45 button Continue to delivery
+		46 heading Delivery, Value: 2
+			47 text Delivery
+		48 heading Payment, Value: 2
+			49 text Payment
+		50 heading Review, Value: 2
+			51 text Review
+		52 container
+			53 heading In your Cart, Value: 2
+				54 text In your Cart
+			55 text Subtotal (excl. shipping and taxes) €35.00 Shipping €0.00 Discount - €3.50 Taxes €0.00 Total €31.50
+			56 container
+				57 link localhost:8000/dk/products/qa-20261026-001-variant
+				58 container QA Run Variant Tee Variant: M / White
+					59 text QA Run Variant Tee
+					60 container
+						61 text Variant:  M / White
+				62 container 1x €35.00 €31.50 €35.00 €31.50
+					63 container
+						64 text 1 x
+					65 text €35.00
+					66 text €31.50
+					67 text €35.00
+					68 text €31.50
+			69 button
+			70 heading Promotion(s) applied:, Value: 2
+				71 text Promotion(s) applied:
+			72 text QA20261026TEN ( 10% )
+			73 button Remove discount code from order
+				74 image
+				75 text Remove discount code from order
+		76 text Powered by
+		77 link medusajs.com/
+		78 text &
+		79 link nextjs.org/
+	80 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+		81 image
+
+The focused UI element is 9 text field (settable)

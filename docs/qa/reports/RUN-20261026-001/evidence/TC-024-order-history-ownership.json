@@ -1,0 +1,29 @@
+{
+  "case": "TC-024",
+  "part": "Private order history",
+  "timestamp": "2026-10-26T06:58:53.356Z",
+  "target_order": "order_01M5VG1R2WR76BC6WP1FAHWRCA",
+  "results": [
+    {
+      "actor": "A",
+      "status": 200,
+      "orders": [
+        {
+          "id": "order_01M5VG1R2WR76BC6WP1FAHWRCA",
+          "customer_id": "cus_01M5VFKSDHPZMZSRS5AZER41K1"
+        }
+      ]
+    },
+    {
+      "actor": "B",
+      "status": 200,
+      "orders": []
+    },
+    {
+      "actor": "Anonymous",
+      "status": 401,
+      "message": "Unauthorized"
+    }
+  ],
+  "scope_note": "GET /store/orders/:id is intentionally guest-accessible by opaque order ID in the installed Medusa route. This capability route is not claimed to enforce account ownership; policy review is deferred."
+}

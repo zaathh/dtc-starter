@@ -1,0 +1,350 @@
+{
+  "run_id": "RUN-20261026-002",
+  "date": "2026-10-26",
+  "executor": "AI-assisted initial execution and evidence capture; portfolio owner subsequently reported manual verification of the mobile and tablet cases and confirmed the findings",
+  "environment": "Local development storefront and backend; application baseline unchanged",
+  "viewports": [
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "name": "tablet",
+      "width": 768,
+      "height": 1024
+    }
+  ],
+  "device_emulation": "Viewport size only; desktop embedded browser; no physical device, touch, mobile user-agent or Safari coverage claimed",
+  "summary": {
+    "unique_suite_cases": 26,
+    "consolidated_case_results": {
+      "Pass": 25,
+      "Fail": 1
+    },
+    "ui_cases_per_viewport": 24,
+    "ui_results_per_viewport": {
+      "Pass": 23,
+      "Fail": 1
+    },
+    "shared_backend_cases": 2,
+    "shared_backend_results": {
+      "Pass": 2,
+      "Fail": 0
+    },
+    "blocked": 0,
+    "not_run": 0
+  },
+  "cases": [
+    {
+      "id": "TC-001",
+      "status": "Pass",
+      "scope": "ui_both_viewports",
+      "actual": "Home and navigation loaded; menu opened and closed. Functional pass; supplemental menu overflow is tracked separately.",
+      "evidence": [
+        "evidence/mobile-TC-001-home.txt",
+        "evidence/mobile-menu-open.txt",
+        "evidence/tablet-TC-001-home.txt",
+        "evidence/tablet-menu-open.txt"
+      ]
+    },
+    {
+      "id": "TC-002",
+      "status": "Pass",
+      "scope": "ui_both_viewports",
+      "actual": "QA category contained the 16 known fixtures across two pages.",
+      "evidence": [
+        "evidence/mobile-TC-002-category-loaded.txt",
+        "evidence/mobile-TC-006-page2.txt",
+        "evidence/tablet-TC-002-category.txt",
+        "evidence/tablet-TC-006-page2.txt"
+      ]
+    },
+    {
+      "id": "TC-003",
+      "status": "Pass",
+      "scope": "ui_both_viewports",
+      "actual": "Exact title search returned only QA Run Product 13 at EUR 13.",
+      "evidence": [
+        "evidence/mobile-TC-003-search.txt",
+        "evidence/tablet-TC-003-search.txt"
+      ]
+    },
+    {
+      "id": "TC-004",
+      "status": "Pass",
+      "scope": "ui_both_viewports",
+      "actual": "Nonmatching query returned zero products with usable empty-state feedback.",
+      "evidence": [
+        "evidence/mobile-TC-004-no-match.txt",
+        "evidence/tablet-TC-004-no-match.txt"
+      ]
+    },
+    {
+      "id": "TC-005",
+      "status": "Pass",
+      "scope": "ui_both_viewports",
+      "actual": "Ascending prices were 1 through 12; descending were 45, 40, 20, 13 through 5 on the first page.",
+      "evidence": [
+        "evidence/mobile-TC-005-ascending.txt",
+        "evidence/mobile-TC-005-descending.txt",
+        "evidence/tablet-TC-005-ascending.txt",
+        "evidence/tablet-TC-005-descending.txt"
+      ]
+    },
+    {
+      "id": "TC-006",
+      "status": "Pass",
+      "scope": "ui_both_viewports",
+      "actual": "Page 1 contained 12 handles and page 2 contained 4, covering all 16 fixtures without overlap.",
+      "evidence": [
+        "evidence/mobile-TC-002-category-loaded.txt",
+        "evidence/mobile-TC-006-page2.txt",
+        "evidence/tablet-TC-002-category.txt",
+        "evidence/tablet-TC-006-page2.txt"
+      ]
+    },
+    {
+      "id": "TC-007",
+      "status": "Pass",
+      "scope": "ui_both_viewports",
+      "actual": "Selected M/White; displayed EUR 35 and matching selected variant state.",
+      "evidence": [
+        "evidence/mobile-TC-007-selected.txt",
+        "evidence/tablet-TC-007-selected.txt"
+      ]
+    },
+    {
+      "id": "TC-008",
+      "status": "Pass",
+      "scope": "ui_both_viewports",
+      "actual": "Missing product rendered Page not found and a frontpage link.",
+      "evidence": [
+        "evidence/mobile-TC-008-missing.txt",
+        "evidence/tablet-TC-008-missing.txt"
+      ]
+    },
+    {
+      "id": "TC-009",
+      "status": "Pass",
+      "scope": "ui_both_viewports",
+      "actual": "Stock-zero fixture showed Out of stock with disabled purchase controls.",
+      "evidence": [
+        "evidence/mobile-TC-009-zero-stock.txt",
+        "evidence/tablet-TC-009-zero-stock.txt"
+      ]
+    },
+    {
+      "id": "TC-010",
+      "status": "Pass",
+      "scope": "shared_backend",
+      "actual": "Shared API check: quantity 2 against stock 1 returned 400, code insufficient_inventory; cart remained empty.",
+      "evidence": [
+        "evidence/shared-TC-010.json"
+      ]
+    },
+    {
+      "id": "TC-011",
+      "status": "Pass",
+      "scope": "ui_both_viewports",
+      "actual": "Empty cart displayed explanatory text and Explore products.",
+      "evidence": [
+        "evidence/mobile-TC-011-empty.txt",
+        "evidence/tablet-TC-011-empty.txt"
+      ]
+    },
+    {
+      "id": "TC-012",
+      "status": "Pass",
+      "scope": "ui_both_viewports",
+      "actual": "One M/White item appeared in the cart at EUR 35. Initial mobile attempt navigated away while the request was pending; retry waited for Cart (1).",
+      "evidence": [
+        "evidence/mobile-TC-012-cart-completed.txt",
+        "evidence/tablet-TC-012-cart.txt"
+      ]
+    },
+    {
+      "id": "TC-013",
+      "status": "Pass",
+      "scope": "ui_both_viewports",
+      "actual": "Quantity 2 gave EUR 70; quantity control remained usable.",
+      "evidence": [
+        "evidence/mobile-TC-013-quantity2.txt",
+        "evidence/tablet-TC-013-quantity2.txt"
+      ]
+    },
+    {
+      "id": "TC-014",
+      "status": "Pass",
+      "scope": "ui_both_viewports",
+      "actual": "Reload retained M/White, quantity 2, and EUR 70.",
+      "evidence": [
+        "evidence/mobile-TC-014-reload.txt",
+        "evidence/tablet-TC-014-reload.txt"
+      ]
+    },
+    {
+      "id": "TC-015",
+      "status": "Pass",
+      "scope": "ui_both_viewports",
+      "actual": "Removing the QA line returned the cart to the empty state.",
+      "evidence": [
+        "evidence/mobile-TC-015-removed.txt",
+        "evidence/tablet-TC-015-removed.txt"
+      ]
+    },
+    {
+      "id": "TC-016",
+      "status": "Pass",
+      "scope": "ui_both_viewports",
+      "actual": "Invalid promotion was rejected with feedback; EUR 35 remained unchanged.",
+      "evidence": [
+        "evidence/mobile-TC-016-invalid-coupon.txt",
+        "evidence/tablet-TC-016-invalid-coupon.txt"
+      ]
+    },
+    {
+      "id": "TC-017",
+      "status": "Pass",
+      "scope": "ui_both_viewports",
+      "actual": "QA20261026TEN applied a EUR 3.50 discount to EUR 35, giving EUR 31.50 before delivery.",
+      "evidence": [
+        "evidence/mobile-TC-017-valid-coupon.txt",
+        "evidence/tablet-TC-017-valid-coupon.txt"
+      ]
+    },
+    {
+      "id": "TC-018",
+      "status": "Pass",
+      "scope": "ui_both_viewports",
+      "actual": "Blank required fields prevented advancement; native validity reported missing values.",
+      "evidence": [
+        "evidence/mobile-TC-018-required.txt",
+        "evidence/tablet-TC-018-required.txt"
+      ]
+    },
+    {
+      "id": "TC-019",
+      "status": "Pass",
+      "scope": "ui_both_viewports",
+      "actual": "Fictional DK address persisted when revisited; Standard Shipping cost EUR 10.",
+      "evidence": [
+        "evidence/mobile-TC-019-delivery.txt",
+        "evidence/mobile-TC-019-address-revisited.txt",
+        "evidence/tablet-TC-019-delivery.txt",
+        "evidence/tablet-TC-019-address-revisited.txt"
+      ]
+    },
+    {
+      "id": "TC-020",
+      "status": "Pass",
+      "scope": "ui_both_viewports",
+      "actual": "Manual Payment produced a local order: M/White x1, EUR 35 - 3.50 + 10 shipping + 0 tax = EUR 41.50.",
+      "evidence": [
+        "evidence/mobile-TC-020-review.txt",
+        "evidence/mobile-TC-020-order.txt",
+        "evidence/tablet-TC-020-review.txt",
+        "evidence/tablet-TC-020-order.txt"
+      ]
+    },
+    {
+      "id": "TC-021",
+      "status": "Pass",
+      "scope": "ui_both_viewports",
+      "actual": "Confirmation reload retained the same device-specific order. Shared API repeat completion returned the same existing order twice; database counts were one distinct order per checked cart.",
+      "evidence": [
+        "evidence/mobile-TC-021-confirmation-reload.txt",
+        "evidence/tablet-TC-021-confirmation-reload.txt",
+        "evidence/shared-TC-021.json",
+        "evidence/shared-TC-021-order-counts.json"
+      ]
+    },
+    {
+      "id": "TC-022",
+      "status": "Pass",
+      "scope": "ui_both_viewports",
+      "actual": "Wrong password produced Invalid email or password and did not grant account access.",
+      "evidence": [
+        "evidence/mobile-TC-022-invalid-login.txt",
+        "evidence/tablet-TC-022-invalid-login.txt"
+      ]
+    },
+    {
+      "id": "TC-023",
+      "status": "Pass",
+      "scope": "ui_both_viewports",
+      "actual": "Valid A login showed the account; logout followed by reload returned to sign-in.",
+      "evidence": [
+        "evidence/mobile-TC-023-signed-in.txt",
+        "evidence/mobile-TC-023-signed-out.txt",
+        "evidence/tablet-TC-023-signed-in.txt",
+        "evidence/tablet-TC-023-signed-out.txt"
+      ]
+    },
+    {
+      "id": "TC-024",
+      "status": "Pass",
+      "scope": "shared_backend",
+      "actual": "Shared API check: A address read 200, B 404, anonymous 401; B/anonymous updates 404/401 and owner data unchanged. A order history contained its order, B history empty, anonymous 401. Guest order-by-ID capability excluded.",
+      "evidence": [
+        "evidence/shared-TC-024.json"
+      ]
+    },
+    {
+      "id": "TC-025",
+      "status": "Fail",
+      "scope": "ui_both_viewports",
+      "actual": "Shipping, returns, terms, privacy and contact destinations loaded. Account Customer Service navigation rendered 404: BUG-001 remains open. Starter placeholder policy/contact copy is disclosed, not treated as a new responsive defect.",
+      "evidence": [
+        "evidence/mobile-TC-025-shipping.txt",
+        "evidence/mobile-TC-025-returns.txt",
+        "evidence/mobile-TC-025-terms.txt",
+        "evidence/mobile-TC-025-privacy.txt",
+        "evidence/mobile-TC-025-contact.txt",
+        "evidence/mobile-TC-025-help-404.txt",
+        "evidence/tablet-TC-025-shipping.txt",
+        "evidence/tablet-TC-025-returns.txt",
+        "evidence/tablet-TC-025-terms.txt",
+        "evidence/tablet-TC-025-privacy.txt",
+        "evidence/tablet-TC-025-contact.txt",
+        "evidence/tablet-TC-025-help-404.txt"
+      ]
+    },
+    {
+      "id": "TC-026",
+      "status": "Pass",
+      "scope": "ui_both_viewports",
+      "actual": "Menu country selector switched DK to FR; variant page retained EUR pricing; returned to usable DK pages.",
+      "evidence": [
+        "evidence/mobile-TC-026-fr.txt",
+        "evidence/tablet-TC-026-fr.txt"
+      ]
+    }
+  ],
+  "supplemental_layout_check": {
+    "id": "RSP-001",
+    "mobile": "Fail",
+    "tablet": "Pass",
+    "defect": "BUG-002",
+    "actual": "Mobile open menu document scrollWidth 398 > viewport 390; closed 390. Tablet open menu document scrollWidth 768 = viewport 768."
+  },
+  "first_observation": "2026-10-26T11:15:02.977Z",
+  "last_observation": "2026-10-26T11:23:50.277Z",
+  "orders": {
+    "mobile": "order_01M5VYWKEJZDP7Z7G85EPRMMDR",
+    "tablet": "order_01M5VZ00B0HJPF4N83BM92AEJ0"
+  },
+  "owner_reported_verification": {
+    "reported_date": "2026-10-26",
+    "source": "Direct owner statement in mentoring conversation",
+    "scope": "Mobile and tablet test cases; agreement with reported findings",
+    "additional_artifacts_supplied": false,
+    "original_evidence_captured_by": "AI QA assistant",
+    "counts_unchanged": true,
+    "defects_remain_open": [
+      "BUG-001",
+      "BUG-002"
+    ],
+    "physical_device_coverage": "Not established by owner statement"
+  }
+}

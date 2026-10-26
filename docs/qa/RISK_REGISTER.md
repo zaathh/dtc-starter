@@ -1,6 +1,6 @@
 # QA Risk Register
 
-Version: 1.0. Assessment date: October 26, 2026 (Asia/Jakarta).
+Version: 1.1. Assessment date: October 26, 2026 (Asia/Jakarta).
 Related plan: [QA_TEST_PLAN.md](QA_TEST_PLAN.md).
 
 ## Assessment method
@@ -42,3 +42,22 @@ Risk acceptance requires the actual owner's dated decision, reason, affected sco
 | Review date | Risk ID | New evidence | Previous → revised rating | Treatment / residual risk | Owner decision |
 | --- | --- | --- | --- | --- | --- |
 | Pending | None yet | No formal execution evidence | Not reassessed | Initial planning register only | Pending |
+
+## First-cycle evidence update — October 26, 2026
+
+Initial scores above are retained as historical planning judgments; no measured probability or recalculated residual score is claimed. [RUN-20261026-001](reports/RUN-20261026-001/REPORT.md) adds the following observations:
+
+| Risks | Actual evidence / treatment progress | Residual limitation |
+| --- | --- | --- |
+| RISK-001 | Fixture cart arithmetic and a 10% code matched the independently calculated UI order total of EUR 41.50 | Complex tax, stacking and rounding policies remain untested |
+| RISK-002 | Manual-payment UI order completed; one API cart completed twice returned the same order ID and had one persisted order link | Concurrency and network-interruption scenarios remain untested |
+| RISK-003 | A/B address read/update and private order-history checks isolated the tested data; login/logout checks passed | Guest order-by-ID is intentionally capability-accessible; full authorization audit remains outside scope |
+| RISK-004 | M/White selection, quantity/reload/removal, stock-0 UI and stock-1 over-quantity API checks passed | Backorders and stock races are not covered |
+| RISK-005 | Simple search/no-match, category sorting and 12+4 pagination checks passed | Combined filters and all catalog modes remain untested |
+| RISK-006 | DK→FR navigation within EUR region was usable | Populated-cart and different-currency transitions remain untested |
+| RISK-007 | BUG-001 reproduced the account Customer Service link reaching a 404 in two UI attempts | Defect remains open; severity S3 / priority D2 are proposed, not an owner waiver |
+| RISK-011 | 16 namespaced QA products, stock fixtures, coupon and synthetic accounts were added without resetting existing data | Data is retained locally; cleanup/reuse needs an explicit fixture decision |
+| RISK-013 | Manual/system payment exercised; no real payment or email delivery verified | Admin/email/Stripe-dependent scope remains conditional |
+| RISK-014 | Actual run records source commits, dirty tracked diff, environment and fixture manifests | Phase 3 changes remain local/uncommitted; publication and independent review have not occurred |
+
+RISK-008 accessibility and RISK-009/RISK-012 performance remain unassessed until their planned phases. No risk is closed or accepted merely because scoped checks passed.

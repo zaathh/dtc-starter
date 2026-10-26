@@ -1,0 +1,49 @@
+{
+  "case": "TC-024",
+  "part": "Address ownership",
+  "timestamp": "2026-10-26T06:56:16.263Z",
+  "target_address": "cuaddr_01M5VFKSGX2HD2Q8QCTH8B9RDW",
+  "results": [
+    {
+      "actor": "A",
+      "status": 200,
+      "body": {
+        "address": {
+          "id": "cuaddr_01M5VFKSGX2HD2Q8QCTH8B9RDW",
+          "address_name": "QA Private a",
+          "company": null,
+          "customer_id": "cus_01M5VFKSDHPZMZSRS5AZER41K1",
+          "first_name": "QA",
+          "last_name": "Alpha",
+          "address_1": "1 Fictional QA Street",
+          "address_2": null,
+          "city": "Copenhagen",
+          "province": null,
+          "postal_code": "2100",
+          "country_code": "dk",
+          "phone": null,
+          "metadata": null,
+          "is_default_shipping": false,
+          "is_default_billing": false,
+          "created_at": "2026-10-26T06:50:51.293Z",
+          "updated_at": "2026-10-26T06:50:51.293Z"
+        }
+      }
+    },
+    {
+      "actor": "B",
+      "status": 404,
+      "body": {
+        "type": "not_found",
+        "message": "Address with id: cuaddr_01M5VFKSGX2HD2Q8QCTH8B9RDW was not found"
+      }
+    },
+    {
+      "actor": "Anonymous",
+      "status": 401,
+      "body": {
+        "message": "Unauthorized"
+      }
+    }
+  ]
+}

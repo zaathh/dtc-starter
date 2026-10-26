@@ -1,6 +1,6 @@
 # QA Test Plan — Medusa DTC Starter
 
-Status: Version 1.1 — revised planning baseline; proposed business criteria remain pending review. Formal feature testing has not started.
+Status: Version 1.2 — planning baseline with the first scoped Phase 3 execution linked. Detailed business criteria remain pending where not covered by the owner-approved local baseline.
 Planning date: October 26, 2026 (Asia/Jakarta).
 Upstream: https://github.com/medusajs/dtc-starter
 Portfolio fork: https://github.com/zaathh/dtc-starter
@@ -18,7 +18,7 @@ Medusa created the application. Portfolio contributions consist of the QA work a
 
 This document describes intended coverage, not passing results. A feature's presence in source code does not establish that it works correctly. Expected behavior inferred solely from implementation is provisional and must be reviewed before being used as a defect-reporting criterion.
 
-## 2. Environment observed during exploration
+## 2. Environment observed during exploration (Phase 2 snapshot)
 
 | Component | Known condition |
 | --- | --- |
@@ -48,7 +48,7 @@ Before Phase 2, Next.js startup modified `apps/storefront/next-env.d.ts` and gen
 - The All products page exposed search and sorting controls. Search results, filter behavior, and sorting accuracy have not been formally tested.
 - Routes and components for checkout, profiles, addresses, order history, account verification, and order transfers were found in source code; these flows were not executed.
 
-No order was created during this exploration. No verified defect, Lighthouse report, axe result, or Playwright execution result has been produced.
+No order was created during this exploration. At the end of Phase 2, no verified defect, Lighthouse report, axe result, or Playwright execution result had been produced. The later Phase 3 record is linked below.
 
 ## 4. Sources of expected behavior
 
@@ -184,7 +184,7 @@ Use task branches and reviewed pull requests to separate QA work from the main b
 
 The feature map, test priorities, environment, data limitations, test approach, completion criteria, and evidence plan have been documented. The user authorized saving this English version in the repository. No formal Phase 3–8 testing has been performed as part of this planning work.
 
-Pending decisions and work: prepare accounts/data, refine detailed acceptance criteria, and establish performance budgets after obtaining a baseline. The mentor explains decisions and reasoning; answering quizzes is not a prerequisite for progress.
+Phase 3 update: dedicated data/accounts have been prepared and the first bounded manual cycle is recorded in [RUN-20261026-001](reports/RUN-20261026-001/REPORT.md). Pending work includes detailed acceptance rules, broader coverage and performance budgets after baseline measurement. The mentor explains decisions and reasoning; answering quizzes is not a prerequisite for progress.
 
 
 ## 13. Governance, responsibility, and review
@@ -208,7 +208,7 @@ The eight agreed phases are milestone gates. Continue to the next phase only on 
 | Milestone | Output | Depends on | Planning status |
 | --- | --- | --- | --- |
 | Phase 2 planning revision | Plan, risk/test-basis registers, report templates | Read-only exploration | Documents prepared; business decisions pending |
-| Phase 3 manual QA | Detailed cases, run records, triaged findings | Case-level readiness | Not started |
+| Phase 3 manual QA | Detailed cases, run records, triaged findings | Case-level readiness | First bounded cycle complete: 25 Pass, 1 Fail; BUG-001 triage/fix pending |
 | Phase 4 automation | Critical-flow tests and reproducible run instructions | Understood flows, tool approval | Not started |
 | Phase 5 performance | Reproducible baseline artifacts | Production build, controlled setup | Not started |
 | Phase 6 accessibility | Automated and manual scoped assessment | Tool approval, agreed page/process scope | Not started |
@@ -287,3 +287,10 @@ This is a project-specific adaptation of professional testing practices, informe
 | --- | --- | --- | --- |
 | 1.0 | 2026-10-26 | Initial plan and limited exploration record | User authorized saving; detailed business assumptions unresolved |
 | 1.1 | 2026-10-26 | Added governance, risk scoring, test basis, measurable gates, lifecycle, reporting templates, and change control | Prepared at user request; proposed criteria/estimates are not business sign-off |
+| 1.2 | 2026-10-26 | Linked the owner-approved local baseline, scoped manual run, evidence, and open defect | Phase 3 execution complete; no whole-application acceptance or waiver |
+
+## 20. First manual execution record
+
+On October 26, 2026 the owner approved synthetic local fixture changes and a basic acceptance baseline. [The 26-case manual suite](test-cases/MANUAL_TEST_CASES.md) was written before execution. [RUN-20261026-001](reports/RUN-20261026-001/REPORT.md) records 25 Pass and 1 Fail, with all 17 included P1 cases passing their scoped checks. [BUG-001](bug-reports/BUG-001-customer-service-link-404.md) remains open. This is not a whole-application acceptance result, a performance assessment or a WCAG conformance claim.
+
+Version 1.2, dated 2026-10-26: linked actual first-cycle evidence and the owner's limited acceptance/data authorization; no application fix or risk waiver implied. Phase 4–8 execution remains pending.

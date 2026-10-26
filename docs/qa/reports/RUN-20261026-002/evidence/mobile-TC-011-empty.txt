@@ -1,0 +1,46 @@
+Browser tab: 8, Title: "Cart", URL: "http://localhost:8000/dk/cart".
+1 AXWebArea Cart, URL: localhost:8000/dk/cart
+	2 container
+		3 container
+			4 button (collapsed) Menu, ID: headlessui-popover-button-_R_1mj9esnelb_, Secondary Actions: Expand
+			5 link Description: MEDUSA STORE, Value: localhost:8000/dk
+			6 link Description: Search products, Value: localhost:8000/dk/search
+			7 button (collapsed) Cart (0), ID: headlessui-popover-button-_R_6vj9esnelb_, Secondary Actions: Expand
+				8 link Description: Cart (0), Value: localhost:8000/dk/cart
+		9 heading Cart, Value: 1
+			10 text Cart
+		11 text You don't have anything in your cart. Let's change that, use the link below to start browsing our products.
+		12 link Description: Explore products, Value: localhost:8000/dk/store
+		13 container
+			14 link Description: MEDUSA STORE, Value: localhost:8000/dk
+			15 text Categories
+			16 content list
+				17 container
+					18 link Description: Shirts, Value: localhost:8000/dk/categories/shirts
+				19 container
+					20 link Description: Sweatshirts, Value: localhost:8000/dk/categories/sweatshirts
+				21 container
+					22 link Description: Merch, Value: localhost:8000/dk/categories/merch
+				23 container
+					24 link Description: Pants, Value: localhost:8000/dk/categories/pants
+			25 text Customer service
+			26 content list
+				27 link Description: Shipping information, Value: localhost:8000/dk/shipping
+				28 link Description: Return policy, Value: localhost:8000/dk/returns
+				29 link Description: Terms of service, Value: localhost:8000/dk/terms
+				30 link Description: Privacy policy, Value: localhost:8000/dk/privacy
+				31 link Description: Contact, Value: localhost:8000/dk/contact
+				32 link Description: Search, Value: localhost:8000/dk/search
+			33 text Medusa
+			34 content list
+				35 link Description: GitHub, Value: github.com/medusajs
+				36 link Description: Documentation, Value: docs.medusajs.com/
+				37 link Description: Source code, Value: github.com/medusajs/dtc-starter
+			38 text ©  2026  Medusa Store. All rights reserved. Powered by
+			39 link medusajs.com/
+			40 text &
+			41 link nextjs.org/
+		42 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+			43 image
+
+The focused UI element is 1 AXWebArea Cart, URL: localhost:8000/dk/cart

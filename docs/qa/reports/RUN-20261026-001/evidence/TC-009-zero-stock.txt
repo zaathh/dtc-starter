@@ -1,0 +1,63 @@
+2026-10-26T06:51:23.933Z
+Browser tab: 7, Title: "QA Run zero-stock | Medusa Store", URL: "http://localhost:8000/dk/products/qa-20261026-001-zero-stock?v_id=variant_01M5VE4CMVEV19QDKSH8ESJQTE".
+1 AXWebArea QA Run zero-stock | Medusa Store, URL: localhost:8000/dk/products/qa-20261026-001-zero-stock?v_id=variant_01M5VE4CMVEV19QDKSH8ESJQTE
+	2 container
+		3 container
+			4 button (collapsed) Menu, ID: headlessui-popover-button-_R_1mj9esnelb_, Secondary Actions: Expand
+			5 link Description: MEDUSA STORE, Value: localhost:8000/dk
+			6 link Description: Search products, Value: localhost:8000/dk/search
+			7 link Description: Account, Value: localhost:8000/dk/account
+			8 button (collapsed) Cart (0), ID: headlessui-popover-button-_R_6vj9esnelb_, Secondary Actions: Expand
+				9 link Description: Cart (0), Value: localhost:8000/dk/cart
+		10 container
+			11 heading QA Run zero-stock, Value: 1
+				12 text QA Run zero-stock
+			13 heading Product Information, Value: 3
+				14 text Product Information
+				15 button (collapsed) ID: radix-_R_6bpbn5ritp9esnelb_, Secondary Actions: Expand
+			16 heading Shipping & Returns, Value: 3
+				17 text Shipping & Returns
+				18 button (collapsed) ID: radix-_R_abpbn5ritp9esnelb_, Secondary Actions: Expand
+			19 container
+				20 text €40.00 Out of stock
+				21 button (disabled) Out of stock
+		22 text Related products
+		23 text You might also want to check out these products.
+		24 content list
+			25 link Description: Medusa Shorts Medusa Shorts €10.00, Value: localhost:8000/dk/products/shorts
+			26 link Description: Medusa T-Shirt Medusa T-Shirt €10.00, Value: localhost:8000/dk/products/t-shirt
+			27 link Description: Medusa Sweatshirt Medusa Sweatshirt €10.00, Value: localhost:8000/dk/products/sweatshirt
+			28 link Description: Medusa Sweatpants Medusa Sweatpants €10.00, Value: localhost:8000/dk/products/sweatpants
+		29 container
+			30 link Description: MEDUSA STORE, Value: localhost:8000/dk
+			31 text Categories
+			32 content list
+				33 container
+					34 link Description: Shirts, Value: localhost:8000/dk/categories/shirts
+				35 container
+					36 link Description: Sweatshirts, Value: localhost:8000/dk/categories/sweatshirts
+				37 container
+					38 link Description: Merch, Value: localhost:8000/dk/categories/merch
+				39 container
+					40 link Description: Pants, Value: localhost:8000/dk/categories/pants
+			41 text Customer service
+			42 content list
+				43 link Description: Shipping information, Value: localhost:8000/dk/shipping
+				44 link Description: Return policy, Value: localhost:8000/dk/returns
+				45 link Description: Terms of service, Value: localhost:8000/dk/terms
+				46 link Description: Privacy policy, Value: localhost:8000/dk/privacy
+				47 link Description: Contact, Value: localhost:8000/dk/contact
+				48 link Description: Search, Value: localhost:8000/dk/search
+			49 text Medusa
+			50 content list
+				51 link Description: GitHub, Value: github.com/medusajs
+				52 link Description: Documentation, Value: docs.medusajs.com/
+				53 link Description: Source code, Value: github.com/medusajs/dtc-starter
+			54 text ©  2026  Medusa Store. All rights reserved. Powered by
+			55 link medusajs.com/
+			56 text &
+			57 link nextjs.org/
+		58 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+			59 image
+
+The focused UI element is 1 AXWebArea QA Run zero-stock | Medusa Store, URL: localhost:8000/dk/products/qa-20261026-001-zero-stock?v_id=variant_01M5VE4CMVEV19QDKSH8ESJQTE

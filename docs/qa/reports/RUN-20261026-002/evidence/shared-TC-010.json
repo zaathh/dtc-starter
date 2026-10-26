@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-26T11:21:24.977Z",
+  "method": "Individually initiated local HTTP checks; shared across viewports",
+  "cart_id": "cart_01M5VZ36KN219PYCNPSNQ4VH40",
+  "rejected": {
+    "status": 400,
+    "body": {
+      "code": "insufficient_inventory",
+      "type": "not_allowed",
+      "message": "Some variant does not have the required inventory"
+    }
+  },
+  "cart_after": {
+    "status": 200,
+    "items": []
+  }
+}
