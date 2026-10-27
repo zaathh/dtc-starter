@@ -68,3 +68,11 @@ user sees and what the programmatic label exposes. Do not change the app yet.
 References: [Playwright accessibility testing](https://playwright.dev/docs/accessibility-testing),
 [axe-core](https://github.com/dequelabs/axe-core),
 [W3C WCAG 2.2](https://www.w3.org/TR/WCAG22/).
+
+## Keyboard task follow-up
+
+[RUN-A11Y-20261027-008](../../../../docs/qa/reports/RUN-A11Y-20261027-008/REPORT.md)
+adds keyboard-event execution of selected desktop tasks. The report preserves
+incomplete header navigation attempts and explains direct-URL task-entry bypasses.
+Use `run-keyboard-flow.mjs` as documented there; it is development-mode evidence,
+not another axe baseline or a complete keyboard/assistive-technology pass.

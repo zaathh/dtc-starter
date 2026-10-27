@@ -113,3 +113,13 @@ Evidence: [Menu screenshot](../reports/RUN-A11Y-20261027-003/manual/keyboard-men
   Reproduce and triage separately before changing application behavior.
 - VoiceOver announcements, full keyboard-only checkout, all states at zoom/reflow/
   text spacing, orientation and other criterion-level gaps remain open in the matrix.
+
+### A11Y-004 keyboard follow-up
+
+[RUN-A11Y-20261027-008](../reports/RUN-A11Y-20261027-008/REPORT.md) links four
+incomplete development-mode navigation attempts and completed separate checkout/
+account keyboard tasks. Header Cart Enter did not navigate, and a bounded Tab
+traversal after the popover route did not reach checkout. Investigate this with
+production-build reproduction and a focused event/focus trace. Do not promote it
+to a confirmed keyboard trap or close the nested-interaction finding based on
+the direct-URL workaround.

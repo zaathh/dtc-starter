@@ -1,0 +1,78 @@
+- main:
+  - navigation:
+    - link "Back to shopping cart":
+      - /url: /dk/cart
+      - img
+      - text: Back to shopping cart
+    - link "Medusa Store":
+      - /url: /dk
+  - heading "Shipping Address" [level=2]
+  - textbox:
+    - /placeholder: " "
+  - text: First name *
+  - textbox:
+    - /placeholder: " "
+  - text: Last name *
+  - textbox:
+    - /placeholder: " "
+  - text: Address *
+  - textbox:
+    - /placeholder: " "
+  - text: Company
+  - textbox:
+    - /placeholder: " "
+  - text: Postal code *
+  - textbox:
+    - /placeholder: " "
+  - text: City *
+  - combobox:
+    - option "Country" [disabled] [selected]
+    - option "Denmark"
+    - option "France"
+    - option "Germany"
+    - option "Italy"
+    - option "Spain"
+    - option "Sweden"
+    - option "United Kingdom"
+  - img
+  - textbox:
+    - /placeholder: " "
+  - text: State / Province
+  - checkbox "Billing address same as shipping address" [checked]
+  - text: Billing address same as shipping address
+  - textbox "Enter a valid email address.":
+    - /placeholder: " "
+  - text: Email *
+  - textbox:
+    - /placeholder: " "
+  - text: Phone
+  - button "Continue to delivery"
+  - heading "Delivery" [level=2]
+  - heading "Payment" [level=2]
+  - heading "Review" [level=2]
+  - heading "In your Cart" [level=2]
+  - text: Subtotal (excl. shipping and taxes) €35.00 Shipping €0.00 Taxes €0.00 Total €35.00
+  - table:
+    - rowgroup:
+      - 'row "QA Run Variant Tee Variant: M / White 1x €35.00 €35.00"':
+        - cell:
+          - link:
+            - /url: /dk/products/qa-20261026-001-variant
+            - img
+        - 'cell "QA Run Variant Tee Variant: M / White"':
+          - paragraph: QA Run Variant Tee
+          - paragraph: "Variant: M / White"
+        - cell "1x €35.00 €35.00":
+          - paragraph: 1x
+          - text: €35.00 €35.00
+  - button: Add Promotion Code(s)
+  - paragraph:
+    - text: Powered by
+    - link:
+      - /url: https://www.medusajs.com
+      - img
+    - text: "&"
+    - link:
+      - /url: https://nextjs.org
+      - img
+- alert

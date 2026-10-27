@@ -324,3 +324,12 @@ The [55-criterion matrix](accessibility/WCAG22_MATRIX.md) has six demonstrated c
 | Version | Date | Change | Review status |
 | --- | --- | --- | --- |
 | 1.5 | 2026-10-27 | Linked accessibility baseline, grouped findings and explicit manual criterion gaps | Owner authorized installation/execution; full manual accessibility acceptance pending |
+
+### Phase 6 keyboard follow-up
+
+[RUN-A11Y-20261027-008](reports/RUN-A11Y-20261027-008/REPORT.md) adds completed
+desktop keyboard-event tasks from a direct Cart entry through simulated order,
+and from a direct Account entry through login/logout. Earlier header-navigation
+attempts remain incomplete and retained. This expands partial evidence without
+passing the complete navigation path or the whole WCAG keyboard criterion.
+VoiceOver and broader manual coverage remain open; no Phase 7 fix has started.
