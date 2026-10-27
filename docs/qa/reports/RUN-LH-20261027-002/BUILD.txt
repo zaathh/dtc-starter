@@ -1,0 +1,79 @@
+
+> @dtc/storefront@1.0.3 build /Users/test/Documents/sekolah/Portofolio/QA/dtc-starter/apps/storefront
+> next build
+
+▲ Next.js 16.3.8 (Turbopack)
+- Environments: .env.local
+✓ Running next.config.js took 18ms
+
+⚠ The "middleware" file convention is deprecated. Please use "proxy" instead.
+
+  To migrate automatically, run:
+  npx @next/codemod@canary middleware-to-proxy .
+
+  Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+  Creating an optimized production build ...
+✓ Compiled successfully in 1701ms
+  Skipping validation of types
+  Finished TypeScript config validation in 13ms ...
+  Collecting page data using 7 workers ...
+  Generating static pages using 7 workers (0/15) ...
+  Generating static pages using 7 workers (3/15) 
+  Generating static pages using 7 workers (7/15) 
+  Generating static pages using 7 workers (11/15) 
+✓ Generating static pages using 7 workers (15/15) in 192ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /_not-found
+├ ƒ /.well-known/ucp
+├ ○ /[countryCode]
+├ ƒ /[countryCode]/account
+├ ƒ /[countryCode]/account/addresses
+├ ƒ /[countryCode]/account/orders
+├ ƒ /[countryCode]/account/orders/details/[id]
+├ ƒ /[countryCode]/account/profile
+├ ƒ /[countryCode]/cart
+├ ƒ /[countryCode]/cart/add
+├ ƒ /[countryCode]/cart/resume/[cartId]
+├ ƒ /[countryCode]/categories/[...category]
+├ ƒ /[countryCode]/checkout
+├ ƒ /[countryCode]/collections/[handle]
+├ ○ /[countryCode]/contact
+├ ƒ /[countryCode]/order/[id]/confirmed
+├ ƒ /[countryCode]/order/[id]/transfer/[token]
+├ ƒ /[countryCode]/order/[id]/transfer/[token]/accept
+├ ƒ /[countryCode]/order/[id]/transfer/[token]/decline
+├ ○ /[countryCode]/privacy
+├ ○ /[countryCode]/products/[handle]
+├ ƒ /[countryCode]/products/[handle]/markdown
+├ ○ /[countryCode]/returns
+├ ƒ /[countryCode]/search
+├ ○ /[countryCode]/shipping
+├ ƒ /[countryCode]/store
+├ ○ /[countryCode]/terms
+├ ƒ /[countryCode]/verify-account
+├ ƒ /api/payment-return
+├ ƒ /buy/[items]
+├ ƒ /llms.txt
+├ ○ /opengraph-image.jpg
+├ ○ /robots.txt
+├ ƒ /sitemap.xml
+├ ○ /twitter-image.jpg
+├ ƒ /ucp/mcp
+├ ƒ /ucp/v1
+├ ƒ /ucp/v1/cart
+├ ƒ /ucp/v1/cart/[cartId]
+├ ƒ /ucp/v1/catalog/lookup
+├ ƒ /ucp/v1/catalog/search
+├ ƒ /ucp/v1/checkout-sessions
+├ ƒ /ucp/v1/checkout-sessions/[id]
+├ ƒ /ucp/v1/checkout-sessions/[id]/cancel
+└ ƒ /ucp/v1/checkout-sessions/[id]/complete
+
+
+ƒ Proxy (Middleware)
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+

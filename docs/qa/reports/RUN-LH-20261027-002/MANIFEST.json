@@ -1,0 +1,2223 @@
+{
+  "runId": "RUN-LH-20261027-002",
+  "pilot": false,
+  "startedAt": "2026-10-27T05:49:40.556Z",
+  "status": "complete",
+  "applicationCommit": "a51eb82f37e2bcdde494692fc608451efbffeca8",
+  "branch": "test/performance-baseline",
+  "buildId": "frzRcUQusiOSY97UXUJYw",
+  "lighthouse": "13.5.0",
+  "node": "v24.4.1",
+  "lockfileSha256": "01a5f3ff5cd5cd17a4744a009d36d6077637170faf38a43be0437bfb17e81a05",
+  "machine": {
+    "platform": "darwin",
+    "release": "25.0.0",
+    "arch": "arm64",
+    "cpu": "Apple M1",
+    "logicalCpus": 8,
+    "memoryBytes": 17179869184,
+    "initialFreeMemoryBytes": 78692352,
+    "initialLoadAverage": [
+      7.40380859375,
+      4.95263671875,
+      4.3056640625
+    ],
+    "powerObservation": "Now drawing from 'Battery Power'\n -InternalBattery-0 (device id omitted)\t29%; discharging; 1:16 remaining present: true"
+  },
+  "protocol": {
+    "mode": "Existing production build served locally; backend and PostgreSQL local",
+    "rounds": 3,
+    "profiles": [
+      "mobile",
+      "desktop"
+    ],
+    "pages": [
+      {
+        "name": "home",
+        "route": "/dk",
+        "heading": "Ecommerce Starter Template"
+      },
+      {
+        "name": "catalog",
+        "route": "/dk/store",
+        "heading": "All products"
+      },
+      {
+        "name": "product",
+        "route": "/dk/products/t-shirt",
+        "heading": "Medusa T-Shirt"
+      },
+      {
+        "name": "checkout",
+        "route": "/dk/checkout?step=address",
+        "heading": "Shipping Address",
+        "checkout": true
+      }
+    ],
+    "browserCache": "Fresh temporary Chromium profile per measurement; HTTP cache explicitly cleared before Lighthouse",
+    "serverCache": "Page fetched once outside Chromium immediately before each measurement; server/backend caches not reset",
+    "checkout": "Fresh anonymous QA M/White x1 cart per checkout measurement; EUR 35, no address, no payment, no order",
+    "storage": "Fresh profiles; storage reset enabled except checkout, where disabled to preserve only prepared cart/cache cookies",
+    "throttling": "Lighthouse built-in mobile/desktop configs; exact resolved settings retained per raw report",
+    "category": "performance only",
+    "order": "Round, profile, page; sequential, no concurrent test suite",
+    "limits": "Local lab results, not field data; other desktop applications not controlled; no INP/conformance/release claim"
+  },
+  "rows": [
+    {
+      "name": "mobile-home-1",
+      "profile": "mobile",
+      "page": "home",
+      "round": 1,
+      "at": "2026-10-27T05:49:42.545Z",
+      "browserVersion": "156.0.8078.4",
+      "requestedUrl": "http://localhost:8000/dk",
+      "finalDisplayedUrl": "http://localhost:8000/dk",
+      "score": 98,
+      "fcp_ms": 761.028,
+      "lcp_ms": 2314.056,
+      "cls": 0,
+      "tbt_ms": 33.5,
+      "speed_index_ms": 761.028,
+      "configSettings": {
+        "output": [
+          "html",
+          "json"
+        ],
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "mobile",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance"
+        ],
+        "skipAudits": null
+      },
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+        "benchmarkIndex": 2916,
+        "credits": {}
+      },
+      "runWarnings": [],
+      "status": "measured",
+      "freeMemoryBytes": 92700672,
+      "loadAverage": [
+        7.05078125,
+        4.919921875,
+        4.2978515625
+      ]
+    },
+    {
+      "name": "mobile-catalog-1",
+      "profile": "mobile",
+      "page": "catalog",
+      "round": 1,
+      "at": "2026-10-27T05:49:48.738Z",
+      "browserVersion": "156.0.8078.4",
+      "requestedUrl": "http://localhost:8000/dk/store",
+      "finalDisplayedUrl": "http://localhost:8000/dk/store",
+      "score": 75,
+      "fcp_ms": 759.4839999999999,
+      "lcp_ms": 1673.4839999999997,
+      "cls": 1.0141877675513185,
+      "tbt_ms": 51,
+      "speed_index_ms": 1147.7102057615607,
+      "configSettings": {
+        "output": [
+          "html",
+          "json"
+        ],
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "mobile",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance"
+        ],
+        "skipAudits": null
+      },
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+        "benchmarkIndex": 2871.5,
+        "credits": {}
+      },
+      "runWarnings": [],
+      "status": "measured",
+      "freeMemoryBytes": 98910208,
+      "loadAverage": [
+        6.48828125,
+        4.8720703125,
+        4.2880859375
+      ]
+    },
+    {
+      "name": "mobile-product-1",
+      "profile": "mobile",
+      "page": "product",
+      "round": 1,
+      "at": "2026-10-27T05:49:56.473Z",
+      "browserVersion": "156.0.8078.4",
+      "requestedUrl": "http://localhost:8000/dk/products/t-shirt",
+      "finalDisplayedUrl": "http://localhost:8000/dk/products/t-shirt?v_id=variant_01M5V9T0497FDXSC5XZPG7K0GN",
+      "score": 83,
+      "fcp_ms": 910.086,
+      "lcp_ms": 4758.609999999999,
+      "cls": 0,
+      "tbt_ms": 46,
+      "speed_index_ms": 2051.051886633056,
+      "configSettings": {
+        "output": [
+          "html",
+          "json"
+        ],
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "mobile",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance"
+        ],
+        "skipAudits": null
+      },
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+        "benchmarkIndex": 2929.5,
+        "credits": {}
+      },
+      "runWarnings": [],
+      "status": "measured",
+      "freeMemoryBytes": 229130240,
+      "loadAverage": [
+        5.94482421875,
+        4.8095703125,
+        4.2724609375
+      ]
+    },
+    {
+      "name": "mobile-checkout-1",
+      "profile": "mobile",
+      "page": "checkout",
+      "round": 1,
+      "at": "2026-10-27T05:50:07.114Z",
+      "browserVersion": "156.0.8078.4",
+      "requestedUrl": "http://localhost:8000/dk/checkout?step=address",
+      "finalDisplayedUrl": "http://localhost:8000/dk/checkout?step=address",
+      "score": 91,
+      "fcp_ms": 757.4230000000002,
+      "lcp_ms": 1972.3990000000003,
+      "cls": 0,
+      "tbt_ms": 339.5,
+      "speed_index_ms": 757.4230000000002,
+      "configSettings": {
+        "output": [
+          "html",
+          "json"
+        ],
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "mobile",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": true,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance"
+        ],
+        "skipAudits": null
+      },
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+        "benchmarkIndex": 3031,
+        "credits": {}
+      },
+      "runWarnings": [],
+      "status": "measured",
+      "freeMemoryBytes": 118243328,
+      "loadAverage": [
+        5.708984375,
+        4.779296875,
+        4.2646484375
+      ]
+    },
+    {
+      "name": "desktop-home-1",
+      "profile": "desktop",
+      "page": "home",
+      "round": 1,
+      "at": "2026-10-27T05:50:13.539Z",
+      "browserVersion": "156.0.8078.4",
+      "requestedUrl": "http://localhost:8000/dk",
+      "finalDisplayedUrl": "http://localhost:8000/dk",
+      "score": 100,
+      "fcp_ms": 213.959,
+      "lcp_ms": 373.95899999999995,
+      "cls": 0,
+      "tbt_ms": 0,
+      "speed_index_ms": 213.959,
+      "configSettings": {
+        "output": [
+          "html",
+          "json"
+        ],
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "desktop",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance"
+        ],
+        "skipAudits": null
+      },
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+        "benchmarkIndex": 2980.5,
+        "credits": {}
+      },
+      "runWarnings": [],
+      "status": "measured",
+      "freeMemoryBytes": 110837760,
+      "loadAverage": [
+        6.69775390625,
+        5.03076171875,
+        4.35986328125
+      ]
+    },
+    {
+      "name": "desktop-catalog-1",
+      "profile": "desktop",
+      "page": "catalog",
+      "round": 1,
+      "at": "2026-10-27T05:50:20.035Z",
+      "browserVersion": "156.0.8078.4",
+      "requestedUrl": "http://localhost:8000/dk/store",
+      "finalDisplayedUrl": "http://localhost:8000/dk/store",
+      "score": 60,
+      "fcp_ms": 214.44799999999998,
+      "lcp_ms": 2932.8345000000004,
+      "cls": 0.6510638297872341,
+      "tbt_ms": 0,
+      "speed_index_ms": 1240.1855703995768,
+      "configSettings": {
+        "output": [
+          "html",
+          "json"
+        ],
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "desktop",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance"
+        ],
+        "skipAudits": null
+      },
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+        "benchmarkIndex": 2804,
+        "credits": {}
+      },
+      "runWarnings": [],
+      "status": "measured",
+      "freeMemoryBytes": 85573632,
+      "loadAverage": [
+        6.8017578125,
+        5.07958984375,
+        4.380859375
+      ]
+    },
+    {
+      "name": "desktop-product-1",
+      "profile": "desktop",
+      "page": "product",
+      "round": 1,
+      "at": "2026-10-27T05:50:28.564Z",
+      "browserVersion": "156.0.8078.4",
+      "requestedUrl": "http://localhost:8000/dk/products/t-shirt",
+      "finalDisplayedUrl": "http://localhost:8000/dk/products/t-shirt?v_id=variant_01M5V9T0497FDXSC5XZPG7K0GN",
+      "score": 92,
+      "fcp_ms": 250.37400000000002,
+      "lcp_ms": 1884.3000000000002,
+      "cls": 0,
+      "tbt_ms": 0,
+      "speed_index_ms": 637.4928129934251,
+      "configSettings": {
+        "output": [
+          "html",
+          "json"
+        ],
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "desktop",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance"
+        ],
+        "skipAudits": null
+      },
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+        "benchmarkIndex": 2913,
+        "credits": {}
+      },
+      "runWarnings": [],
+      "status": "measured",
+      "freeMemoryBytes": 158728192,
+      "loadAverage": [
+        7.603515625,
+        5.3203125,
+        4.47509765625
+      ]
+    },
+    {
+      "name": "desktop-checkout-1",
+      "profile": "desktop",
+      "page": "checkout",
+      "round": 1,
+      "at": "2026-10-27T05:50:37.098Z",
+      "browserVersion": "156.0.8078.4",
+      "requestedUrl": "http://localhost:8000/dk/checkout?step=address",
+      "finalDisplayedUrl": "http://localhost:8000/dk/checkout?step=address",
+      "score": 100,
+      "fcp_ms": 209.34599999999998,
+      "lcp_ms": 511.1599999999999,
+      "cls": 0,
+      "tbt_ms": 0,
+      "speed_index_ms": 209.34599999999998,
+      "configSettings": {
+        "output": [
+          "html",
+          "json"
+        ],
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "desktop",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": true,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance"
+        ],
+        "skipAudits": null
+      },
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+        "benchmarkIndex": 2910.5,
+        "credits": {}
+      },
+      "runWarnings": [],
+      "status": "measured",
+      "freeMemoryBytes": 101335040,
+      "loadAverage": [
+        7.39501953125,
+        5.31494140625,
+        4.47802734375
+      ]
+    },
+    {
+      "name": "mobile-home-2",
+      "profile": "mobile",
+      "page": "home",
+      "round": 2,
+      "at": "2026-10-27T05:50:43.204Z",
+      "browserVersion": "156.0.8078.4",
+      "requestedUrl": "http://localhost:8000/dk",
+      "finalDisplayedUrl": "http://localhost:8000/dk",
+      "score": 100,
+      "fcp_ms": 760.106,
+      "lcp_ms": 1670.1060000000002,
+      "cls": 0,
+      "tbt_ms": 12,
+      "speed_index_ms": 760.106,
+      "configSettings": {
+        "output": [
+          "html",
+          "json"
+        ],
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "mobile",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance"
+        ],
+        "skipAudits": null
+      },
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+        "benchmarkIndex": 2991.5,
+        "credits": {}
+      },
+      "runWarnings": [],
+      "status": "measured",
+      "freeMemoryBytes": 87228416,
+      "loadAverage": [
+        7.013671875,
+        5.3037109375,
+        4.48388671875
+      ]
+    },
+    {
+      "name": "mobile-catalog-2",
+      "profile": "mobile",
+      "page": "catalog",
+      "round": 2,
+      "at": "2026-10-27T05:50:48.944Z",
+      "browserVersion": "156.0.8078.4",
+      "requestedUrl": "http://localhost:8000/dk/store",
+      "finalDisplayedUrl": "http://localhost:8000/dk/store",
+      "score": 75,
+      "fcp_ms": 759.056,
+      "lcp_ms": 1824.584,
+      "cls": 1.0141877675513185,
+      "tbt_ms": 23.5,
+      "speed_index_ms": 1054.9897915663419,
+      "configSettings": {
+        "output": [
+          "html",
+          "json"
+        ],
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "mobile",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance"
+        ],
+        "skipAudits": null
+      },
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+        "benchmarkIndex": 2992,
+        "credits": {}
+      },
+      "runWarnings": [],
+      "status": "measured",
+      "freeMemoryBytes": 112967680,
+      "loadAverage": [
+        7.33251953125,
+        5.39794921875,
+        4.52197265625
+      ]
+    },
+    {
+      "name": "mobile-product-2",
+      "profile": "mobile",
+      "page": "product",
+      "round": 2,
+      "at": "2026-10-27T05:50:56.605Z",
+      "browserVersion": "156.0.8078.4",
+      "requestedUrl": "http://localhost:8000/dk/products/t-shirt",
+      "finalDisplayedUrl": "http://localhost:8000/dk/products/t-shirt?v_id=variant_01M5V9T0497FDXSC5XZPG7K0GN",
+      "score": 80,
+      "fcp_ms": 911.99,
+      "lcp_ms": 5400.894999999999,
+      "cls": 0,
+      "tbt_ms": 43,
+      "speed_index_ms": 1548.5267257745513,
+      "configSettings": {
+        "output": [
+          "html",
+          "json"
+        ],
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "mobile",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance"
+        ],
+        "skipAudits": null
+      },
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+        "benchmarkIndex": 2998,
+        "credits": {}
+      },
+      "runWarnings": [],
+      "status": "measured",
+      "freeMemoryBytes": 111230976,
+      "loadAverage": [
+        6.74609375,
+        5.3349609375,
+        4.50927734375
+      ]
+    },
+    {
+      "name": "mobile-checkout-2",
+      "profile": "mobile",
+      "page": "checkout",
+      "round": 2,
+      "at": "2026-10-27T05:51:05.464Z",
+      "browserVersion": "156.0.8078.4",
+      "requestedUrl": "http://localhost:8000/dk/checkout?step=address",
+      "finalDisplayedUrl": "http://localhost:8000/dk/checkout?step=address",
+      "score": 93,
+      "fcp_ms": 762.1669999999999,
+      "lcp_ms": 1825.4700000000003,
+      "cls": 0,
+      "tbt_ms": 299.50000000000045,
+      "speed_index_ms": 762.1669999999999,
+      "configSettings": {
+        "output": [
+          "html",
+          "json"
+        ],
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "mobile",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": true,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance"
+        ],
+        "skipAudits": null
+      },
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+        "benchmarkIndex": 2923.5,
+        "credits": {}
+      },
+      "runWarnings": [],
+      "status": "measured",
+      "freeMemoryBytes": 95338496,
+      "loadAverage": [
+        6.84619140625,
+        5.37890625,
+        4.529296875
+      ]
+    },
+    {
+      "name": "desktop-home-2",
+      "profile": "desktop",
+      "page": "home",
+      "round": 2,
+      "at": "2026-10-27T05:51:11.900Z",
+      "browserVersion": "156.0.8078.4",
+      "requestedUrl": "http://localhost:8000/dk",
+      "finalDisplayedUrl": "http://localhost:8000/dk",
+      "score": 100,
+      "fcp_ms": 213.33299999999997,
+      "lcp_ms": 466.66599999999994,
+      "cls": 0,
+      "tbt_ms": 0,
+      "speed_index_ms": 213.33299999999997,
+      "configSettings": {
+        "output": [
+          "html",
+          "json"
+        ],
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "desktop",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance"
+        ],
+        "skipAudits": null
+      },
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+        "benchmarkIndex": 2921.5,
+        "credits": {}
+      },
+      "runWarnings": [],
+      "status": "measured",
+      "freeMemoryBytes": 94158848,
+      "loadAverage": [
+        6.5380859375,
+        5.33935546875,
+        4.52001953125
+      ]
+    },
+    {
+      "name": "desktop-catalog-2",
+      "profile": "desktop",
+      "page": "catalog",
+      "round": 2,
+      "at": "2026-10-27T05:51:18.061Z",
+      "browserVersion": "156.0.8078.4",
+      "requestedUrl": "http://localhost:8000/dk/store",
+      "finalDisplayedUrl": "http://localhost:8000/dk/store",
+      "score": 56.99999999999999,
+      "fcp_ms": 218.88600000000002,
+      "lcp_ms": 2941.5355000000004,
+      "cls": 0.6510638297872341,
+      "tbt_ms": 0,
+      "speed_index_ms": 1959.6878458423716,
+      "configSettings": {
+        "output": [
+          "html",
+          "json"
+        ],
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "desktop",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance"
+        ],
+        "skipAudits": null
+      },
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+        "benchmarkIndex": 2474.5,
+        "credits": {}
+      },
+      "runWarnings": [],
+      "status": "measured",
+      "freeMemoryBytes": 200392704,
+      "loadAverage": [
+        7.791015625,
+        5.755859375,
+        4.69091796875
+      ]
+    },
+    {
+      "name": "desktop-product-2",
+      "profile": "desktop",
+      "page": "product",
+      "round": 2,
+      "at": "2026-10-27T05:51:34.442Z",
+      "browserVersion": "156.0.8078.4",
+      "requestedUrl": "http://localhost:8000/dk/products/t-shirt",
+      "finalDisplayedUrl": "http://localhost:8000/dk/products/t-shirt?v_id=variant_01M5V9T0497FDXSC5XZPG7K0GN",
+      "score": 92,
+      "fcp_ms": 252.89600000000002,
+      "lcp_ms": 1870.6310000000003,
+      "cls": 0,
+      "tbt_ms": 0,
+      "speed_index_ms": 725.284073328117,
+      "configSettings": {
+        "output": [
+          "html",
+          "json"
+        ],
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "desktop",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance"
+        ],
+        "skipAudits": null
+      },
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+        "benchmarkIndex": 2999,
+        "credits": {}
+      },
+      "runWarnings": [],
+      "status": "measured",
+      "freeMemoryBytes": 111034368,
+      "loadAverage": [
+        6.74658203125,
+        5.5986328125,
+        4.64697265625
+      ]
+    },
+    {
+      "name": "desktop-checkout-2",
+      "profile": "desktop",
+      "page": "checkout",
+      "round": 2,
+      "at": "2026-10-27T05:51:47.026Z",
+      "browserVersion": "156.0.8078.4",
+      "requestedUrl": "http://localhost:8000/dk/checkout?step=address",
+      "finalDisplayedUrl": "http://localhost:8000/dk/checkout?step=address",
+      "score": 100,
+      "fcp_ms": 236.56599999999997,
+      "lcp_ms": 317.39799999999997,
+      "cls": 0,
+      "tbt_ms": 0,
+      "speed_index_ms": 236.56599999999997,
+      "configSettings": {
+        "output": [
+          "html",
+          "json"
+        ],
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "desktop",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": true,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance"
+        ],
+        "skipAudits": null
+      },
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+        "benchmarkIndex": 2441.5,
+        "credits": {}
+      },
+      "runWarnings": [],
+      "status": "measured",
+      "freeMemoryBytes": 166264832,
+      "loadAverage": [
+        7.4072265625,
+        5.75439453125,
+        4.70751953125
+      ]
+    },
+    {
+      "name": "mobile-home-3",
+      "profile": "mobile",
+      "page": "home",
+      "round": 3,
+      "at": "2026-10-27T05:51:53.505Z",
+      "browserVersion": "156.0.8078.4",
+      "requestedUrl": "http://localhost:8000/dk",
+      "finalDisplayedUrl": "http://localhost:8000/dk",
+      "score": 100,
+      "fcp_ms": 770.4079999999999,
+      "lcp_ms": 1531.408,
+      "cls": 0,
+      "tbt_ms": 16,
+      "speed_index_ms": 770.4079999999999,
+      "configSettings": {
+        "output": [
+          "html",
+          "json"
+        ],
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "mobile",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance"
+        ],
+        "skipAudits": null
+      },
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+        "benchmarkIndex": 2828.5,
+        "credits": {}
+      },
+      "runWarnings": [],
+      "status": "measured",
+      "freeMemoryBytes": 91013120,
+      "loadAverage": [
+        7.04296875,
+        5.7294921875,
+        4.71044921875
+      ]
+    },
+    {
+      "name": "mobile-catalog-3",
+      "profile": "mobile",
+      "page": "catalog",
+      "round": 3,
+      "at": "2026-10-27T05:51:59.471Z",
+      "browserVersion": "156.0.8078.4",
+      "requestedUrl": "http://localhost:8000/dk/store",
+      "finalDisplayedUrl": "http://localhost:8000/dk/store",
+      "score": 76,
+      "fcp_ms": 767.3520000000001,
+      "lcp_ms": 1527.3520000000003,
+      "cls": 1.0141877675513185,
+      "tbt_ms": 38,
+      "speed_index_ms": 1057.0024162515265,
+      "configSettings": {
+        "output": [
+          "html",
+          "json"
+        ],
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "mobile",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance"
+        ],
+        "skipAudits": null
+      },
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+        "benchmarkIndex": 2761,
+        "credits": {}
+      },
+      "runWarnings": [],
+      "status": "measured",
+      "freeMemoryBytes": 75743232,
+      "loadAverage": [
+        7.439453125,
+        5.83349609375,
+        4.7529296875
+      ]
+    },
+    {
+      "name": "mobile-product-3",
+      "profile": "mobile",
+      "page": "product",
+      "round": 3,
+      "at": "2026-10-27T05:52:07.436Z",
+      "browserVersion": "156.0.8078.4",
+      "requestedUrl": "http://localhost:8000/dk/products/t-shirt",
+      "finalDisplayedUrl": "http://localhost:8000/dk/products/t-shirt?v_id=variant_01M5V9T0497FDXSC5XZPG7K0GN",
+      "score": 78,
+      "fcp_ms": 911.3050000000001,
+      "lcp_ms": 6051.6455000000005,
+      "cls": 0,
+      "tbt_ms": 49,
+      "speed_index_ms": 1681.084436008692,
+      "configSettings": {
+        "output": [
+          "html",
+          "json"
+        ],
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "mobile",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance"
+        ],
+        "skipAudits": null
+      },
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+        "benchmarkIndex": 2860,
+        "credits": {}
+      },
+      "runWarnings": [],
+      "status": "measured",
+      "freeMemoryBytes": 169361408,
+      "loadAverage": [
+        6.81689453125,
+        5.75537109375,
+        4.7373046875
+      ]
+    },
+    {
+      "name": "mobile-checkout-3",
+      "profile": "mobile",
+      "page": "checkout",
+      "round": 3,
+      "at": "2026-10-27T05:52:16.482Z",
+      "browserVersion": "156.0.8078.4",
+      "requestedUrl": "http://localhost:8000/dk/checkout?step=address",
+      "finalDisplayedUrl": "http://localhost:8000/dk/checkout?step=address",
+      "score": 94,
+      "fcp_ms": 762.4190000000001,
+      "lcp_ms": 1824.4980000000003,
+      "cls": 0,
+      "tbt_ms": 276.4999999999991,
+      "speed_index_ms": 762.4190000000001,
+      "configSettings": {
+        "output": [
+          "html",
+          "json"
+        ],
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "mobile",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": true,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance"
+        ],
+        "skipAudits": null
+      },
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+        "benchmarkIndex": 2910,
+        "credits": {}
+      },
+      "runWarnings": [],
+      "status": "measured",
+      "freeMemoryBytes": 123355136,
+      "loadAverage": [
+        6.43115234375,
+        5.69287109375,
+        4.72119140625
+      ]
+    },
+    {
+      "name": "desktop-home-3",
+      "profile": "desktop",
+      "page": "home",
+      "round": 3,
+      "at": "2026-10-27T05:52:23.340Z",
+      "browserVersion": "156.0.8078.4",
+      "requestedUrl": "http://localhost:8000/dk",
+      "finalDisplayedUrl": "http://localhost:8000/dk",
+      "score": 100,
+      "fcp_ms": 217.33100000000002,
+      "lcp_ms": 297.331,
+      "cls": 0,
+      "tbt_ms": 0,
+      "speed_index_ms": 217.33100000000002,
+      "configSettings": {
+        "output": [
+          "html",
+          "json"
+        ],
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "desktop",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance"
+        ],
+        "skipAudits": null
+      },
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+        "benchmarkIndex": 2360,
+        "credits": {}
+      },
+      "runWarnings": [],
+      "status": "measured",
+      "freeMemoryBytes": 94208000,
+      "loadAverage": [
+        5.970703125,
+        5.61962890625,
+        4.70654296875
+      ]
+    },
+    {
+      "name": "desktop-catalog-3",
+      "profile": "desktop",
+      "page": "catalog",
+      "round": 3,
+      "at": "2026-10-27T05:52:29.282Z",
+      "browserVersion": "156.0.8078.4",
+      "requestedUrl": "http://localhost:8000/dk/store",
+      "finalDisplayedUrl": "http://localhost:8000/dk/store",
+      "score": 62,
+      "fcp_ms": 211.212,
+      "lcp_ms": 2727.635,
+      "cls": 0.6510638297872341,
+      "tbt_ms": 0,
+      "speed_index_ms": 1143.3564521501862,
+      "configSettings": {
+        "output": [
+          "html",
+          "json"
+        ],
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "desktop",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance"
+        ],
+        "skipAudits": null
+      },
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+        "benchmarkIndex": 2856.5,
+        "credits": {}
+      },
+      "runWarnings": [],
+      "status": "measured",
+      "freeMemoryBytes": 93159424,
+      "loadAverage": [
+        5.732421875,
+        5.57568359375,
+        4.6962890625
+      ]
+    },
+    {
+      "name": "desktop-product-3",
+      "profile": "desktop",
+      "page": "product",
+      "round": 3,
+      "at": "2026-10-27T05:52:37.735Z",
+      "browserVersion": "156.0.8078.4",
+      "requestedUrl": "http://localhost:8000/dk/products/t-shirt",
+      "finalDisplayedUrl": "http://localhost:8000/dk/products/t-shirt?v_id=variant_01M5V9T0497FDXSC5XZPG7K0GN",
+      "score": 91,
+      "fcp_ms": 249.26800000000003,
+      "lcp_ms": 1986.221,
+      "cls": 0,
+      "tbt_ms": 0,
+      "speed_index_ms": 685.7493544242094,
+      "configSettings": {
+        "output": [
+          "html",
+          "json"
+        ],
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "desktop",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance"
+        ],
+        "skipAudits": null
+      },
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+        "benchmarkIndex": 2878.5,
+        "credits": {}
+      },
+      "runWarnings": [],
+      "status": "measured",
+      "freeMemoryBytes": 211517440,
+      "loadAverage": [
+        5.1513671875,
+        5.45703125,
+        4.6640625
+      ]
+    },
+    {
+      "name": "desktop-checkout-3",
+      "profile": "desktop",
+      "page": "checkout",
+      "round": 3,
+      "at": "2026-10-27T05:52:46.870Z",
+      "browserVersion": "156.0.8078.4",
+      "requestedUrl": "http://localhost:8000/dk/checkout?step=address",
+      "finalDisplayedUrl": "http://localhost:8000/dk/checkout?step=address",
+      "score": 100,
+      "fcp_ms": 210.33700000000005,
+      "lcp_ms": 421.38800000000003,
+      "cls": 0,
+      "tbt_ms": 0,
+      "speed_index_ms": 210.33700000000005,
+      "configSettings": {
+        "output": [
+          "html",
+          "json"
+        ],
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "desktop",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": true,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance"
+        ],
+        "skipAudits": null
+      },
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+        "benchmarkIndex": 2880.5,
+        "credits": {}
+      },
+      "runWarnings": [],
+      "status": "measured",
+      "freeMemoryBytes": 118784000,
+      "loadAverage": [
+        5.85986328125,
+        5.5986328125,
+        4.71875
+      ]
+    }
+  ],
+  "medians": [
+    {
+      "profile": "mobile",
+      "page": "home",
+      "samples": 3,
+      "score": 100,
+      "fcp_ms": 761.028,
+      "lcp_ms": 1670.1060000000002,
+      "cls": 0,
+      "tbt_ms": 16,
+      "speed_index_ms": 761.028
+    },
+    {
+      "profile": "mobile",
+      "page": "catalog",
+      "samples": 3,
+      "score": 75,
+      "fcp_ms": 759.4839999999999,
+      "lcp_ms": 1673.4839999999997,
+      "cls": 1.0141877675513185,
+      "tbt_ms": 38,
+      "speed_index_ms": 1057.0024162515265
+    },
+    {
+      "profile": "mobile",
+      "page": "product",
+      "samples": 3,
+      "score": 80,
+      "fcp_ms": 911.3050000000001,
+      "lcp_ms": 5400.894999999999,
+      "cls": 0,
+      "tbt_ms": 46,
+      "speed_index_ms": 1681.084436008692
+    },
+    {
+      "profile": "mobile",
+      "page": "checkout",
+      "samples": 3,
+      "score": 93,
+      "fcp_ms": 762.1669999999999,
+      "lcp_ms": 1825.4700000000003,
+      "cls": 0,
+      "tbt_ms": 299.50000000000045,
+      "speed_index_ms": 762.1669999999999
+    },
+    {
+      "profile": "desktop",
+      "page": "home",
+      "samples": 3,
+      "score": 100,
+      "fcp_ms": 213.959,
+      "lcp_ms": 373.95899999999995,
+      "cls": 0,
+      "tbt_ms": 0,
+      "speed_index_ms": 213.959
+    },
+    {
+      "profile": "desktop",
+      "page": "catalog",
+      "samples": 3,
+      "score": 60,
+      "fcp_ms": 214.44799999999998,
+      "lcp_ms": 2932.8345000000004,
+      "cls": 0.6510638297872341,
+      "tbt_ms": 0,
+      "speed_index_ms": 1240.1855703995768
+    },
+    {
+      "profile": "desktop",
+      "page": "product",
+      "samples": 3,
+      "score": 92,
+      "fcp_ms": 250.37400000000002,
+      "lcp_ms": 1884.3000000000002,
+      "cls": 0,
+      "tbt_ms": 0,
+      "speed_index_ms": 685.7493544242094
+    },
+    {
+      "profile": "desktop",
+      "page": "checkout",
+      "samples": 3,
+      "score": 100,
+      "fcp_ms": 210.33700000000005,
+      "lcp_ms": 421.38800000000003,
+      "cls": 0,
+      "tbt_ms": 0,
+      "speed_index_ms": 210.33700000000005
+    }
+  ],
+  "completedAt": "2026-10-27T05:52:51.662Z"
+}
