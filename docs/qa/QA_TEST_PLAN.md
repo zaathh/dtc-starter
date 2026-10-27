@@ -1,6 +1,6 @@
 # QA Test Plan — Medusa DTC Starter
 
-Status: Version 1.3 — local manual, responsive and initial critical-flow automation evidence linked. Detailed business criteria and declared coverage gaps remain pending; no release acceptance is implied.
+Status: Version 1.4 — local manual, responsive, initial critical-flow automation and a scoped Lighthouse baseline linked. Detailed business criteria, coverage gaps and performance budgets remain pending; no release acceptance is implied.
 Planning date: October 26, 2026 (Asia/Jakarta).
 Upstream: https://github.com/medusajs/dtc-starter
 Portfolio fork: https://github.com/zaathh/dtc-starter
@@ -210,7 +210,7 @@ The eight agreed phases are milestone gates. Continue to the next phase only on 
 | Phase 2 planning revision | Plan, risk/test-basis registers, report templates | Read-only exploration | Documents prepared; business decisions pending |
 | Phase 3 manual QA | Detailed cases, run records, findings | Case-level readiness | Manual and mobile/tablet follow-ups recorded; BUG-001 and BUG-002 remain open with proposed classifications |
 | Phase 4 automation | Critical-flow tests and run instructions | Understood flows, tool approval and prepared local fixtures | Initial Chromium suite implemented: 17 scenarios × 3 viewport sizes; API/country/full-footer automation and Firefox/WebKit/CI remain deferred |
-| Phase 5 performance | Reproducible baseline artifacts | Production build, controlled setup | Not started |
+| Phase 5 performance | Reproducible baseline artifacts | Production build, controlled setup | Scoped 24-measurement mobile/desktop Lighthouse baseline recorded; budgets and optimization comparison pending |
 | Phase 6 accessibility | Automated and manual scoped assessment | Tool approval, agreed page/process scope | Not started |
 | Phase 7 fixes | Small reviewed changes and targeted checks | Verified issues, change approval | Not started |
 | Phase 8 completion | Retest, regression, comparisons, case study | Earlier artifacts | Not started |
@@ -299,8 +299,18 @@ Version 1.2, dated 2026-10-26: linked actual first-cycle evidence and the owner'
 
 The owner approved Playwright setup and test creation, then requested an audit and GitHub publication. The initial [automated run](reports/RUN-PW-20261027-001/REPORT.md) recorded 47 passing executions and four expected failures across 51 executions, without skips or unexpected failures. A fresh pre-publication audit is recorded in [PHASES-1-4-AUDIT-20261027](reports/PHASES-1-4-AUDIT-20261027.md). Known-failure annotations apply only after page/navigation/measurement prerequisites succeed.
 
-The suite depends on the explicitly documented local fixtures and ignored synthetic credentials. It is not a one-command database bootstrap from a fresh clone. Business API checks remain recorded manual evidence, not automated coverage. Cross-browser testing, CI, production-build verification, performance and accessibility have not been completed. Phases 5–8 remain unstarted.
+The suite depends on the explicitly documented local fixtures and ignored synthetic credentials. It is not a one-command database bootstrap from a fresh clone. Business API checks remain recorded manual evidence, not automated coverage. Cross-browser testing, CI, production-build verification, performance and accessibility have not been completed. This is the historical Phase 4 checkpoint; the subsequent Phase 5 baseline update is below.
 
 | Version | Date | Change | Review status |
 | --- | --- | --- | --- |
 | 1.3 | 2026-10-27 | Linked responsive and initial Playwright results, current file locations and checkpoint limitations | User requested audit/publication; defects remain open, no release waiver |
+
+## Phase 5 baseline update — October 27, 2026
+
+The owner approved Lighthouse installation, a local performance runner and temporary production serving. [RUN-LH-20261027-002](reports/RUN-LH-20261027-002/REPORT.md) contains 24 completed measurements: four pages × mobile/desktop profiles × three rounds, with original HTML/JSON, screenshots, independent medians, ranges, machine settings and warning records. The prior [RUN-LH-20261027-001](reports/RUN-LH-20261027-001/REPORT.md) remains explicitly incomplete due to a runner URL-validation assumption; it is not mixed into the baseline. Pilot artifacts remain private and excluded.
+
+The measurements show repeatable catalog layout shift, product LCP/image-delivery investigation candidates and mobile checkout main-thread work. These are scoped local lab findings, not performance budget acceptance, achieved improvements, real-user field data or new functional bug counts. Application source/configuration was not optimized. The production server was stopped and the development storefront restored. Accessibility, reviewed fixes, matching before/after comparison and final case study remain future stages.
+
+| Version | Date | Change | Review status |
+| --- | --- | --- | --- |
+| 1.4 | 2026-10-27 | Linked the scoped local Lighthouse baseline, exact protocol and declared limits | Owner authorized measurement; no performance budget, optimization or release approval implied |

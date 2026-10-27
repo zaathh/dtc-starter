@@ -1,0 +1,903 @@
+{
+  "runId": "RUN-LH-20261027-002",
+  "groups": [
+    {
+      "profile": "mobile",
+      "page": "home",
+      "samples": 3,
+      "medians": {
+        "score": 100,
+        "fcp_ms": 761.028,
+        "lcp_ms": 1670.1060000000002,
+        "cls": 0,
+        "tbt_ms": 16,
+        "speed_index_ms": 761.028
+      },
+      "ranges": {
+        "score": [
+          98,
+          100
+        ],
+        "fcp_ms": [
+          760.106,
+          770.4079999999999
+        ],
+        "lcp_ms": [
+          1531.408,
+          2314.056
+        ],
+        "cls": [
+          0,
+          0
+        ],
+        "tbt_ms": [
+          12,
+          33.5
+        ],
+        "speed_index_ms": [
+          760.106,
+          770.4079999999999
+        ]
+      },
+      "representative_report": "mobile-home-2"
+    },
+    {
+      "profile": "mobile",
+      "page": "catalog",
+      "samples": 3,
+      "medians": {
+        "score": 75,
+        "fcp_ms": 759.4839999999999,
+        "lcp_ms": 1673.4839999999997,
+        "cls": 1.0141877675513185,
+        "tbt_ms": 38,
+        "speed_index_ms": 1057.0024162515265
+      },
+      "ranges": {
+        "score": [
+          75,
+          76
+        ],
+        "fcp_ms": [
+          759.056,
+          767.3520000000001
+        ],
+        "lcp_ms": [
+          1527.3520000000003,
+          1824.584
+        ],
+        "cls": [
+          1.0141877675513185,
+          1.0141877675513185
+        ],
+        "tbt_ms": [
+          23.5,
+          51
+        ],
+        "speed_index_ms": [
+          1054.9897915663419,
+          1147.7102057615607
+        ]
+      },
+      "representative_report": "mobile-catalog-1"
+    },
+    {
+      "profile": "mobile",
+      "page": "product",
+      "samples": 3,
+      "medians": {
+        "score": 80,
+        "fcp_ms": 911.3050000000001,
+        "lcp_ms": 5400.894999999999,
+        "cls": 0,
+        "tbt_ms": 46,
+        "speed_index_ms": 1681.084436008692
+      },
+      "ranges": {
+        "score": [
+          78,
+          83
+        ],
+        "fcp_ms": [
+          910.086,
+          911.99
+        ],
+        "lcp_ms": [
+          4758.609999999999,
+          6051.6455000000005
+        ],
+        "cls": [
+          0,
+          0
+        ],
+        "tbt_ms": [
+          43,
+          49
+        ],
+        "speed_index_ms": [
+          1548.5267257745513,
+          2051.051886633056
+        ]
+      },
+      "representative_report": "mobile-product-2"
+    },
+    {
+      "profile": "mobile",
+      "page": "checkout",
+      "samples": 3,
+      "medians": {
+        "score": 93,
+        "fcp_ms": 762.1669999999999,
+        "lcp_ms": 1825.4700000000003,
+        "cls": 0,
+        "tbt_ms": 299.50000000000045,
+        "speed_index_ms": 762.1669999999999
+      },
+      "ranges": {
+        "score": [
+          91,
+          94
+        ],
+        "fcp_ms": [
+          757.4230000000002,
+          762.4190000000001
+        ],
+        "lcp_ms": [
+          1824.4980000000003,
+          1972.3990000000003
+        ],
+        "cls": [
+          0,
+          0
+        ],
+        "tbt_ms": [
+          276.4999999999991,
+          339.5
+        ],
+        "speed_index_ms": [
+          757.4230000000002,
+          762.4190000000001
+        ]
+      },
+      "representative_report": "mobile-checkout-2"
+    },
+    {
+      "profile": "desktop",
+      "page": "home",
+      "samples": 3,
+      "medians": {
+        "score": 100,
+        "fcp_ms": 213.959,
+        "lcp_ms": 373.95899999999995,
+        "cls": 0,
+        "tbt_ms": 0,
+        "speed_index_ms": 213.959
+      },
+      "ranges": {
+        "score": [
+          100,
+          100
+        ],
+        "fcp_ms": [
+          213.33299999999997,
+          217.33100000000002
+        ],
+        "lcp_ms": [
+          297.331,
+          466.66599999999994
+        ],
+        "cls": [
+          0,
+          0
+        ],
+        "tbt_ms": [
+          0,
+          0
+        ],
+        "speed_index_ms": [
+          213.33299999999997,
+          217.33100000000002
+        ]
+      },
+      "representative_report": "desktop-home-1"
+    },
+    {
+      "profile": "desktop",
+      "page": "catalog",
+      "samples": 3,
+      "medians": {
+        "score": 60,
+        "fcp_ms": 214.44799999999998,
+        "lcp_ms": 2932.8345000000004,
+        "cls": 0.6510638297872341,
+        "tbt_ms": 0,
+        "speed_index_ms": 1240.1855703995768
+      },
+      "ranges": {
+        "score": [
+          56.99999999999999,
+          62
+        ],
+        "fcp_ms": [
+          211.212,
+          218.88600000000002
+        ],
+        "lcp_ms": [
+          2727.635,
+          2941.5355000000004
+        ],
+        "cls": [
+          0.6510638297872341,
+          0.6510638297872341
+        ],
+        "tbt_ms": [
+          0,
+          0
+        ],
+        "speed_index_ms": [
+          1143.3564521501862,
+          1959.6878458423716
+        ]
+      },
+      "representative_report": "desktop-catalog-1"
+    },
+    {
+      "profile": "desktop",
+      "page": "product",
+      "samples": 3,
+      "medians": {
+        "score": 92,
+        "fcp_ms": 250.37400000000002,
+        "lcp_ms": 1884.3000000000002,
+        "cls": 0,
+        "tbt_ms": 0,
+        "speed_index_ms": 685.7493544242094
+      },
+      "ranges": {
+        "score": [
+          91,
+          92
+        ],
+        "fcp_ms": [
+          249.26800000000003,
+          252.89600000000002
+        ],
+        "lcp_ms": [
+          1870.6310000000003,
+          1986.221
+        ],
+        "cls": [
+          0,
+          0
+        ],
+        "tbt_ms": [
+          0,
+          0
+        ],
+        "speed_index_ms": [
+          637.4928129934251,
+          725.284073328117
+        ]
+      },
+      "representative_report": "desktop-product-1"
+    },
+    {
+      "profile": "desktop",
+      "page": "checkout",
+      "samples": 3,
+      "medians": {
+        "score": 100,
+        "fcp_ms": 210.33700000000005,
+        "lcp_ms": 421.38800000000003,
+        "cls": 0,
+        "tbt_ms": 0,
+        "speed_index_ms": 210.33700000000005
+      },
+      "ranges": {
+        "score": [
+          100,
+          100
+        ],
+        "fcp_ms": [
+          209.34599999999998,
+          236.56599999999997
+        ],
+        "lcp_ms": [
+          317.39799999999997,
+          511.1599999999999
+        ],
+        "cls": [
+          0,
+          0
+        ],
+        "tbt_ms": [
+          0,
+          0
+        ],
+        "speed_index_ms": [
+          209.34599999999998,
+          236.56599999999997
+        ]
+      },
+      "representative_report": "desktop-checkout-3"
+    }
+  ],
+  "diagnostics": [
+    {
+      "profile": "mobile",
+      "page": "home",
+      "report": "mobile-home-2",
+      "audits": {
+        "layout-shifts": {
+          "title": "Avoid large layout shifts",
+          "score": null,
+          "displayValue": null,
+          "numericValue": null,
+          "metricSavings": {
+            "CLS": 0
+          }
+        },
+        "image-delivery-insight": {
+          "title": "Improve image delivery",
+          "score": 1,
+          "displayValue": null,
+          "numericValue": null,
+          "metricSavings": {
+            "FCP": 0,
+            "LCP": 0
+          }
+        },
+        "unused-javascript": {
+          "title": "Reduce unused JavaScript",
+          "score": 0.5,
+          "displayValue": "Est savings of 82\u00a0KiB",
+          "numericValue": 0,
+          "metricSavings": {
+            "FCP": 0,
+            "LCP": 0
+          }
+        },
+        "render-blocking-insight": {
+          "title": "Render-blocking requests",
+          "score": 0,
+          "displayValue": "Est savings of 140\u00a0ms",
+          "numericValue": null,
+          "metricSavings": {
+            "FCP": 150,
+            "LCP": 150
+          }
+        },
+        "long-tasks": {
+          "title": "Avoid long main-thread tasks",
+          "score": 1,
+          "displayValue": "2 long tasks found",
+          "numericValue": null,
+          "metricSavings": {
+            "TBT": 0
+          }
+        },
+        "mainthread-work-breakdown": {
+          "title": "Minimizes main-thread work",
+          "score": 1,
+          "displayValue": "0.5\u00a0s",
+          "numericValue": 526.8919999999983,
+          "metricSavings": {
+            "TBT": 0
+          }
+        },
+        "lcp-discovery-insight": {
+          "title": "LCP request discovery",
+          "score": null,
+          "displayValue": null,
+          "numericValue": null,
+          "metricSavings": null
+        }
+      }
+    },
+    {
+      "profile": "mobile",
+      "page": "catalog",
+      "report": "mobile-catalog-1",
+      "audits": {
+        "layout-shifts": {
+          "title": "Avoid large layout shifts",
+          "score": 0,
+          "displayValue": "2 layout shifts found",
+          "numericValue": null,
+          "metricSavings": {
+            "CLS": 1.014
+          }
+        },
+        "image-delivery-insight": {
+          "title": "Improve image delivery",
+          "score": 0.5,
+          "displayValue": "Est savings of 2,540\u00a0KiB",
+          "numericValue": null,
+          "metricSavings": {
+            "FCP": 0,
+            "LCP": 0
+          }
+        },
+        "unused-javascript": {
+          "title": "Reduce unused JavaScript",
+          "score": 0.5,
+          "displayValue": "Est savings of 45\u00a0KiB",
+          "numericValue": 0,
+          "metricSavings": {
+            "FCP": 0,
+            "LCP": 0
+          }
+        },
+        "render-blocking-insight": {
+          "title": "Render-blocking requests",
+          "score": 0,
+          "displayValue": "Est savings of 140\u00a0ms",
+          "numericValue": null,
+          "metricSavings": {
+            "FCP": 150,
+            "LCP": 150
+          }
+        },
+        "long-tasks": {
+          "title": "Avoid long main-thread tasks",
+          "score": 1,
+          "displayValue": "4 long tasks found",
+          "numericValue": null,
+          "metricSavings": {
+            "TBT": 50
+          }
+        },
+        "mainthread-work-breakdown": {
+          "title": "Minimizes main-thread work",
+          "score": 1,
+          "displayValue": "1.1\u00a0s",
+          "numericValue": 1066.480000000007,
+          "metricSavings": {
+            "TBT": 50
+          }
+        },
+        "lcp-discovery-insight": {
+          "title": "LCP request discovery",
+          "score": null,
+          "displayValue": null,
+          "numericValue": null,
+          "metricSavings": null
+        }
+      }
+    },
+    {
+      "profile": "mobile",
+      "page": "product",
+      "report": "mobile-product-2",
+      "audits": {
+        "layout-shifts": {
+          "title": "Avoid large layout shifts",
+          "score": null,
+          "displayValue": null,
+          "numericValue": null,
+          "metricSavings": {
+            "CLS": 0
+          }
+        },
+        "image-delivery-insight": {
+          "title": "Improve image delivery",
+          "score": 0,
+          "displayValue": "Est savings of 3,343\u00a0KiB",
+          "numericValue": null,
+          "metricSavings": {
+            "FCP": 0,
+            "LCP": 1100
+          }
+        },
+        "unused-javascript": {
+          "title": "Reduce unused JavaScript",
+          "score": 0,
+          "displayValue": "Est savings of 79\u00a0KiB",
+          "numericValue": 330,
+          "metricSavings": {
+            "FCP": 0,
+            "LCP": 350
+          }
+        },
+        "render-blocking-insight": {
+          "title": "Render-blocking requests",
+          "score": 0,
+          "displayValue": "Est savings of 140\u00a0ms",
+          "numericValue": null,
+          "metricSavings": {
+            "FCP": 150,
+            "LCP": 0
+          }
+        },
+        "long-tasks": {
+          "title": "Avoid long main-thread tasks",
+          "score": 1,
+          "displayValue": "3 long tasks found",
+          "numericValue": null,
+          "metricSavings": {
+            "TBT": 50
+          }
+        },
+        "mainthread-work-breakdown": {
+          "title": "Minimizes main-thread work",
+          "score": 1,
+          "displayValue": "1.0\u00a0s",
+          "numericValue": 1022.3400000000049,
+          "metricSavings": {
+            "TBT": 50
+          }
+        },
+        "lcp-discovery-insight": {
+          "title": "LCP request discovery",
+          "score": 0,
+          "displayValue": null,
+          "numericValue": null,
+          "metricSavings": {
+            "LCP": 0
+          }
+        }
+      }
+    },
+    {
+      "profile": "mobile",
+      "page": "checkout",
+      "report": "mobile-checkout-2",
+      "audits": {
+        "layout-shifts": {
+          "title": "Avoid large layout shifts",
+          "score": null,
+          "displayValue": null,
+          "numericValue": null,
+          "metricSavings": {
+            "CLS": 0
+          }
+        },
+        "image-delivery-insight": {
+          "title": "Improve image delivery",
+          "score": 1,
+          "displayValue": null,
+          "numericValue": null,
+          "metricSavings": {
+            "FCP": 0,
+            "LCP": 0
+          }
+        },
+        "unused-javascript": {
+          "title": "Reduce unused JavaScript",
+          "score": 0.5,
+          "displayValue": "Est savings of 292\u00a0KiB",
+          "numericValue": 0,
+          "metricSavings": {
+            "FCP": 0,
+            "LCP": 0
+          }
+        },
+        "render-blocking-insight": {
+          "title": "Render-blocking requests",
+          "score": 0,
+          "displayValue": "Est savings of 140\u00a0ms",
+          "numericValue": null,
+          "metricSavings": {
+            "FCP": 150,
+            "LCP": 150
+          }
+        },
+        "long-tasks": {
+          "title": "Avoid long main-thread tasks",
+          "score": 1,
+          "displayValue": "3 long tasks found",
+          "numericValue": null,
+          "metricSavings": {
+            "TBT": 300
+          }
+        },
+        "mainthread-work-breakdown": {
+          "title": "Minimizes main-thread work",
+          "score": 1,
+          "displayValue": "1.0\u00a0s",
+          "numericValue": 1032.9160000000024,
+          "metricSavings": {
+            "TBT": 300
+          }
+        },
+        "lcp-discovery-insight": {
+          "title": "LCP request discovery",
+          "score": null,
+          "displayValue": null,
+          "numericValue": null,
+          "metricSavings": null
+        }
+      }
+    },
+    {
+      "profile": "desktop",
+      "page": "home",
+      "report": "desktop-home-1",
+      "audits": {
+        "layout-shifts": {
+          "title": "Avoid large layout shifts",
+          "score": null,
+          "displayValue": null,
+          "numericValue": null,
+          "metricSavings": {
+            "CLS": 0
+          }
+        },
+        "image-delivery-insight": {
+          "title": "Improve image delivery",
+          "score": 1,
+          "displayValue": null,
+          "numericValue": null,
+          "metricSavings": {
+            "FCP": 0,
+            "LCP": 0
+          }
+        },
+        "unused-javascript": {
+          "title": "Reduce unused JavaScript",
+          "score": 0.5,
+          "displayValue": "Est savings of 82\u00a0KiB",
+          "numericValue": 0,
+          "metricSavings": {
+            "FCP": 0,
+            "LCP": 0
+          }
+        },
+        "render-blocking-insight": {
+          "title": "Render-blocking requests",
+          "score": 0.5,
+          "displayValue": null,
+          "numericValue": null,
+          "metricSavings": {
+            "FCP": 0,
+            "LCP": 0
+          }
+        },
+        "long-tasks": {
+          "title": "Avoid long main-thread tasks",
+          "score": null,
+          "displayValue": null,
+          "numericValue": null,
+          "metricSavings": {
+            "TBT": 0
+          }
+        },
+        "mainthread-work-breakdown": {
+          "title": "Minimizes main-thread work",
+          "score": 1,
+          "displayValue": "0.1\u00a0s",
+          "numericValue": 143.29299999999964,
+          "metricSavings": {
+            "TBT": 0
+          }
+        },
+        "lcp-discovery-insight": {
+          "title": "LCP request discovery",
+          "score": null,
+          "displayValue": null,
+          "numericValue": null,
+          "metricSavings": null
+        }
+      }
+    },
+    {
+      "profile": "desktop",
+      "page": "catalog",
+      "report": "desktop-catalog-1",
+      "audits": {
+        "layout-shifts": {
+          "title": "Avoid large layout shifts",
+          "score": 0,
+          "displayValue": "1 layout shift found",
+          "numericValue": null,
+          "metricSavings": {
+            "CLS": 0.651
+          }
+        },
+        "image-delivery-insight": {
+          "title": "Improve image delivery",
+          "score": 0,
+          "displayValue": "Est savings of 2,586\u00a0KiB",
+          "numericValue": null,
+          "metricSavings": {
+            "FCP": 0,
+            "LCP": 1750
+          }
+        },
+        "unused-javascript": {
+          "title": "Reduce unused JavaScript",
+          "score": 0.5,
+          "displayValue": "Est savings of 45\u00a0KiB",
+          "numericValue": 0,
+          "metricSavings": {
+            "FCP": 0,
+            "LCP": 0
+          }
+        },
+        "render-blocking-insight": {
+          "title": "Render-blocking requests",
+          "score": 0.5,
+          "displayValue": null,
+          "numericValue": null,
+          "metricSavings": {
+            "FCP": 0,
+            "LCP": 0
+          }
+        },
+        "long-tasks": {
+          "title": "Avoid long main-thread tasks",
+          "score": null,
+          "displayValue": null,
+          "numericValue": null,
+          "metricSavings": {
+            "TBT": 0
+          }
+        },
+        "mainthread-work-breakdown": {
+          "title": "Minimizes main-thread work",
+          "score": 1,
+          "displayValue": "0.3\u00a0s",
+          "numericValue": 269.47900000000203,
+          "metricSavings": {
+            "TBT": 0
+          }
+        },
+        "lcp-discovery-insight": {
+          "title": "LCP request discovery",
+          "score": 0,
+          "displayValue": null,
+          "numericValue": null,
+          "metricSavings": {
+            "LCP": 0
+          }
+        }
+      }
+    },
+    {
+      "profile": "desktop",
+      "page": "product",
+      "report": "desktop-product-1",
+      "audits": {
+        "layout-shifts": {
+          "title": "Avoid large layout shifts",
+          "score": null,
+          "displayValue": null,
+          "numericValue": null,
+          "metricSavings": {
+            "CLS": 0
+          }
+        },
+        "image-delivery-insight": {
+          "title": "Improve image delivery",
+          "score": 0,
+          "displayValue": "Est savings of 3,370\u00a0KiB",
+          "numericValue": null,
+          "metricSavings": {
+            "FCP": 0,
+            "LCP": 650
+          }
+        },
+        "unused-javascript": {
+          "title": "Reduce unused JavaScript",
+          "score": 0.5,
+          "displayValue": "Est savings of 79\u00a0KiB",
+          "numericValue": 0,
+          "metricSavings": {
+            "FCP": 0,
+            "LCP": 0
+          }
+        },
+        "render-blocking-insight": {
+          "title": "Render-blocking requests",
+          "score": 0.5,
+          "displayValue": null,
+          "numericValue": null,
+          "metricSavings": {
+            "FCP": 0,
+            "LCP": 0
+          }
+        },
+        "long-tasks": {
+          "title": "Avoid long main-thread tasks",
+          "score": null,
+          "displayValue": null,
+          "numericValue": null,
+          "metricSavings": {
+            "TBT": 0
+          }
+        },
+        "mainthread-work-breakdown": {
+          "title": "Minimizes main-thread work",
+          "score": 1,
+          "displayValue": "0.2\u00a0s",
+          "numericValue": 237.1940000000024,
+          "metricSavings": {
+            "TBT": 0
+          }
+        },
+        "lcp-discovery-insight": {
+          "title": "LCP request discovery",
+          "score": 0,
+          "displayValue": null,
+          "numericValue": null,
+          "metricSavings": {
+            "LCP": 0
+          }
+        }
+      }
+    },
+    {
+      "profile": "desktop",
+      "page": "checkout",
+      "report": "desktop-checkout-3",
+      "audits": {
+        "layout-shifts": {
+          "title": "Avoid large layout shifts",
+          "score": null,
+          "displayValue": null,
+          "numericValue": null,
+          "metricSavings": {
+            "CLS": 0
+          }
+        },
+        "image-delivery-insight": {
+          "title": "Improve image delivery",
+          "score": 1,
+          "displayValue": null,
+          "numericValue": null,
+          "metricSavings": {
+            "FCP": 0,
+            "LCP": 0
+          }
+        },
+        "unused-javascript": {
+          "title": "Reduce unused JavaScript",
+          "score": 0.5,
+          "displayValue": "Est savings of 292\u00a0KiB",
+          "numericValue": 0,
+          "metricSavings": {
+            "FCP": 0,
+            "LCP": 0
+          }
+        },
+        "render-blocking-insight": {
+          "title": "Render-blocking requests",
+          "score": 0.5,
+          "displayValue": null,
+          "numericValue": null,
+          "metricSavings": {
+            "FCP": 0,
+            "LCP": 0
+          }
+        },
+        "long-tasks": {
+          "title": "Avoid long main-thread tasks",
+          "score": null,
+          "displayValue": null,
+          "numericValue": null,
+          "metricSavings": {
+            "TBT": 0
+          }
+        },
+        "mainthread-work-breakdown": {
+          "title": "Minimizes main-thread work",
+          "score": 1,
+          "displayValue": "0.2\u00a0s",
+          "numericValue": 228.5230000000011,
+          "metricSavings": {
+            "TBT": 0
+          }
+        },
+        "lcp-discovery-insight": {
+          "title": "LCP request discovery",
+          "score": null,
+          "displayValue": null,
+          "numericValue": null,
+          "metricSavings": null
+        }
+      }
+    }
+  ],
+  "runWarnings": [],
+  "httpFailures": []
+}

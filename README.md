@@ -53,10 +53,12 @@ the portfolio owner reported manual verification as described in the reports.
 - [Manual results](docs/qa/reports/RUN-20261026-001/REPORT.md) and [mobile/tablet results](docs/qa/reports/RUN-20261026-002/REPORT.md)
 - [Playwright setup and learning guide](apps/storefront/tests/e2e/README.md)
 - [Initial automation results](docs/qa/reports/RUN-PW-20261027-001/REPORT.md)
+- [Local Lighthouse baseline](docs/qa/reports/RUN-LH-20261027-002/REPORT.md) and [performance runner guide](apps/storefront/tests/performance/README.md)
 
 The functional/manual and automated scopes have known open defects. No QA-specific
-CI workflow, production release approval, security clearance, performance baseline
-or accessibility conformance is claimed. The original upstream status badges below
+CI workflow, production release approval, security clearance
+or accessibility conformance is claimed. The performance baseline is scoped local
+lab evidence with no budget acceptance or claimed optimization. The original upstream status badges below
 or above this section are not evidence that this fork's QA suite ran in CI.
 
 ## Features

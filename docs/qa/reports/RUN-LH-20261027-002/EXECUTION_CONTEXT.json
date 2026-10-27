@@ -1,0 +1,10 @@
+{
+  "runner_path": "apps/storefront/tests/performance/run-baseline.mjs",
+  "runner_sha256": "d00558c763501c1fd227f527a9aa0c2695386d84fe1d0decadbfd2e5fab51ade",
+  "build_log": "BUILD.txt",
+  "runtime_mode": "NODE_ENV=production next start --hostname 127.0.0.1 --port 8000",
+  "build_validation": "Build succeeded; existing next.config.js skips TypeScript build errors; middleware deprecation warning retained",
+  "server_restoration": "Confirmed: production server stopped; next dev --hostname 127.0.0.1 --port 8000 restarted and storefront HTTP 200",
+  "desktop_applications": "Not controlled; no other QA suite was run concurrently",
+  "pilot_and_incomplete_runs": "Pilot reports private outside repository. RUN-LH-20261027-001 stopped at product URL validation and remains incomplete; all earlier artifacts retained, excluded from the complete-run medians for harness consistency."
+}
