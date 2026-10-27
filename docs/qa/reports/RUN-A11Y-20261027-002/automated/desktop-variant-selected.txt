@@ -1,0 +1,179 @@
+- main:
+  - navigation:
+    - button "Menu"
+    - link "Medusa Store":
+      - /url: /dk
+    - link "Search products":
+      - /url: /dk/search
+      - img
+    - link "Account":
+      - /url: /dk/account
+    - button "Cart (0)":
+      - link "Cart (0)":
+        - /url: /dk/cart
+  - heading "Medusa T-Shirt" [level=1]
+  - paragraph: Reimagine the feeling of a classic T-shirt. With our cotton T-shirts, everyday essentials no longer have to be ordinary.
+  - heading "Product Information" [level=3]:
+    - paragraph: Product Information
+    - button
+  - heading "Shipping & Returns" [level=3]:
+    - paragraph: Shipping & Returns
+    - button
+  - img "Product image 1"
+  - img "Product image 2"
+  - img "Product image 3"
+  - img "Product image 4"
+  - group "Select Size":
+    - text: Select Size
+    - radio "S"
+    - text: S
+    - radio "M" [checked]
+    - text: M
+    - radio "L"
+    - text: L
+    - radio "XL"
+    - text: XL
+  - group "Select Color":
+    - text: Select Color
+    - radio "Black"
+    - text: Black
+    - radio "White" [checked]
+    - text: White
+  - text: €10.00
+  - paragraph: In stock
+  - button "Add to cart"
+  - text: Related products
+  - paragraph: You might also want to check out these products.
+  - list:
+    - listitem:
+      - link "Medusa Shorts Medusa Shorts €10.00":
+        - /url: /dk/products/shorts
+        - img "Medusa Shorts"
+        - paragraph: Medusa Shorts
+        - paragraph: €10.00
+    - listitem:
+      - link "Medusa Sweatshirt Medusa Sweatshirt €10.00":
+        - /url: /dk/products/sweatshirt
+        - img "Medusa Sweatshirt"
+        - paragraph: Medusa Sweatshirt
+        - paragraph: €10.00
+    - listitem:
+      - link "Medusa Sweatpants Medusa Sweatpants €10.00":
+        - /url: /dk/products/sweatpants
+        - img "Medusa Sweatpants"
+        - paragraph: Medusa Sweatpants
+        - paragraph: €10.00
+    - listitem:
+      - link "QA Run Product 03 €3.00":
+        - /url: /dk/products/qa-20261026-001-item-03
+        - img
+        - paragraph: QA Run Product 03
+        - paragraph: €3.00
+    - listitem:
+      - link "QA Run Product 08 €8.00":
+        - /url: /dk/products/qa-20261026-001-item-08
+        - img
+        - paragraph: QA Run Product 08
+        - paragraph: €8.00
+    - listitem:
+      - link "QA Run Product 09 €9.00":
+        - /url: /dk/products/qa-20261026-001-item-09
+        - img
+        - paragraph: QA Run Product 09
+        - paragraph: €9.00
+    - listitem:
+      - link "QA Run zero-stock €40.00":
+        - /url: /dk/products/qa-20261026-001-zero-stock
+        - img
+        - paragraph: QA Run zero-stock
+        - paragraph: €40.00
+    - listitem:
+      - link "QA Run Product 04 €4.00":
+        - /url: /dk/products/qa-20261026-001-item-04
+        - img
+        - paragraph: QA Run Product 04
+        - paragraph: €4.00
+    - listitem:
+      - link "QA Run Product 10 €10.00":
+        - /url: /dk/products/qa-20261026-001-item-10
+        - img
+        - paragraph: QA Run Product 10
+        - paragraph: €10.00
+    - listitem:
+      - link "QA Run Product 06 €6.00":
+        - /url: /dk/products/qa-20261026-001-item-06
+        - img
+        - paragraph: QA Run Product 06
+        - paragraph: €6.00
+    - listitem:
+      - link "QA Run Variant Tee €20.00":
+        - /url: /dk/products/qa-20261026-001-variant
+        - img
+        - paragraph: QA Run Variant Tee
+        - paragraph: €20.00
+  - link "Medusa Store":
+    - /url: /dk
+  - text: Categories
+  - list:
+    - listitem:
+      - link "Shirts":
+        - /url: /dk/categories/shirts
+      - list
+    - listitem:
+      - link "Sweatshirts":
+        - /url: /dk/categories/sweatshirts
+      - list
+    - listitem:
+      - link "Merch":
+        - /url: /dk/categories/merch
+      - list
+    - listitem:
+      - link "Pants":
+        - /url: /dk/categories/pants
+      - list
+    - listitem:
+      - link "QA Run 20261026":
+        - /url: /dk/categories/qa-20261026-001
+      - list
+  - text: Customer service
+  - list:
+    - listitem:
+      - link "Shipping information":
+        - /url: /dk/shipping
+    - listitem:
+      - link "Return policy":
+        - /url: /dk/returns
+    - listitem:
+      - link "Terms of service":
+        - /url: /dk/terms
+    - listitem:
+      - link "Privacy policy":
+        - /url: /dk/privacy
+    - listitem:
+      - link "Contact":
+        - /url: /dk/contact
+    - listitem:
+      - link "Search":
+        - /url: /dk/search
+  - text: Medusa
+  - list:
+    - listitem:
+      - link "GitHub":
+        - /url: https://github.com/medusajs
+    - listitem:
+      - link "Documentation":
+        - /url: https://docs.medusajs.com
+    - listitem:
+      - link "Source code":
+        - /url: https://github.com/medusajs/dtc-starter
+  - paragraph: © 2026 Medusa Store. All rights reserved.
+  - paragraph:
+    - text: Powered by
+    - link:
+      - /url: https://www.medusajs.com
+      - img
+    - text: "&"
+    - link:
+      - /url: https://nextjs.org
+      - img
+- alert

@@ -1,0 +1,83 @@
+{
+  "runId": "RUN-A11Y-20261027-003",
+  "primaryScans": 38,
+  "ruleOccurrences": 169,
+  "nodeOccurrences": 289,
+  "incompleteRuleOccurrences": 9,
+  "distinctRuleIds": 8,
+  "rules": {
+    "button-name": {
+      "scanOccurrences": 18,
+      "nodeOccurrences": 24,
+      "exampleFiles": [
+        "desktop-account-error.json",
+        "desktop-account-login.json",
+        "desktop-account-signed-out.json"
+      ]
+    },
+    "color-contrast": {
+      "scanOccurrences": 27,
+      "nodeOccurrences": 51,
+      "exampleFiles": [
+        "desktop-account-error.json",
+        "desktop-account-login.json",
+        "desktop-account-signed-in.json"
+      ]
+    },
+    "label": {
+      "scanOccurrences": 12,
+      "nodeOccurrences": 40,
+      "exampleFiles": [
+        "desktop-account-error.json",
+        "desktop-account-login.json",
+        "desktop-account-signed-out.json"
+      ]
+    },
+    "link-name": {
+      "scanOccurrences": 38,
+      "nodeOccurrences": 90,
+      "exampleFiles": [
+        "desktop-account-error.json",
+        "desktop-account-login.json",
+        "desktop-account-signed-in.json"
+      ]
+    },
+    "nested-interactive": {
+      "scanOccurrences": 32,
+      "nodeOccurrences": 34,
+      "exampleFiles": [
+        "desktop-account-error.json",
+        "desktop-account-login.json",
+        "desktop-account-signed-in.json"
+      ]
+    },
+    "target-size": {
+      "scanOccurrences": 32,
+      "nodeOccurrences": 40,
+      "exampleFiles": [
+        "desktop-account-error.json",
+        "desktop-account-login.json",
+        "desktop-account-signed-in.json"
+      ]
+    },
+    "select-name": {
+      "scanOccurrences": 8,
+      "nodeOccurrences": 8,
+      "exampleFiles": [
+        "desktop-cart-filled.json",
+        "desktop-cart-invalid-coupon.json",
+        "desktop-checkout-address.json"
+      ]
+    },
+    "image-alt": {
+      "scanOccurrences": 2,
+      "nodeOccurrences": 2,
+      "exampleFiles": [
+        "desktop-menu-open.json",
+        "mobile-menu-open.json"
+      ]
+    }
+  },
+  "supplementalAxeScans": 2,
+  "note": "Occurrences are repeated rule/node observations, not unique defects. Supplemental scans are not included in primary totals."
+}

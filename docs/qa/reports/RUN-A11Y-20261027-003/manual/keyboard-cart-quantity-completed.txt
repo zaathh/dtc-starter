@@ -1,0 +1,95 @@
+Browser tab: 9, Title: "Cart", URL: "http://localhost:8000/dk/cart".
+1 AXWebArea Cart, URL: localhost:8000/dk/cart
+	2 container
+		3 container
+			4 button (collapsed) Menu, ID: headlessui-popover-button-_R_1mj5ubtb_, Secondary Actions: Expand
+			5 link Description: MEDUSA STORE, Value: localhost:8000/dk
+			6 link Description: Search products, Value: localhost:8000/dk/search
+			7 link Description: Account, Value: localhost:8000/dk/account
+			8 button (collapsed) Cart (2), ID: headlessui-popover-button-_R_6vj5ubtb_, Secondary Actions: Expand
+				9 link Description: Cart (2), Value: localhost:8000/dk/cart
+		10 heading Already have an account?, Value: 2
+			11 text Already have an account?
+		12 text Sign in for a better experience.
+		13 link Description: Sign in, Value: localhost:8000/dk/account
+		14 heading Cart, Value: 2
+			15 text Cart
+		16 table
+			17 row
+				18 cell
+					19 text Item
+				20 cell
+					21 text Quantity
+				22 cell
+					23 text Price
+				24 cell
+					25 text Total
+			26 row
+				27 cell
+					28 link localhost:8000/dk/products/qa-20261026-001-variant
+				29 cell
+					30 text QA Run Variant Tee
+					31 container
+						32 text Variant:  M / White
+				33 cell
+					34 button
+						35 image
+					36 container
+						37 pop up button (collapsed, settable) Value: 2, Secondary Actions: Expand
+							38 menu
+								39 (disabled) Select...
+								40 1
+								41 (selected) 2
+								42 3
+								43 4
+								44 5
+								45 6
+								46 7
+								47 8
+								48 9
+								49 10
+								50 1
+						51 image
+				52 cell
+					53 text €35.00
+				54 cell
+					55 text €70.00
+		56 container
+			57 heading Summary, Value: 2
+				58 text Summary
+			59 button
+			60 text Subtotal (excl. shipping and taxes) €70.00 Shipping €0.00 Taxes €0.00 Total €70.00
+			61 link Description: Go to checkout, Value: localhost:8000/dk/checkout?step=address
+		62 container
+			63 link Description: MEDUSA STORE, Value: localhost:8000/dk
+			64 text Categories
+			65 content list
+				66 container
+					67 link Description: Shirts, Value: localhost:8000/dk/categories/shirts
+				68 container
+					69 link Description: Sweatshirts, Value: localhost:8000/dk/categories/sweatshirts
+				70 container
+					71 link Description: Merch, Value: localhost:8000/dk/categories/merch
+				72 container
+					73 link Description: Pants, Value: localhost:8000/dk/categories/pants
+				74 container
+					75 link Description: QA Run 20261026, Value: localhost:8000/dk/categories/qa-20261026-001
+			76 text Customer service
+			77 content list
+				78 link Description: Shipping information, Value: localhost:8000/dk/shipping
+				79 link Description: Return policy, Value: localhost:8000/dk/returns
+				80 link Description: Terms of service, Value: localhost:8000/dk/terms
+				81 link Description: Privacy policy, Value: localhost:8000/dk/privacy
+				82 link Description: Contact, Value: localhost:8000/dk/contact
+				83 link Description: Search, Value: localhost:8000/dk/search
+			84 text Medusa
+			85 content list
+				86 link Description: GitHub, Value: github.com/medusajs
+				87 link Description: Documentation, Value: docs.medusajs.com/
+				88 link Description: Source code, Value: github.com/medusajs/dtc-starter
+			89 text ©  2026  Medusa Store. All rights reserved. Powered by
+			90 link medusajs.com/
+			91 text &
+			92 link nextjs.org/
+
+The focused UI element is 37 pop up button (collapsed, settable) Value: 2, Secondary Actions: Expand

@@ -1,0 +1,69 @@
+- main:
+  - navigation:
+    - link "Back to shopping cart":
+      - /url: /dk/cart
+      - img
+      - text: Back to shopping cart
+    - link "Medusa Store":
+      - /url: /dk
+  - heading "Shipping Address" [level=2]:
+    - text: Shipping Address
+    - img
+  - paragraph:
+    - button "Edit"
+  - paragraph: Shipping Address
+  - paragraph: QA Accessibility
+  - paragraph: 1 Fictional QA Street
+  - paragraph: 2100, Copenhagen
+  - paragraph: DK
+  - paragraph: Contact
+  - paragraph
+  - paragraph: qa-a11y-desktop-1793085281246@example.test
+  - paragraph: Billing Address
+  - paragraph: Billing and delivery address are the same.
+  - heading "Delivery" [level=2]:
+    - text: Delivery
+    - img
+  - paragraph:
+    - button "Edit"
+  - paragraph: Method
+  - paragraph: Standard Shipping €10.00
+  - heading "Payment" [level=2]:
+    - text: Payment
+    - img
+  - paragraph:
+    - button "Edit"
+  - paragraph: Payment method
+  - paragraph: Manual Payment
+  - paragraph: Payment details
+  - img
+  - paragraph: Another step will appear
+  - heading "Review" [level=2]
+  - paragraph: By clicking the Place Order button, you confirm that you have read, understand and accept our Terms of Use, Terms of Sale and Returns Policy and acknowledge that you have read Medusa Store's Privacy Policy.
+  - button "Place order"
+  - heading "In your Cart" [level=2]
+  - text: Subtotal (excl. shipping and taxes) €35.00 Shipping €10.00 Taxes €0.00 Total €45.00
+  - table:
+    - rowgroup:
+      - 'row "QA Run Variant Tee Variant: M / White 1x €35.00 €35.00"':
+        - cell:
+          - link:
+            - /url: /dk/products/qa-20261026-001-variant
+            - img
+        - 'cell "QA Run Variant Tee Variant: M / White"':
+          - paragraph: QA Run Variant Tee
+          - paragraph: "Variant: M / White"
+        - cell "1x €35.00 €35.00":
+          - paragraph: 1x
+          - text: €35.00 €35.00
+  - button: Add Promotion Code(s)
+  - paragraph:
+    - text: Powered by
+    - link:
+      - /url: https://www.medusajs.com
+      - img
+    - text: "&"
+    - link:
+      - /url: https://nextjs.org
+      - img
+- alert

@@ -53,6 +53,7 @@ the portfolio owner reported manual verification as described in the reports.
 - [Manual results](docs/qa/reports/RUN-20261026-001/REPORT.md) and [mobile/tablet results](docs/qa/reports/RUN-20261026-002/REPORT.md)
 - [Playwright setup and learning guide](apps/storefront/tests/e2e/README.md)
 - [Initial automation results](docs/qa/reports/RUN-PW-20261027-001/REPORT.md)
+- [Accessibility baseline and manual gaps](docs/qa/reports/RUN-A11Y-20261027-003/REPORT.md), [findings](docs/qa/accessibility/FINDINGS.md) and [WCAG matrix](docs/qa/accessibility/WCAG22_MATRIX.md)
 - [Local Lighthouse baseline](docs/qa/reports/RUN-LH-20261027-002/REPORT.md) and [performance runner guide](apps/storefront/tests/performance/README.md)
 
 The functional/manual and automated scopes have known open defects. No QA-specific

@@ -1,0 +1,86 @@
+- main:
+  - navigation:
+    - button "Menu"
+    - link "Medusa Store":
+      - /url: /dk
+    - link "Search products":
+      - /url: /dk/search
+      - img
+    - link "Account":
+      - /url: /dk/account
+    - button "Cart (0)":
+      - link "Cart (0)":
+        - /url: /dk/cart
+  - heading "Search results for \"qa-a11y-no-match-20261027\"" [level=1]
+  - search:
+    - text: Search products
+    - searchbox "Search products": qa-a11y-no-match-20261027
+    - button "Search"
+  - paragraph: 0 products found
+  - paragraph: No products match your search. Try a different keyword.
+  - link "Medusa Store":
+    - /url: /dk
+  - text: Categories
+  - list:
+    - listitem:
+      - link "Shirts":
+        - /url: /dk/categories/shirts
+      - list
+    - listitem:
+      - link "Sweatshirts":
+        - /url: /dk/categories/sweatshirts
+      - list
+    - listitem:
+      - link "Merch":
+        - /url: /dk/categories/merch
+      - list
+    - listitem:
+      - link "Pants":
+        - /url: /dk/categories/pants
+      - list
+    - listitem:
+      - link "QA Run 20261026":
+        - /url: /dk/categories/qa-20261026-001
+      - list
+  - text: Customer service
+  - list:
+    - listitem:
+      - link "Shipping information":
+        - /url: /dk/shipping
+    - listitem:
+      - link "Return policy":
+        - /url: /dk/returns
+    - listitem:
+      - link "Terms of service":
+        - /url: /dk/terms
+    - listitem:
+      - link "Privacy policy":
+        - /url: /dk/privacy
+    - listitem:
+      - link "Contact":
+        - /url: /dk/contact
+    - listitem:
+      - link "Search":
+        - /url: /dk/search
+  - text: Medusa
+  - list:
+    - listitem:
+      - link "GitHub":
+        - /url: https://github.com/medusajs
+    - listitem:
+      - link "Documentation":
+        - /url: https://docs.medusajs.com
+    - listitem:
+      - link "Source code":
+        - /url: https://github.com/medusajs/dtc-starter
+  - paragraph: © 2026 Medusa Store. All rights reserved.
+  - paragraph:
+    - text: Powered by
+    - link:
+      - /url: https://www.medusajs.com
+      - img
+    - text: "&"
+    - link:
+      - /url: https://nextjs.org
+      - img
+- alert

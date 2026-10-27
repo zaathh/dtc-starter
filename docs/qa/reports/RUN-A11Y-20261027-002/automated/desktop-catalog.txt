@@ -1,0 +1,136 @@
+- main:
+  - navigation:
+    - button "Menu"
+    - link "Medusa Store":
+      - /url: /dk
+    - link "Search products":
+      - /url: /dk/search
+      - img
+    - link "Account":
+      - /url: /dk/account
+    - button "Cart (0)":
+      - link "Cart (0)":
+        - /url: /dk/cart
+  - heading "All products" [level=1]
+  - paragraph: Sort by
+  - img
+  - text: "Relevance Latest Arrivals Price: Low -> High Price: High -> Low Title: A -> Z Title: Z -> A"
+  - heading "Color (0)" [level=3]:
+    - button "Color (0)" [expanded]:
+      - text: Color (0)
+      - img
+  - region "Color (0)":
+    - button "Black (1)"
+    - button "White (1)"
+  - heading "Size (0)" [level=3]:
+    - button "Size (0)" [expanded]:
+      - text: Size (0)
+      - img
+  - region "Size (0)":
+    - button "L (4)"
+    - button "M (4)"
+    - button "S (4)"
+    - button "XL (4)"
+  - text: Category
+  - list:
+    - listitem:
+      - checkbox "Merch (1)"
+      - text: Merch (1)
+    - listitem:
+      - checkbox "Pants (1)"
+      - text: Pants (1)
+    - listitem:
+      - checkbox "Shirts (1)"
+      - text: Shirts (1)
+    - listitem:
+      - checkbox "Sweatshirts (1)"
+      - text: Sweatshirts (1)
+  - img
+  - searchbox "Search products"
+  - list:
+    - listitem:
+      - link "Medusa Shorts €10.00":
+        - /url: /dk/products/shorts
+        - paragraph: Medusa Shorts
+        - paragraph: €10.00
+    - listitem:
+      - link "Medusa T-Shirt €10.00":
+        - /url: /dk/products/t-shirt
+        - paragraph: Medusa T-Shirt
+        - paragraph: €10.00
+    - listitem:
+      - link "Medusa Sweatshirt €10.00":
+        - /url: /dk/products/sweatshirt
+        - paragraph: Medusa Sweatshirt
+        - paragraph: €10.00
+    - listitem:
+      - link "Medusa Sweatpants €10.00":
+        - /url: /dk/products/sweatpants
+        - paragraph: Medusa Sweatpants
+        - paragraph: €10.00
+  - link "Medusa Store":
+    - /url: /dk
+  - text: Categories
+  - list:
+    - listitem:
+      - link "Shirts":
+        - /url: /dk/categories/shirts
+      - list
+    - listitem:
+      - link "Sweatshirts":
+        - /url: /dk/categories/sweatshirts
+      - list
+    - listitem:
+      - link "Merch":
+        - /url: /dk/categories/merch
+      - list
+    - listitem:
+      - link "Pants":
+        - /url: /dk/categories/pants
+      - list
+    - listitem:
+      - link "QA Run 20261026":
+        - /url: /dk/categories/qa-20261026-001
+      - list
+  - text: Customer service
+  - list:
+    - listitem:
+      - link "Shipping information":
+        - /url: /dk/shipping
+    - listitem:
+      - link "Return policy":
+        - /url: /dk/returns
+    - listitem:
+      - link "Terms of service":
+        - /url: /dk/terms
+    - listitem:
+      - link "Privacy policy":
+        - /url: /dk/privacy
+    - listitem:
+      - link "Contact":
+        - /url: /dk/contact
+    - listitem:
+      - link "Search":
+        - /url: /dk/search
+  - text: Medusa
+  - list:
+    - listitem:
+      - link "GitHub":
+        - /url: https://github.com/medusajs
+    - listitem:
+      - link "Documentation":
+        - /url: https://docs.medusajs.com
+    - listitem:
+      - link "Source code":
+        - /url: https://github.com/medusajs/dtc-starter
+  - paragraph: © 2026 Medusa Store. All rights reserved.
+  - paragraph:
+    - text: Powered by
+    - link:
+      - /url: https://www.medusajs.com
+      - img
+    - text: "&"
+    - link:
+      - /url: https://nextjs.org
+      - img
+- alert

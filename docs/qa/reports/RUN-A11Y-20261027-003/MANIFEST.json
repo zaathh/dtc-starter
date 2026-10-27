@@ -1,0 +1,3652 @@
+{
+  "runId": "RUN-A11Y-20261027-003",
+  "startedAt": "2026-10-27T07:14:31.081Z",
+  "status": "complete-with-findings",
+  "applicationCommit": "1df2ae398512f9c70cbd3790711b8df3aa7d6443",
+  "branch": "test/accessibility-baseline",
+  "runnerSha256": "aef2a3d98c6d2e196525c5705b123bd9b5ae017e903ceaad109cc7f361cbee1d",
+  "buildId": "frzRcUQusiOSY97UXUJYw",
+  "adapter": "4.14.0",
+  "node": "v24.4.1",
+  "tags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21a",
+    "wcag21aa",
+    "wcag22aa"
+  ],
+  "profiles": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "plannedStates": [
+    "home",
+    "menu-open",
+    "catalog",
+    "search-empty",
+    "product",
+    "variant-selected",
+    "cart-empty",
+    "cart-filled",
+    "cart-invalid-coupon",
+    "checkout-address",
+    "checkout-required-error",
+    "checkout-delivery",
+    "checkout-payment",
+    "checkout-review",
+    "order-confirmation",
+    "account-login",
+    "account-error",
+    "account-signed-in",
+    "account-signed-out"
+  ],
+  "scope": "WCAG-tagged axe checks on selected page states; no rule suppression or node exclusions",
+  "executor": "AI-assisted browser automation; not human or screen-reader validation",
+  "data": "Existing QA M/White fixture, synthetic customer, fictional DK address, manual payment only",
+  "scans": [
+    {
+      "profile": "desktop",
+      "state": "home",
+      "at": "2026-10-27T07:14:32.129Z",
+      "url": "http://localhost:8000/dk",
+      "engine": {
+        "name": "axe-core",
+        "version": "4.14.0"
+      },
+      "violations": 3,
+      "violationNodes": 4,
+      "incomplete": 0,
+      "passes": 21,
+      "inapplicable": 43,
+      "rules": [
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "nodes": 2
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "tags": [
+            "cat.keyboard",
+            "wcag2a",
+            "wcag412",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "tags": [
+            "cat.sensory-and-visual-cues",
+            "wcag22aa",
+            "wcag258",
+            "EN-301-549v4",
+            "EN-9.2.5.8"
+          ],
+          "nodes": 1
+        }
+      ]
+    },
+    {
+      "profile": "desktop",
+      "state": "menu-open",
+      "at": "2026-10-27T07:14:32.631Z",
+      "url": "http://localhost:8000/dk",
+      "engine": {
+        "name": "axe-core",
+        "version": "4.14.0"
+      },
+      "violations": 5,
+      "violationNodes": 12,
+      "incomplete": 0,
+      "passes": 23,
+      "inapplicable": 40,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": 7
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "tags": [
+            "cat.text-alternatives",
+            "wcag2a",
+            "wcag111",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT7.a",
+            "TT7.b",
+            "EN-301-549",
+            "EN-9.1.1.1",
+            "ACT",
+            "RGAAv4",
+            "RGAA-1.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "nodes": 2
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "tags": [
+            "cat.keyboard",
+            "wcag2a",
+            "wcag412",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "tags": [
+            "cat.sensory-and-visual-cues",
+            "wcag22aa",
+            "wcag258",
+            "EN-301-549v4",
+            "EN-9.2.5.8"
+          ],
+          "nodes": 1
+        }
+      ]
+    },
+    {
+      "profile": "desktop",
+      "state": "catalog",
+      "at": "2026-10-27T07:14:33.113Z",
+      "url": "http://localhost:8000/dk/store",
+      "engine": {
+        "name": "axe-core",
+        "version": "4.14.0"
+      },
+      "violations": 3,
+      "violationNodes": 4,
+      "incomplete": 0,
+      "passes": 26,
+      "inapplicable": 38,
+      "rules": [
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "nodes": 2
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "tags": [
+            "cat.keyboard",
+            "wcag2a",
+            "wcag412",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "tags": [
+            "cat.sensory-and-visual-cues",
+            "wcag22aa",
+            "wcag258",
+            "EN-301-549v4",
+            "EN-9.2.5.8"
+          ],
+          "nodes": 1
+        }
+      ]
+    },
+    {
+      "profile": "desktop",
+      "state": "search-empty",
+      "at": "2026-10-27T07:14:33.532Z",
+      "url": "http://localhost:8000/dk/search?q=qa-a11y-no-match-20261027",
+      "engine": {
+        "name": "axe-core",
+        "version": "4.14.0"
+      },
+      "violations": 3,
+      "violationNodes": 4,
+      "incomplete": 0,
+      "passes": 24,
+      "inapplicable": 40,
+      "rules": [
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "nodes": 2
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "tags": [
+            "cat.keyboard",
+            "wcag2a",
+            "wcag412",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "tags": [
+            "cat.sensory-and-visual-cues",
+            "wcag22aa",
+            "wcag258",
+            "EN-301-549v4",
+            "EN-9.2.5.8"
+          ],
+          "nodes": 1
+        }
+      ]
+    },
+    {
+      "profile": "desktop",
+      "state": "product",
+      "at": "2026-10-27T07:14:37.666Z",
+      "url": "http://localhost:8000/dk/products/t-shirt?v_id=variant_01M5V9T0497FDXSC5XZPG7K0GN",
+      "engine": {
+        "name": "axe-core",
+        "version": "4.14.0"
+      },
+      "violations": 4,
+      "violationNodes": 6,
+      "incomplete": 0,
+      "passes": 25,
+      "inapplicable": 39,
+      "rules": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.9.1"
+          ],
+          "nodes": 2
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "nodes": 2
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "tags": [
+            "cat.keyboard",
+            "wcag2a",
+            "wcag412",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "tags": [
+            "cat.sensory-and-visual-cues",
+            "wcag22aa",
+            "wcag258",
+            "EN-301-549v4",
+            "EN-9.2.5.8"
+          ],
+          "nodes": 1
+        }
+      ]
+    },
+    {
+      "profile": "desktop",
+      "state": "variant-selected",
+      "at": "2026-10-27T07:14:38.301Z",
+      "url": "http://localhost:8000/dk/products/t-shirt?v_id=variant_01M5V9T049DB40CMTCM13Z8FJR",
+      "engine": {
+        "name": "axe-core",
+        "version": "4.14.0"
+      },
+      "violations": 4,
+      "violationNodes": 6,
+      "incomplete": 0,
+      "passes": 25,
+      "inapplicable": 39,
+      "rules": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.9.1"
+          ],
+          "nodes": 2
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "nodes": 2
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "tags": [
+            "cat.keyboard",
+            "wcag2a",
+            "wcag412",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "tags": [
+            "cat.sensory-and-visual-cues",
+            "wcag22aa",
+            "wcag258",
+            "EN-301-549v4",
+            "EN-9.2.5.8"
+          ],
+          "nodes": 1
+        }
+      ]
+    },
+    {
+      "profile": "desktop",
+      "state": "cart-empty",
+      "at": "2026-10-27T07:14:38.838Z",
+      "url": "http://localhost:8000/dk/cart",
+      "engine": {
+        "name": "axe-core",
+        "version": "4.14.0"
+      },
+      "violations": 4,
+      "violationNodes": 5,
+      "incomplete": 0,
+      "passes": 21,
+      "inapplicable": 43,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "nodes": 2
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "tags": [
+            "cat.keyboard",
+            "wcag2a",
+            "wcag412",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "tags": [
+            "cat.sensory-and-visual-cues",
+            "wcag22aa",
+            "wcag258",
+            "EN-301-549v4",
+            "EN-9.2.5.8"
+          ],
+          "nodes": 1
+        }
+      ]
+    },
+    {
+      "profile": "desktop",
+      "state": "cart-filled",
+      "at": "2026-10-27T07:14:39.614Z",
+      "url": "http://localhost:8000/dk/cart",
+      "engine": {
+        "name": "axe-core",
+        "version": "4.14.0"
+      },
+      "violations": 6,
+      "violationNodes": 8,
+      "incomplete": 1,
+      "passes": 24,
+      "inapplicable": 39,
+      "rules": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.9.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "nodes": 3
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "tags": [
+            "cat.keyboard",
+            "wcag2a",
+            "wcag412",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "tags": [
+            "cat.forms",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.n",
+            "TTv5",
+            "TT5.c",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "tags": [
+            "cat.sensory-and-visual-cues",
+            "wcag22aa",
+            "wcag258",
+            "EN-301-549v4",
+            "EN-9.2.5.8"
+          ],
+          "nodes": 1
+        }
+      ]
+    },
+    {
+      "profile": "desktop",
+      "state": "cart-invalid-coupon",
+      "at": "2026-10-27T07:14:40.126Z",
+      "url": "http://localhost:8000/dk/cart",
+      "engine": {
+        "name": "axe-core",
+        "version": "4.14.0"
+      },
+      "violations": 7,
+      "violationNodes": 10,
+      "incomplete": 1,
+      "passes": 24,
+      "inapplicable": 38,
+      "rules": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.9.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": 2
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "tags": [
+            "cat.forms",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.n",
+            "TTv5",
+            "TT5.c",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "nodes": 3
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "tags": [
+            "cat.keyboard",
+            "wcag2a",
+            "wcag412",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "tags": [
+            "cat.forms",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.n",
+            "TTv5",
+            "TT5.c",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "tags": [
+            "cat.sensory-and-visual-cues",
+            "wcag22aa",
+            "wcag258",
+            "EN-301-549v4",
+            "EN-9.2.5.8"
+          ],
+          "nodes": 1
+        }
+      ]
+    },
+    {
+      "profile": "desktop",
+      "state": "checkout-address",
+      "at": "2026-10-27T07:14:40.604Z",
+      "url": "http://localhost:8000/dk/checkout?step=address",
+      "engine": {
+        "name": "axe-core",
+        "version": "4.14.0"
+      },
+      "violations": 4,
+      "violationNodes": 13,
+      "incomplete": 0,
+      "passes": 24,
+      "inapplicable": 39,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "tags": [
+            "cat.forms",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.n",
+            "TTv5",
+            "TT5.c",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.1.1"
+          ],
+          "nodes": 8
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "nodes": 3
+        },
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "tags": [
+            "cat.forms",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.n",
+            "TTv5",
+            "TT5.c",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.1.1"
+          ],
+          "nodes": 1
+        }
+      ]
+    },
+    {
+      "profile": "desktop",
+      "state": "checkout-required-error",
+      "at": "2026-10-27T07:14:40.975Z",
+      "url": "http://localhost:8000/dk/checkout?step=address",
+      "engine": {
+        "name": "axe-core",
+        "version": "4.14.0"
+      },
+      "violations": 4,
+      "violationNodes": 13,
+      "incomplete": 0,
+      "passes": 24,
+      "inapplicable": 39,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "tags": [
+            "cat.forms",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.n",
+            "TTv5",
+            "TT5.c",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.1.1"
+          ],
+          "nodes": 8
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "nodes": 3
+        },
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "tags": [
+            "cat.forms",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.n",
+            "TTv5",
+            "TT5.c",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.1.1"
+          ],
+          "nodes": 1
+        }
+      ]
+    },
+    {
+      "profile": "desktop",
+      "state": "checkout-delivery",
+      "at": "2026-10-27T07:14:41.932Z",
+      "url": "http://localhost:8000/dk/checkout?step=delivery",
+      "engine": {
+        "name": "axe-core",
+        "version": "4.14.0"
+      },
+      "violations": 5,
+      "violationNodes": 10,
+      "incomplete": 1,
+      "passes": 22,
+      "inapplicable": 42,
+      "rules": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.9.1"
+          ],
+          "nodes": 2
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": 2
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "nodes": 3
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "tags": [
+            "cat.keyboard",
+            "wcag2a",
+            "wcag412",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "nodes": 2
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "tags": [
+            "cat.sensory-and-visual-cues",
+            "wcag22aa",
+            "wcag258",
+            "EN-301-549v4",
+            "EN-9.2.5.8"
+          ],
+          "nodes": 1
+        }
+      ]
+    },
+    {
+      "profile": "desktop",
+      "state": "checkout-payment",
+      "at": "2026-10-27T07:14:42.306Z",
+      "url": "http://localhost:8000/dk/checkout?step=payment",
+      "engine": {
+        "name": "axe-core",
+        "version": "4.14.0"
+      },
+      "violations": 5,
+      "violationNodes": 9,
+      "incomplete": 0,
+      "passes": 22,
+      "inapplicable": 42,
+      "rules": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.9.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": 3
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "nodes": 3
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "tags": [
+            "cat.keyboard",
+            "wcag2a",
+            "wcag412",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "tags": [
+            "cat.sensory-and-visual-cues",
+            "wcag22aa",
+            "wcag258",
+            "EN-301-549v4",
+            "EN-9.2.5.8"
+          ],
+          "nodes": 1
+        }
+      ]
+    },
+    {
+      "profile": "desktop",
+      "state": "checkout-review",
+      "at": "2026-10-27T07:14:42.856Z",
+      "url": "http://localhost:8000/dk/checkout?step=review",
+      "engine": {
+        "name": "axe-core",
+        "version": "4.14.0"
+      },
+      "violations": 2,
+      "violationNodes": 7,
+      "incomplete": 0,
+      "passes": 21,
+      "inapplicable": 43,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": 4
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "nodes": 3
+        }
+      ]
+    },
+    {
+      "profile": "desktop",
+      "state": "order-confirmation",
+      "at": "2026-10-27T07:14:43.794Z",
+      "url": "http://localhost:8000/dk/order/order_01M5Y3C6W70K0A4A0RRM2G3PFF/confirmed",
+      "engine": {
+        "name": "axe-core",
+        "version": "4.14.0"
+      },
+      "violations": 4,
+      "violationNodes": 6,
+      "incomplete": 0,
+      "passes": 23,
+      "inapplicable": 41,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": 2
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "nodes": 2
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "tags": [
+            "cat.keyboard",
+            "wcag2a",
+            "wcag412",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "tags": [
+            "cat.sensory-and-visual-cues",
+            "wcag22aa",
+            "wcag258",
+            "EN-301-549v4",
+            "EN-9.2.5.8"
+          ],
+          "nodes": 1
+        }
+      ]
+    },
+    {
+      "profile": "desktop",
+      "state": "account-login",
+      "at": "2026-10-27T07:14:44.176Z",
+      "url": "http://localhost:8000/dk/account",
+      "engine": {
+        "name": "axe-core",
+        "version": "4.14.0"
+      },
+      "violations": 6,
+      "violationNodes": 8,
+      "incomplete": 0,
+      "passes": 24,
+      "inapplicable": 40,
+      "rules": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.9.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "tags": [
+            "cat.forms",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.n",
+            "TTv5",
+            "TT5.c",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "nodes": 2
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "tags": [
+            "cat.keyboard",
+            "wcag2a",
+            "wcag412",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "tags": [
+            "cat.sensory-and-visual-cues",
+            "wcag22aa",
+            "wcag258",
+            "EN-301-549v4",
+            "EN-9.2.5.8"
+          ],
+          "nodes": 2
+        }
+      ]
+    },
+    {
+      "profile": "desktop",
+      "state": "account-error",
+      "at": "2026-10-27T07:14:44.562Z",
+      "url": "http://localhost:8000/dk/account",
+      "engine": {
+        "name": "axe-core",
+        "version": "4.14.0"
+      },
+      "violations": 6,
+      "violationNodes": 9,
+      "incomplete": 0,
+      "passes": 24,
+      "inapplicable": 40,
+      "rules": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.9.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": 2
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "tags": [
+            "cat.forms",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.n",
+            "TTv5",
+            "TT5.c",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "nodes": 2
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "tags": [
+            "cat.keyboard",
+            "wcag2a",
+            "wcag412",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "tags": [
+            "cat.sensory-and-visual-cues",
+            "wcag22aa",
+            "wcag258",
+            "EN-301-549v4",
+            "EN-9.2.5.8"
+          ],
+          "nodes": 2
+        }
+      ]
+    },
+    {
+      "profile": "desktop",
+      "state": "account-signed-in",
+      "at": "2026-10-27T07:14:45.100Z",
+      "url": "http://localhost:8000/dk/account",
+      "engine": {
+        "name": "axe-core",
+        "version": "4.14.0"
+      },
+      "violations": 4,
+      "violationNodes": 5,
+      "incomplete": 0,
+      "passes": 21,
+      "inapplicable": 43,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "nodes": 2
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "tags": [
+            "cat.keyboard",
+            "wcag2a",
+            "wcag412",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "tags": [
+            "cat.sensory-and-visual-cues",
+            "wcag22aa",
+            "wcag258",
+            "EN-301-549v4",
+            "EN-9.2.5.8"
+          ],
+          "nodes": 1
+        }
+      ]
+    },
+    {
+      "profile": "desktop",
+      "state": "account-signed-out",
+      "at": "2026-10-27T07:14:45.541Z",
+      "url": "http://localhost:8000/dk/account",
+      "engine": {
+        "name": "axe-core",
+        "version": "4.14.0"
+      },
+      "violations": 6,
+      "violationNodes": 8,
+      "incomplete": 0,
+      "passes": 24,
+      "inapplicable": 40,
+      "rules": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.9.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "tags": [
+            "cat.forms",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.n",
+            "TTv5",
+            "TT5.c",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "nodes": 2
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "tags": [
+            "cat.keyboard",
+            "wcag2a",
+            "wcag412",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "tags": [
+            "cat.sensory-and-visual-cues",
+            "wcag22aa",
+            "wcag258",
+            "EN-301-549v4",
+            "EN-9.2.5.8"
+          ],
+          "nodes": 2
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "state": "home",
+      "at": "2026-10-27T07:14:46.085Z",
+      "url": "http://localhost:8000/dk",
+      "engine": {
+        "name": "axe-core",
+        "version": "4.14.0"
+      },
+      "violations": 3,
+      "violationNodes": 4,
+      "incomplete": 0,
+      "passes": 21,
+      "inapplicable": 43,
+      "rules": [
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "nodes": 2
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "tags": [
+            "cat.keyboard",
+            "wcag2a",
+            "wcag412",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "tags": [
+            "cat.sensory-and-visual-cues",
+            "wcag22aa",
+            "wcag258",
+            "EN-301-549v4",
+            "EN-9.2.5.8"
+          ],
+          "nodes": 1
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "state": "menu-open",
+      "at": "2026-10-27T07:14:46.474Z",
+      "url": "http://localhost:8000/dk",
+      "engine": {
+        "name": "axe-core",
+        "version": "4.14.0"
+      },
+      "violations": 4,
+      "violationNodes": 5,
+      "incomplete": 0,
+      "passes": 22,
+      "inapplicable": 41,
+      "rules": [
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "tags": [
+            "cat.text-alternatives",
+            "wcag2a",
+            "wcag111",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT7.a",
+            "TT7.b",
+            "EN-301-549",
+            "EN-9.1.1.1",
+            "ACT",
+            "RGAAv4",
+            "RGAA-1.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "nodes": 2
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "tags": [
+            "cat.keyboard",
+            "wcag2a",
+            "wcag412",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "tags": [
+            "cat.sensory-and-visual-cues",
+            "wcag22aa",
+            "wcag258",
+            "EN-301-549v4",
+            "EN-9.2.5.8"
+          ],
+          "nodes": 1
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "state": "catalog",
+      "at": "2026-10-27T07:14:46.941Z",
+      "url": "http://localhost:8000/dk/store",
+      "engine": {
+        "name": "axe-core",
+        "version": "4.14.0"
+      },
+      "violations": 3,
+      "violationNodes": 4,
+      "incomplete": 0,
+      "passes": 26,
+      "inapplicable": 38,
+      "rules": [
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "nodes": 2
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "tags": [
+            "cat.keyboard",
+            "wcag2a",
+            "wcag412",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "tags": [
+            "cat.sensory-and-visual-cues",
+            "wcag22aa",
+            "wcag258",
+            "EN-301-549v4",
+            "EN-9.2.5.8"
+          ],
+          "nodes": 1
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "state": "search-empty",
+      "at": "2026-10-27T07:14:47.343Z",
+      "url": "http://localhost:8000/dk/search?q=qa-a11y-no-match-20261027",
+      "engine": {
+        "name": "axe-core",
+        "version": "4.14.0"
+      },
+      "violations": 3,
+      "violationNodes": 4,
+      "incomplete": 0,
+      "passes": 24,
+      "inapplicable": 40,
+      "rules": [
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "nodes": 2
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "tags": [
+            "cat.keyboard",
+            "wcag2a",
+            "wcag412",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "tags": [
+            "cat.sensory-and-visual-cues",
+            "wcag22aa",
+            "wcag258",
+            "EN-301-549v4",
+            "EN-9.2.5.8"
+          ],
+          "nodes": 1
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "state": "product",
+      "at": "2026-10-27T07:14:49.741Z",
+      "url": "http://localhost:8000/dk/products/t-shirt?v_id=variant_01M5V9T0497FDXSC5XZPG7K0GN",
+      "engine": {
+        "name": "axe-core",
+        "version": "4.14.0"
+      },
+      "violations": 4,
+      "violationNodes": 6,
+      "incomplete": 0,
+      "passes": 25,
+      "inapplicable": 39,
+      "rules": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.9.1"
+          ],
+          "nodes": 2
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "nodes": 2
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "tags": [
+            "cat.keyboard",
+            "wcag2a",
+            "wcag412",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "tags": [
+            "cat.sensory-and-visual-cues",
+            "wcag22aa",
+            "wcag258",
+            "EN-301-549v4",
+            "EN-9.2.5.8"
+          ],
+          "nodes": 1
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "state": "variant-selected",
+      "at": "2026-10-27T07:14:50.272Z",
+      "url": "http://localhost:8000/dk/products/t-shirt?v_id=variant_01M5V9T049DB40CMTCM13Z8FJR",
+      "engine": {
+        "name": "axe-core",
+        "version": "4.14.0"
+      },
+      "violations": 4,
+      "violationNodes": 6,
+      "incomplete": 1,
+      "passes": 26,
+      "inapplicable": 38,
+      "rules": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.9.1"
+          ],
+          "nodes": 2
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "nodes": 2
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "tags": [
+            "cat.keyboard",
+            "wcag2a",
+            "wcag412",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "tags": [
+            "cat.sensory-and-visual-cues",
+            "wcag22aa",
+            "wcag258",
+            "EN-301-549v4",
+            "EN-9.2.5.8"
+          ],
+          "nodes": 1
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "state": "cart-empty",
+      "at": "2026-10-27T07:14:50.703Z",
+      "url": "http://localhost:8000/dk/cart",
+      "engine": {
+        "name": "axe-core",
+        "version": "4.14.0"
+      },
+      "violations": 4,
+      "violationNodes": 5,
+      "incomplete": 0,
+      "passes": 21,
+      "inapplicable": 43,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "nodes": 2
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "tags": [
+            "cat.keyboard",
+            "wcag2a",
+            "wcag412",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "tags": [
+            "cat.sensory-and-visual-cues",
+            "wcag22aa",
+            "wcag258",
+            "EN-301-549v4",
+            "EN-9.2.5.8"
+          ],
+          "nodes": 1
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "state": "cart-filled",
+      "at": "2026-10-27T07:14:51.564Z",
+      "url": "http://localhost:8000/dk/cart",
+      "engine": {
+        "name": "axe-core",
+        "version": "4.14.0"
+      },
+      "violations": 6,
+      "violationNodes": 9,
+      "incomplete": 1,
+      "passes": 24,
+      "inapplicable": 39,
+      "rules": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.9.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "nodes": 3
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "tags": [
+            "cat.keyboard",
+            "wcag2a",
+            "wcag412",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "tags": [
+            "cat.forms",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.n",
+            "TTv5",
+            "TT5.c",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "tags": [
+            "cat.sensory-and-visual-cues",
+            "wcag22aa",
+            "wcag258",
+            "EN-301-549v4",
+            "EN-9.2.5.8"
+          ],
+          "nodes": 2
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "state": "cart-invalid-coupon",
+      "at": "2026-10-27T07:14:52.069Z",
+      "url": "http://localhost:8000/dk/cart",
+      "engine": {
+        "name": "axe-core",
+        "version": "4.14.0"
+      },
+      "violations": 7,
+      "violationNodes": 11,
+      "incomplete": 1,
+      "passes": 24,
+      "inapplicable": 38,
+      "rules": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.9.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": 2
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "tags": [
+            "cat.forms",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.n",
+            "TTv5",
+            "TT5.c",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "nodes": 3
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "tags": [
+            "cat.keyboard",
+            "wcag2a",
+            "wcag412",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "tags": [
+            "cat.forms",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.n",
+            "TTv5",
+            "TT5.c",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "tags": [
+            "cat.sensory-and-visual-cues",
+            "wcag22aa",
+            "wcag258",
+            "EN-301-549v4",
+            "EN-9.2.5.8"
+          ],
+          "nodes": 2
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "state": "checkout-address",
+      "at": "2026-10-27T07:14:52.717Z",
+      "url": "http://localhost:8000/dk/checkout?step=address",
+      "engine": {
+        "name": "axe-core",
+        "version": "4.14.0"
+      },
+      "violations": 4,
+      "violationNodes": 13,
+      "incomplete": 1,
+      "passes": 24,
+      "inapplicable": 39,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "tags": [
+            "cat.forms",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.n",
+            "TTv5",
+            "TT5.c",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.1.1"
+          ],
+          "nodes": 8
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "nodes": 3
+        },
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "tags": [
+            "cat.forms",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.n",
+            "TTv5",
+            "TT5.c",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.1.1"
+          ],
+          "nodes": 1
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "state": "checkout-required-error",
+      "at": "2026-10-27T07:14:53.087Z",
+      "url": "http://localhost:8000/dk/checkout?step=address",
+      "engine": {
+        "name": "axe-core",
+        "version": "4.14.0"
+      },
+      "violations": 4,
+      "violationNodes": 13,
+      "incomplete": 1,
+      "passes": 24,
+      "inapplicable": 39,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "tags": [
+            "cat.forms",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.n",
+            "TTv5",
+            "TT5.c",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.1.1"
+          ],
+          "nodes": 8
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "nodes": 3
+        },
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "tags": [
+            "cat.forms",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.n",
+            "TTv5",
+            "TT5.c",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.1.1"
+          ],
+          "nodes": 1
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "state": "checkout-delivery",
+      "at": "2026-10-27T07:14:53.962Z",
+      "url": "http://localhost:8000/dk/checkout?step=delivery",
+      "engine": {
+        "name": "axe-core",
+        "version": "4.14.0"
+      },
+      "violations": 5,
+      "violationNodes": 10,
+      "incomplete": 1,
+      "passes": 22,
+      "inapplicable": 42,
+      "rules": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.9.1"
+          ],
+          "nodes": 2
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": 2
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "nodes": 3
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "tags": [
+            "cat.keyboard",
+            "wcag2a",
+            "wcag412",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "nodes": 2
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "tags": [
+            "cat.sensory-and-visual-cues",
+            "wcag22aa",
+            "wcag258",
+            "EN-301-549v4",
+            "EN-9.2.5.8"
+          ],
+          "nodes": 1
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "state": "checkout-payment",
+      "at": "2026-10-27T07:14:54.339Z",
+      "url": "http://localhost:8000/dk/checkout?step=payment",
+      "engine": {
+        "name": "axe-core",
+        "version": "4.14.0"
+      },
+      "violations": 5,
+      "violationNodes": 9,
+      "incomplete": 0,
+      "passes": 22,
+      "inapplicable": 42,
+      "rules": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.9.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": 3
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "nodes": 3
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "tags": [
+            "cat.keyboard",
+            "wcag2a",
+            "wcag412",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "tags": [
+            "cat.sensory-and-visual-cues",
+            "wcag22aa",
+            "wcag258",
+            "EN-301-549v4",
+            "EN-9.2.5.8"
+          ],
+          "nodes": 1
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "state": "checkout-review",
+      "at": "2026-10-27T07:14:54.807Z",
+      "url": "http://localhost:8000/dk/checkout?step=review",
+      "engine": {
+        "name": "axe-core",
+        "version": "4.14.0"
+      },
+      "violations": 2,
+      "violationNodes": 7,
+      "incomplete": 0,
+      "passes": 21,
+      "inapplicable": 43,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": 4
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "nodes": 3
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "state": "order-confirmation",
+      "at": "2026-10-27T07:14:55.658Z",
+      "url": "http://localhost:8000/dk/order/order_01M5Y3CJH3X2ZWNY5JZRCXJC0Q/confirmed",
+      "engine": {
+        "name": "axe-core",
+        "version": "4.14.0"
+      },
+      "violations": 4,
+      "violationNodes": 6,
+      "incomplete": 0,
+      "passes": 23,
+      "inapplicable": 41,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": 2
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "nodes": 2
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "tags": [
+            "cat.keyboard",
+            "wcag2a",
+            "wcag412",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "tags": [
+            "cat.sensory-and-visual-cues",
+            "wcag22aa",
+            "wcag258",
+            "EN-301-549v4",
+            "EN-9.2.5.8"
+          ],
+          "nodes": 1
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "state": "account-login",
+      "at": "2026-10-27T07:14:56.029Z",
+      "url": "http://localhost:8000/dk/account",
+      "engine": {
+        "name": "axe-core",
+        "version": "4.14.0"
+      },
+      "violations": 6,
+      "violationNodes": 8,
+      "incomplete": 0,
+      "passes": 24,
+      "inapplicable": 40,
+      "rules": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.9.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "tags": [
+            "cat.forms",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.n",
+            "TTv5",
+            "TT5.c",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "nodes": 2
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "tags": [
+            "cat.keyboard",
+            "wcag2a",
+            "wcag412",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "tags": [
+            "cat.sensory-and-visual-cues",
+            "wcag22aa",
+            "wcag258",
+            "EN-301-549v4",
+            "EN-9.2.5.8"
+          ],
+          "nodes": 2
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "state": "account-error",
+      "at": "2026-10-27T07:14:56.388Z",
+      "url": "http://localhost:8000/dk/account",
+      "engine": {
+        "name": "axe-core",
+        "version": "4.14.0"
+      },
+      "violations": 6,
+      "violationNodes": 9,
+      "incomplete": 0,
+      "passes": 24,
+      "inapplicable": 40,
+      "rules": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.9.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": 2
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "tags": [
+            "cat.forms",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.n",
+            "TTv5",
+            "TT5.c",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "nodes": 2
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "tags": [
+            "cat.keyboard",
+            "wcag2a",
+            "wcag412",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "tags": [
+            "cat.sensory-and-visual-cues",
+            "wcag22aa",
+            "wcag258",
+            "EN-301-549v4",
+            "EN-9.2.5.8"
+          ],
+          "nodes": 2
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "state": "account-signed-in",
+      "at": "2026-10-27T07:14:56.916Z",
+      "url": "http://localhost:8000/dk/account",
+      "engine": {
+        "name": "axe-core",
+        "version": "4.14.0"
+      },
+      "violations": 4,
+      "violationNodes": 5,
+      "incomplete": 0,
+      "passes": 21,
+      "inapplicable": 43,
+      "rules": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "nodes": 2
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "tags": [
+            "cat.keyboard",
+            "wcag2a",
+            "wcag412",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "tags": [
+            "cat.sensory-and-visual-cues",
+            "wcag22aa",
+            "wcag258",
+            "EN-301-549v4",
+            "EN-9.2.5.8"
+          ],
+          "nodes": 1
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "state": "account-signed-out",
+      "at": "2026-10-27T07:14:57.257Z",
+      "url": "http://localhost:8000/dk/account",
+      "engine": {
+        "name": "axe-core",
+        "version": "4.14.0"
+      },
+      "violations": 6,
+      "violationNodes": 8,
+      "incomplete": 0,
+      "passes": 24,
+      "inapplicable": 40,
+      "rules": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.9.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "tags": [
+            "cat.forms",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.n",
+            "TTv5",
+            "TT5.c",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "nodes": 2
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "tags": [
+            "cat.keyboard",
+            "wcag2a",
+            "wcag412",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "tags": [
+            "cat.sensory-and-visual-cues",
+            "wcag22aa",
+            "wcag258",
+            "EN-301-549v4",
+            "EN-9.2.5.8"
+          ],
+          "nodes": 2
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "orders": [
+    {
+      "profile": "desktop",
+      "url": "http://localhost:8000/dk/order/order_01M5Y3C6W70K0A4A0RRM2G3PFF/confirmed",
+      "total": 45,
+      "currency": "eur",
+      "simulated": true
+    },
+    {
+      "profile": "mobile",
+      "url": "http://localhost:8000/dk/order/order_01M5Y3CJH3X2ZWNY5JZRCXJC0Q/confirmed",
+      "total": 45,
+      "currency": "eur",
+      "simulated": true
+    }
+  ],
+  "observations": [
+    {
+      "profile": "desktop",
+      "state": "cart-invalid-coupon",
+      "feedback": "Minified React error #441; visit https://react.dev/errors/441 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.",
+      "note": "Error-state presence is the scan prerequisite; this does not approve the wording as valid functional feedback"
+    },
+    {
+      "profile": "mobile",
+      "state": "cart-invalid-coupon",
+      "feedback": "Minified React error #441; visit https://react.dev/errors/441 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.",
+      "note": "Error-state presence is the scan prerequisite; this does not approve the wording as valid functional feedback"
+    }
+  ],
+  "browser": "156.0.8078.4",
+  "completedAt": "2026-10-27T07:14:57.495Z",
+  "totalRuleOccurrences": 169,
+  "totalNodeOccurrences": 289
+}
