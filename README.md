@@ -42,6 +42,23 @@
 
 A production-ready monorepo starter for direct-to-consumer ecommerce stores powered by Medusa and Next.js. Includes a fully featured storefront with product browsing, cart, checkout, customer accounts, and order management.
 
+## QA portfolio checkpoint
+
+This fork includes local QA portfolio work on the Medusa starter. Upstream code,
+license and author credits are preserved. Testing and documentation were AI-assisted;
+the portfolio owner reported manual verification as described in the reports.
+
+- [Phase 1–4 audit and current limitations](docs/qa/reports/PHASES-1-4-AUDIT-20261027.md)
+- [QA test plan](docs/qa/QA_TEST_PLAN.md) and [manual test cases](docs/qa/test-cases/MANUAL_TEST_CASES.md)
+- [Manual results](docs/qa/reports/RUN-20261026-001/REPORT.md) and [mobile/tablet results](docs/qa/reports/RUN-20261026-002/REPORT.md)
+- [Playwright setup and learning guide](apps/storefront/tests/e2e/README.md)
+- [Initial automation results](docs/qa/reports/RUN-PW-20261027-001/REPORT.md)
+
+The functional/manual and automated scopes have known open defects. No QA-specific
+CI workflow, production release approval, security clearance, performance baseline
+or accessibility conformance is claimed. The original upstream status badges below
+or above this section are not evidence that this fork's QA suite ran in CI.
+
 ## Features
 
 - All of [Medusa's commerce features](https://docs.medusajs.com/resources/commerce-modules)

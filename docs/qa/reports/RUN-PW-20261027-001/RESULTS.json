@@ -1,0 +1,573 @@
+{
+  "run_id": "RUN-PW-20261027-001",
+  "recorded_date": "2026-10-27",
+  "timezone": "Asia/Jakarta",
+  "runner_start_utc": "2026-10-27T02:20:29.032Z",
+  "runner_duration_ms": 120099.505,
+  "runner_exit_code": 0,
+  "runner_stats": {
+    "startTime": "2026-10-27T02:20:29.032Z",
+    "duration": 120099.505,
+    "expected": 51,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "executor": "AI QA assistant; no owner execution claimed for this automated run",
+  "branch": "test/playwright-setup",
+  "application_baseline": "204130a32d80b704ab509069dcc1a2f8a61f51c1",
+  "parent_commit": "f5419200e0706ae0a7a120ba64f4945a29a2e4aa",
+  "automation_code": "Uncommitted working tree at execution; inspect branch diff",
+  "tool": "@playwright/test 1.64.1",
+  "browser": "Downloaded Chromium 156.0.8078.4; headless, viewport sizes only",
+  "counts": {
+    "executions": 51,
+    "actual_pass": 47,
+    "expected_failures": 4,
+    "unexpected_failures": 0,
+    "skipped": 0,
+    "flaky": 0
+  },
+  "by_project": {
+    "desktop": {
+      "Pass": 16,
+      "Expected failure": 1,
+      "Unexpected": 0
+    },
+    "mobile": {
+      "Pass": 15,
+      "Expected failure": 2,
+      "Unexpected": 0
+    },
+    "tablet": {
+      "Pass": 16,
+      "Expected failure": 1,
+      "Unexpected": 0
+    }
+  },
+  "tests": [
+    {
+      "title": "TC-022: invalid login does not grant account access",
+      "file": "account.spec.ts",
+      "project": "desktop",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 1483,
+      "attempts": 1
+    },
+    {
+      "title": "TC-023: valid login and logout change account access",
+      "file": "account.spec.ts",
+      "project": "desktop",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 1705,
+      "attempts": 1
+    },
+    {
+      "title": "TC-022: invalid login does not grant account access",
+      "file": "account.spec.ts",
+      "project": "mobile",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 795,
+      "attempts": 1
+    },
+    {
+      "title": "TC-023: valid login and logout change account access",
+      "file": "account.spec.ts",
+      "project": "mobile",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 1210,
+      "attempts": 1
+    },
+    {
+      "title": "TC-022: invalid login does not grant account access",
+      "file": "account.spec.ts",
+      "project": "tablet",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 677,
+      "attempts": 1
+    },
+    {
+      "title": "TC-023: valid login and logout change account access",
+      "file": "account.spec.ts",
+      "project": "tablet",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 1462,
+      "attempts": 1
+    },
+    {
+      "title": "TC-011\u2013015: cart supports add, quantity, reload, and removal",
+      "file": "cart.spec.ts",
+      "project": "desktop",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 3515,
+      "attempts": 1
+    },
+    {
+      "title": "TC-016/017: invalid coupon is rejected and valid coupon calculates 10 percent",
+      "file": "cart.spec.ts",
+      "project": "desktop",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 3453,
+      "attempts": 1
+    },
+    {
+      "title": "TC-011\u2013015: cart supports add, quantity, reload, and removal",
+      "file": "cart.spec.ts",
+      "project": "mobile",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 2444,
+      "attempts": 1
+    },
+    {
+      "title": "TC-016/017: invalid coupon is rejected and valid coupon calculates 10 percent",
+      "file": "cart.spec.ts",
+      "project": "mobile",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 2750,
+      "attempts": 1
+    },
+    {
+      "title": "TC-011\u2013015: cart supports add, quantity, reload, and removal",
+      "file": "cart.spec.ts",
+      "project": "tablet",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 2582,
+      "attempts": 1
+    },
+    {
+      "title": "TC-016/017: invalid coupon is rejected and valid coupon calculates 10 percent",
+      "file": "cart.spec.ts",
+      "project": "tablet",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 2722,
+      "attempts": 1
+    },
+    {
+      "title": "TC-003: exact-title search returns only the expected product",
+      "file": "catalog.spec.ts",
+      "project": "desktop",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 1007,
+      "attempts": 1
+    },
+    {
+      "title": "TC-004: unmatched search displays an empty state",
+      "file": "catalog.spec.ts",
+      "project": "desktop",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 727,
+      "attempts": 1
+    },
+    {
+      "title": "TC-005: category prices follow both sort directions",
+      "file": "catalog.spec.ts",
+      "project": "desktop",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 920,
+      "attempts": 1
+    },
+    {
+      "title": "TC-002/006: category pagination covers the exact fixture membership",
+      "file": "catalog.spec.ts",
+      "project": "desktop",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 757,
+      "attempts": 1
+    },
+    {
+      "title": "TC-003: exact-title search returns only the expected product",
+      "file": "catalog.spec.ts",
+      "project": "mobile",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 711,
+      "attempts": 1
+    },
+    {
+      "title": "TC-004: unmatched search displays an empty state",
+      "file": "catalog.spec.ts",
+      "project": "mobile",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 691,
+      "attempts": 1
+    },
+    {
+      "title": "TC-005: category prices follow both sort directions",
+      "file": "catalog.spec.ts",
+      "project": "mobile",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 951,
+      "attempts": 1
+    },
+    {
+      "title": "TC-002/006: category pagination covers the exact fixture membership",
+      "file": "catalog.spec.ts",
+      "project": "mobile",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 710,
+      "attempts": 1
+    },
+    {
+      "title": "TC-003: exact-title search returns only the expected product",
+      "file": "catalog.spec.ts",
+      "project": "tablet",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 721,
+      "attempts": 1
+    },
+    {
+      "title": "TC-004: unmatched search displays an empty state",
+      "file": "catalog.spec.ts",
+      "project": "tablet",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 700,
+      "attempts": 1
+    },
+    {
+      "title": "TC-005: category prices follow both sort directions",
+      "file": "catalog.spec.ts",
+      "project": "tablet",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 1012,
+      "attempts": 1
+    },
+    {
+      "title": "TC-002/006: category pagination covers the exact fixture membership",
+      "file": "catalog.spec.ts",
+      "project": "tablet",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 733,
+      "attempts": 1
+    },
+    {
+      "title": "TC-018: required address fields prevent empty checkout submission",
+      "file": "checkout.spec.ts",
+      "project": "desktop",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 2660,
+      "attempts": 1
+    },
+    {
+      "title": "TC-019\u2013021: local simulated checkout retains address and order confirmation",
+      "file": "checkout.spec.ts",
+      "project": "desktop",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 6275,
+      "attempts": 1
+    },
+    {
+      "title": "TC-018: required address fields prevent empty checkout submission",
+      "file": "checkout.spec.ts",
+      "project": "mobile",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 1955,
+      "attempts": 1
+    },
+    {
+      "title": "TC-019\u2013021: local simulated checkout retains address and order confirmation",
+      "file": "checkout.spec.ts",
+      "project": "mobile",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 5256,
+      "attempts": 1
+    },
+    {
+      "title": "TC-018: required address fields prevent empty checkout submission",
+      "file": "checkout.spec.ts",
+      "project": "tablet",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 1957,
+      "attempts": 1
+    },
+    {
+      "title": "TC-019\u2013021: local simulated checkout retains address and order confirmation",
+      "file": "checkout.spec.ts",
+      "project": "tablet",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 6106,
+      "attempts": 1
+    },
+    {
+      "title": "TC-001: homepage displays the main heading",
+      "file": "home.spec.ts",
+      "project": "desktop",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 421,
+      "attempts": 1
+    },
+    {
+      "title": "TC-001: navigation menu opens and closes",
+      "file": "home.spec.ts",
+      "project": "desktop",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 630,
+      "attempts": 1
+    },
+    {
+      "title": "TC-008: missing product provides a usable not-found page",
+      "file": "home.spec.ts",
+      "project": "desktop",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 523,
+      "attempts": 1
+    },
+    {
+      "title": "TC-001: homepage displays the main heading",
+      "file": "home.spec.ts",
+      "project": "mobile",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 488,
+      "attempts": 1
+    },
+    {
+      "title": "TC-001: navigation menu opens and closes",
+      "file": "home.spec.ts",
+      "project": "mobile",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 604,
+      "attempts": 1
+    },
+    {
+      "title": "TC-008: missing product provides a usable not-found page",
+      "file": "home.spec.ts",
+      "project": "mobile",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 527,
+      "attempts": 1
+    },
+    {
+      "title": "TC-001: homepage displays the main heading",
+      "file": "home.spec.ts",
+      "project": "tablet",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 468,
+      "attempts": 1
+    },
+    {
+      "title": "TC-001: navigation menu opens and closes",
+      "file": "home.spec.ts",
+      "project": "tablet",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 654,
+      "attempts": 1
+    },
+    {
+      "title": "TC-008: missing product provides a usable not-found page",
+      "file": "home.spec.ts",
+      "project": "tablet",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 505,
+      "attempts": 1
+    },
+    {
+      "title": "TC-025 / BUG-001: Customer Service should reach a usable destination",
+      "file": "known-issues.spec.ts",
+      "project": "desktop",
+      "expected_status": "failed",
+      "actual_status": "failed",
+      "outcome": "Expected failure",
+      "duration_ms": 15751,
+      "attempts": 1,
+      "failure_reason": "Error: expect(locator).not.toBeVisible() failed\n\nLocator:  getByRole('heading', { name: 'Page not found', exact: true })\nExpected: not visible\nReceived: visible\nTimeout:  15000ms\n\nCall log:\n  - Expect \"not toBeVisible\" getByRole('heading', { name: 'Page not found', exact: true }) with timeout 15000ms\n  - waiting for getByRole('heading', { name: 'Page not found', exact: true })\n    34 \u00d7 locator resolved to <h1 class=\"text-2xl-semi text-ui-fg-base\">Page not found</h1>\n       - unexpected value \"visible\"\n"
+    },
+    {
+      "title": "RSP-001 / BUG-002: open navigation menu stays within viewport",
+      "file": "known-issues.spec.ts",
+      "project": "desktop",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 622,
+      "attempts": 1
+    },
+    {
+      "title": "TC-025 / BUG-001: Customer Service should reach a usable destination",
+      "file": "known-issues.spec.ts",
+      "project": "mobile",
+      "expected_status": "failed",
+      "actual_status": "failed",
+      "outcome": "Expected failure",
+      "duration_ms": 15715,
+      "attempts": 1,
+      "failure_reason": "Error: expect(locator).not.toBeVisible() failed\n\nLocator:  getByRole('heading', { name: 'Page not found', exact: true })\nExpected: not visible\nReceived: visible\nTimeout:  15000ms\n\nCall log:\n  - Expect \"not toBeVisible\" getByRole('heading', { name: 'Page not found', exact: true }) with timeout 15000ms\n  - waiting for getByRole('heading', { name: 'Page not found', exact: true })\n    34 \u00d7 locator resolved to <h1 class=\"text-2xl-semi text-ui-fg-base\">Page not found</h1>\n       - unexpected value \"visible\"\n"
+    },
+    {
+      "title": "RSP-001 / BUG-002: open navigation menu stays within viewport",
+      "file": "known-issues.spec.ts",
+      "project": "mobile",
+      "expected_status": "failed",
+      "actual_status": "failed",
+      "outcome": "Expected failure",
+      "duration_ms": 590,
+      "attempts": 1,
+      "failure_reason": "Error: expect(received).toBeLessThanOrEqual(expected)\n\nExpected: <= 390\nReceived:    398"
+    },
+    {
+      "title": "TC-025 / BUG-001: Customer Service should reach a usable destination",
+      "file": "known-issues.spec.ts",
+      "project": "tablet",
+      "expected_status": "failed",
+      "actual_status": "failed",
+      "outcome": "Expected failure",
+      "duration_ms": 15741,
+      "attempts": 1,
+      "failure_reason": "Error: expect(locator).not.toBeVisible() failed\n\nLocator:  getByRole('heading', { name: 'Page not found', exact: true })\nExpected: not visible\nReceived: visible\nTimeout:  15000ms\n\nCall log:\n  - Expect \"not toBeVisible\" getByRole('heading', { name: 'Page not found', exact: true }) with timeout 15000ms\n  - waiting for getByRole('heading', { name: 'Page not found', exact: true })\n    34 \u00d7 locator resolved to <h1 class=\"text-2xl-semi text-ui-fg-base\">Page not found</h1>\n       - unexpected value \"visible\"\n"
+    },
+    {
+      "title": "RSP-001 / BUG-002: open navigation menu stays within viewport",
+      "file": "known-issues.spec.ts",
+      "project": "tablet",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 576,
+      "attempts": 1
+    },
+    {
+      "title": "TC-007: M/White selects the EUR 35 variant",
+      "file": "products.spec.ts",
+      "project": "desktop",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 912,
+      "attempts": 1
+    },
+    {
+      "title": "TC-009: stock-zero product cannot be added",
+      "file": "products.spec.ts",
+      "project": "desktop",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 547,
+      "attempts": 1
+    },
+    {
+      "title": "TC-007: M/White selects the EUR 35 variant",
+      "file": "products.spec.ts",
+      "project": "mobile",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 761,
+      "attempts": 1
+    },
+    {
+      "title": "TC-009: stock-zero product cannot be added",
+      "file": "products.spec.ts",
+      "project": "mobile",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 466,
+      "attempts": 1
+    },
+    {
+      "title": "TC-007: M/White selects the EUR 35 variant",
+      "file": "products.spec.ts",
+      "project": "tablet",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 787,
+      "attempts": 1
+    },
+    {
+      "title": "TC-009: stock-zero product cannot be added",
+      "file": "products.spec.ts",
+      "project": "tablet",
+      "expected_status": "passed",
+      "actual_status": "passed",
+      "outcome": "Pass",
+      "duration_ms": 490,
+      "attempts": 1
+    }
+  ],
+  "reviewed_known_failures": {
+    "BUG-001": "Page not found remained visible at Customer Service; all three projects",
+    "BUG-002": "Mobile document width 398 exceeded viewport 390"
+  },
+  "screenshots": [
+    "desktop-order-confirmation.png",
+    "mobile-order-confirmation.png",
+    "tablet-order-confirmation.png"
+  ]
+}
