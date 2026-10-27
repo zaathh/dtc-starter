@@ -61,3 +61,9 @@ Initial scores above are retained as historical planning judgments; no measured 
 | RISK-014 | Actual run records source commits, dirty tracked diff, environment and fixture manifests | Phase 3 changes remain local/uncommitted; publication and independent review have not occurred |
 
 RISK-008 accessibility and RISK-009/RISK-012 performance remain unassessed until their planned phases. No risk is closed or accepted merely because scoped checks passed.
+
+## Publication and automation checkpoint — October 27, 2026
+
+Phase 3 documentation and evidence were published in commit `f541920` through draft PR #2, stacked on test-plan PR #1. The owner reported manual verification of the initial cases and the mobile/tablet follow-up; this is owner-reported confirmation, not observed execution evidence. Historical first-cycle status statements above are retained as dated snapshots.
+
+The [Phase 1–4 audit](reports/PHASES-1-4-AUDIT-20261027.md) links the initial critical-flow Playwright suite and its latest validation. BUG-001 remains open, and BUG-002 adds a reproduced minor mobile menu overflow. Expected-failure annotations do not close either issue or establish risk acceptance. No residual risk score is recalculated without evidence. Broader API automation, database bootstrap portability, browser engines, CI, performance, accessibility and detailed business rules remain declared gaps.

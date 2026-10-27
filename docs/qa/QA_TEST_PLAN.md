@@ -1,6 +1,6 @@
 # QA Test Plan — Medusa DTC Starter
 
-Status: Version 1.2 — planning baseline with the first scoped Phase 3 execution linked. Detailed business criteria remain pending where not covered by the owner-approved local baseline.
+Status: Version 1.3 — local manual, responsive and initial critical-flow automation evidence linked. Detailed business criteria and declared coverage gaps remain pending; no release acceptance is implied.
 Planning date: October 26, 2026 (Asia/Jakarta).
 Upstream: https://github.com/medusajs/dtc-starter
 Portfolio fork: https://github.com/zaathh/dtc-starter
@@ -161,7 +161,7 @@ Planned repository structure:
 - `docs/qa/bug-reports/`
 - `docs/qa/reports/` for execution, performance, and accessibility summaries
 
-The automation location will be chosen in Phase 4. Test-case, defect-report, execution-report, and automation directories remain future work; the planning registers and reusable templates are present. Templates do not count as execution evidence.
+The implemented automation is in `apps/storefront/tests/e2e/`, with configuration in `apps/storefront/playwright.config.ts`. Detailed manual cases, defect reports and execution artifacts are present in the directories above. See the [Playwright guide](../../apps/storefront/tests/e2e/README.md) and [Phase 1–4 checkpoint audit](reports/PHASES-1-4-AUDIT-20261027.md). Templates alone do not count as execution evidence.
 
 Use English for repository documentation, test descriptions, defect reports, and portfolio content. Mentoring conversations may remain in Indonesian.
 
@@ -208,8 +208,8 @@ The eight agreed phases are milestone gates. Continue to the next phase only on 
 | Milestone | Output | Depends on | Planning status |
 | --- | --- | --- | --- |
 | Phase 2 planning revision | Plan, risk/test-basis registers, report templates | Read-only exploration | Documents prepared; business decisions pending |
-| Phase 3 manual QA | Detailed cases, run records, triaged findings | Case-level readiness | First bounded cycle complete: 25 Pass, 1 Fail; BUG-001 triage/fix pending |
-| Phase 4 automation | Critical-flow tests and reproducible run instructions | Understood flows, tool approval | Not started |
+| Phase 3 manual QA | Detailed cases, run records, findings | Case-level readiness | Manual and mobile/tablet follow-ups recorded; BUG-001 and BUG-002 remain open with proposed classifications |
+| Phase 4 automation | Critical-flow tests and run instructions | Understood flows, tool approval and prepared local fixtures | Initial Chromium suite implemented: 17 scenarios × 3 viewport sizes; API/country/full-footer automation and Firefox/WebKit/CI remain deferred |
 | Phase 5 performance | Reproducible baseline artifacts | Production build, controlled setup | Not started |
 | Phase 6 accessibility | Automated and manual scoped assessment | Tool approval, agreed page/process scope | Not started |
 | Phase 7 fixes | Small reviewed changes and targeted checks | Verified issues, change approval | Not started |
@@ -293,4 +293,14 @@ This is a project-specific adaptation of professional testing practices, informe
 
 On October 26, 2026 the owner approved synthetic local fixture changes and a basic acceptance baseline. [The 26-case manual suite](test-cases/MANUAL_TEST_CASES.md) was written before execution. [RUN-20261026-001](reports/RUN-20261026-001/REPORT.md) records 25 Pass and 1 Fail, with all 17 included P1 cases passing their scoped checks. [BUG-001](bug-reports/BUG-001-customer-service-link-404.md) remains open. This is not a whole-application acceptance result, a performance assessment or a WCAG conformance claim.
 
-Version 1.2, dated 2026-10-26: linked actual first-cycle evidence and the owner's limited acceptance/data authorization; no application fix or risk waiver implied. Phase 4–8 execution remains pending.
+Version 1.2, dated 2026-10-26: linked actual first-cycle evidence and the owner's limited acceptance/data authorization; no application fix or risk waiver implied. This is the historical 1.2 snapshot; the subsequent Phase 4 update is below.
+
+## Phase 4 checkpoint update — October 27, 2026
+
+The owner approved Playwright setup and test creation, then requested an audit and GitHub publication. The initial [automated run](reports/RUN-PW-20261027-001/REPORT.md) recorded 47 passing executions and four expected failures across 51 executions, without skips or unexpected failures. A fresh pre-publication audit is recorded in [PHASES-1-4-AUDIT-20261027](reports/PHASES-1-4-AUDIT-20261027.md). Known-failure annotations apply only after page/navigation/measurement prerequisites succeed.
+
+The suite depends on the explicitly documented local fixtures and ignored synthetic credentials. It is not a one-command database bootstrap from a fresh clone. Business API checks remain recorded manual evidence, not automated coverage. Cross-browser testing, CI, production-build verification, performance and accessibility have not been completed. Phases 5–8 remain unstarted.
+
+| Version | Date | Change | Review status |
+| --- | --- | --- | --- |
+| 1.3 | 2026-10-27 | Linked responsive and initial Playwright results, current file locations and checkpoint limitations | User requested audit/publication; defects remain open, no release waiver |
