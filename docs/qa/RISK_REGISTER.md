@@ -71,3 +71,7 @@ The [Phase 1–4 audit](reports/PHASES-1-4-AUDIT-20261027.md) links the initial 
 ## Scoped performance baseline — October 27, 2026
 
 [RUN-LH-20261027-002](reports/RUN-LH-20261027-002/REPORT.md) adds evidence relevant to RISK-009/RISK-012: 24 completed Lighthouse measurements under recorded local production-build conditions. Catalog CLS, product LCP/image-delivery and mobile checkout TBT are investigation priorities. Raw reports, independent medians and ranges are retained. No numeric budget was adopted, risk score recalculated, optimization achieved or residual risk accepted. RISK-008 accessibility remains unassessed; this performance-only run does not establish WCAG conformance.
+
+## Phase 6 evidence update — October 27, 2026
+
+Historical statements above describe earlier checkpoints. RISK-008 now has a scoped assessment in [RUN-A11Y-20261027-003](reports/RUN-A11Y-20261027-003/REPORT.md): unnamed controls, unassociated labels, low text contrast, nested interaction, missing image semantics and invisible focus remain open. The [criterion matrix](accessibility/WCAG22_MATRIX.md) preserves untested manual/assistive-technology coverage. Risk is neither closed nor accepted; no residual score is recalculated from scan counts. RISK-009/RISK-012 have the Phase 5 performance evidence noted above and remain open.

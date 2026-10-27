@@ -1,0 +1,128 @@
+{
+  "at": "2026-10-27T07:45:14.558Z",
+  "executor": "Playwright programmatic probes; visual screenshots require review",
+  "browser": "156.0.8078.4",
+  "observations": [
+    {
+      "probe": "stable-menu",
+      "width": 1440,
+      "rules": [
+        "color-contrast",
+        "image-alt",
+        "link-name",
+        "nested-interactive",
+        "target-size"
+      ],
+      "opacity": "1"
+    },
+    {
+      "probe": "stable-menu",
+      "width": 390,
+      "rules": [
+        "color-contrast",
+        "image-alt",
+        "link-name",
+        "nested-interactive"
+      ],
+      "opacity": "1"
+    },
+    {
+      "probe": "narrow-layout",
+      "route": "/dk",
+      "spacing": false,
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "Medusa Next.js Starter Template",
+      "lang": "en",
+      "media": 0,
+      "controls": []
+    },
+    {
+      "probe": "narrow-layout",
+      "route": "/dk",
+      "spacing": true,
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "Medusa Next.js Starter Template",
+      "lang": "en",
+      "media": 0,
+      "controls": []
+    },
+    {
+      "probe": "narrow-layout",
+      "route": "/dk/store",
+      "spacing": false,
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "Store",
+      "lang": "en",
+      "media": 0,
+      "controls": []
+    },
+    {
+      "probe": "narrow-layout",
+      "route": "/dk/store",
+      "spacing": true,
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "Store",
+      "lang": "en",
+      "media": 0,
+      "controls": []
+    },
+    {
+      "probe": "narrow-layout",
+      "route": "/dk/products/t-shirt",
+      "spacing": false,
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "Medusa T-Shirt | Medusa Store",
+      "lang": "en",
+      "media": 0,
+      "controls": []
+    },
+    {
+      "probe": "narrow-layout",
+      "route": "/dk/products/t-shirt",
+      "spacing": true,
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "Medusa T-Shirt | Medusa Store",
+      "lang": "en",
+      "media": 0,
+      "controls": []
+    },
+    {
+      "probe": "narrow-layout",
+      "route": "/dk/account",
+      "spacing": false,
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "Sign in",
+      "lang": "en",
+      "media": 0,
+      "controls": []
+    },
+    {
+      "probe": "narrow-layout",
+      "route": "/dk/account",
+      "spacing": true,
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "Sign in",
+      "lang": "en",
+      "media": 0,
+      "controls": []
+    },
+    {
+      "probe": "account-native-required",
+      "focused": true,
+      "valid": false,
+      "valueMissing": true,
+      "validationMessage": "Please fill out this field.",
+      "id": "",
+      "labels": [],
+      "title": "Enter a valid email address."
+    }
+  ]
+}

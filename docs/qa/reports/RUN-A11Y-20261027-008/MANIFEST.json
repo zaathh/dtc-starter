@@ -1,0 +1,96 @@
+{
+  "runId": "RUN-A11Y-20261027-008",
+  "at": "2026-10-27T08:03:24.885Z",
+  "applicationCommit": "fc7dafa1b05f02c1dd886724f8d96d0ee8be0155",
+  "executor": "AI-authored Playwright keyboard-event automation; no pointer clicks, forced focus, fill or screen-reader verification",
+  "runtime": "Local development server; UI and focus may differ from the production baseline",
+  "directCartEntry": true,
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "steps": [
+    {
+      "name": "product-added",
+      "url": "http://localhost:8000/dk/products/qa-20261026-001-variant?v_id=variant_01M5VE4CMV3WJZZZ25CHY43FA2",
+      "focus": {
+        "tag": "BODY",
+        "testId": null,
+        "name": null,
+        "text": "MenuMedusa StoreAccountCart (1)CartQA Run Variant TeeVariant: M / WhiteQuantity: 1€35.00Re"
+      }
+    },
+    {
+      "name": "cart-after-escape",
+      "url": "http://localhost:8000/dk/cart",
+      "focus": {
+        "tag": "BODY",
+        "testId": null,
+        "name": null,
+        "text": "MenuMedusa StoreAccountCart (1)Medusa StoreCategoriesShirtsSweatshirtsMerchPantsCustomer s"
+      }
+    },
+    {
+      "name": "required-address-error",
+      "url": "http://localhost:8000/dk/checkout?step=address",
+      "focus": {
+        "tag": "INPUT",
+        "testId": "shipping-first-name-input",
+        "name": "shipping_address.first_name",
+        "text": "[input]"
+      }
+    },
+    {
+      "name": "checkout-review",
+      "url": "http://localhost:8000/dk/checkout?step=review",
+      "focus": {
+        "tag": "BODY",
+        "testId": null,
+        "name": null,
+        "text": "Back to shopping cartBackMedusa StoreShipping AddressEditShipping AddressQA Keyboard2 Fict"
+      }
+    },
+    {
+      "name": "order-confirmation",
+      "url": "http://localhost:8000/dk/order/order_01M5Y65JY1RCFQQEJXTC9ZQFR4/confirmed",
+      "focus": {
+        "tag": "BODY",
+        "testId": null,
+        "name": null,
+        "text": "MenuMedusa StoreAccountCart (0)Thank you!Your order was placed successfully.We have sent t"
+      }
+    },
+    {
+      "name": "account-signed-in",
+      "url": "http://localhost:8000/dk/account",
+      "focus": {
+        "tag": "BODY",
+        "testId": null,
+        "name": null,
+        "text": "MenuMedusa StoreAccountCart (0)Hello QAProfileAddressesOrdersLog outAccountOverviewProfile"
+      }
+    },
+    {
+      "name": "account-signed-out",
+      "url": "http://localhost:8000/dk/account",
+      "focus": {
+        "tag": "BODY",
+        "testId": null,
+        "name": null,
+        "text": "MenuMedusa StoreAccountCart (0)Welcome backSign in to access an enhanced shopping experien"
+      }
+    }
+  ],
+  "observations": [
+    "Cart was opened by direct URL as a separate task entry. Product-to-cart navigation is bypassed and is not passed by this run."
+  ],
+  "status": "completed",
+  "orders": [
+    {
+      "url": "http://localhost:8000/dk/order/order_01M5Y65JY1RCFQQEJXTC9ZQFR4/confirmed",
+      "total": 45,
+      "simulated": true
+    }
+  ],
+  "browser": "156.0.8078.4"
+}

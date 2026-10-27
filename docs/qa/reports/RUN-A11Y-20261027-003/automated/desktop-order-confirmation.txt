@@ -1,0 +1,121 @@
+- main:
+  - navigation:
+    - button "Menu"
+    - link "Medusa Store":
+      - /url: /dk
+    - link "Search products":
+      - /url: /dk/search
+      - img
+    - link "Account":
+      - /url: /dk/account
+    - button "Cart (0)":
+      - link "Cart (0)":
+        - /url: /dk/cart
+  - heading "Thank you! Your order was placed successfully." [level=1]
+  - paragraph: We have sent the order confirmation details to qa-a11y-desktop-1793085281246@example.test.
+  - paragraph: "Order date: Tue Oct 27 2026"
+  - paragraph: "Order number: 12"
+  - heading "Summary" [level=2]
+  - table:
+    - rowgroup:
+      - 'row "QA Run Variant Tee Variant: M / White 1x €35.00 €35.00"':
+        - cell:
+          - img
+        - 'cell "QA Run Variant Tee Variant: M / White"':
+          - paragraph: QA Run Variant Tee
+          - paragraph: "Variant: M / White"
+        - cell "1x €35.00 €35.00":
+          - paragraph: 1x
+          - text: €35.00 €35.00
+  - text: Subtotal (excl. shipping and taxes) €35.00 Shipping €10.00 Taxes €0.00 Total €45.00
+  - heading "Delivery" [level=2]
+  - paragraph: Shipping Address
+  - paragraph: QA Accessibility
+  - paragraph: 1 Fictional QA Street
+  - paragraph: 2100, Copenhagen
+  - paragraph: DK
+  - paragraph: Contact
+  - paragraph
+  - paragraph: qa-a11y-desktop-1793085281246@example.test
+  - paragraph: Method
+  - paragraph: Standard Shipping (€10.00)
+  - heading "Payment" [level=2]
+  - paragraph: Payment method
+  - paragraph: Manual Payment
+  - paragraph: Payment details
+  - img
+  - paragraph: €45.00 paid at 10/27/2026, 2:14:43 PM
+  - heading "Need help?" [level=2]
+  - list:
+    - listitem:
+      - link "Contact":
+        - /url: /dk/contact
+    - listitem:
+      - link "Returns & Exchanges":
+        - /url: /dk/contact
+  - link "Medusa Store":
+    - /url: /dk
+  - text: Categories
+  - list:
+    - listitem:
+      - link "Shirts":
+        - /url: /dk/categories/shirts
+      - list
+    - listitem:
+      - link "Sweatshirts":
+        - /url: /dk/categories/sweatshirts
+      - list
+    - listitem:
+      - link "Merch":
+        - /url: /dk/categories/merch
+      - list
+    - listitem:
+      - link "Pants":
+        - /url: /dk/categories/pants
+      - list
+    - listitem:
+      - link "QA Run 20261026":
+        - /url: /dk/categories/qa-20261026-001
+      - list
+  - text: Customer service
+  - list:
+    - listitem:
+      - link "Shipping information":
+        - /url: /dk/shipping
+    - listitem:
+      - link "Return policy":
+        - /url: /dk/returns
+    - listitem:
+      - link "Terms of service":
+        - /url: /dk/terms
+    - listitem:
+      - link "Privacy policy":
+        - /url: /dk/privacy
+    - listitem:
+      - link "Contact":
+        - /url: /dk/contact
+    - listitem:
+      - link "Search":
+        - /url: /dk/search
+  - text: Medusa
+  - list:
+    - listitem:
+      - link "GitHub":
+        - /url: https://github.com/medusajs
+    - listitem:
+      - link "Documentation":
+        - /url: https://docs.medusajs.com
+    - listitem:
+      - link "Source code":
+        - /url: https://github.com/medusajs/dtc-starter
+  - paragraph: © 2026 Medusa Store. All rights reserved.
+  - paragraph:
+    - text: Powered by
+    - link:
+      - /url: https://www.medusajs.com
+      - img
+    - text: "&"
+    - link:
+      - /url: https://nextjs.org
+      - img
+- alert

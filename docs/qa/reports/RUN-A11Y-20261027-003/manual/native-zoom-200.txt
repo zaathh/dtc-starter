@@ -1,0 +1,100 @@
+Window: "Sign in", App: Google Chrome for Testing.
+0 standard window Sign in - Google Chrome for Testing, URL: localhost:8000/dk/account, Secondary Actions: Raise
+	1 container Sign in - Google Chrome for Testing, URL: localhost:8000/dk/account
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop up button View site information
+					9 text field (settable) Address and search bar, Value: localhost:8000/dk/account, Placeholder: Search Google or type a URL. Press up or down arrow for auto completions. Type to autocomplete..
+					10 button Zoom: 200%
+					11 button Bookmark this tab
+				12 pop up button Chromium
+			13 container
+				14 scroll area
+					15 HTML content Sign in, URL: localhost:8000/dk/account
+						16 container
+							17 container
+								18 button Menu
+								19 link MEDUSA STORE, Value: localhost:8000/dk
+								20 link Search products, Value: localhost:8000/dk/search
+								21 button Cart (0)
+									22 link Cart (0), Value: localhost:8000/dk/cart
+							23 heading WELCOME BACK, Value: 1
+								24 text WELCOME BACK
+							25 text Sign in to access an enhanced shopping experience.
+							26 container
+								27 email (settable) Enter a valid email address., Placeholder:  
+								28 container
+									29 text Email *
+								30 secure text field (settable)   
+								31 container
+									32 text Password *
+								33 button
+								34 button Sign in
+							35 text Not a member?
+							36 button Join us
+							37 text .
+							38 heading Got questions?, Value: 3
+								39 text Got questions?
+							40 text You can find frequently asked questions and answers on our customer service page.
+							41 link Customer Service, Value: localhost:8000/dk/customer-service
+							42 container
+								43 link MEDUSA STORE, Value: localhost:8000/dk
+								44 text Categories
+								45 content list
+									46 container
+										47 link Shirts, Value: localhost:8000/dk/categories/shirts
+									48 container
+										49 link Sweatshirts, Value: localhost:8000/dk/categories/sweatshirts
+									50 container
+										51 link Merch, Value: localhost:8000/dk/categories/merch
+									52 container
+										53 link Pants, Value: localhost:8000/dk/categories/pants
+									54 container
+										55 link QA Run 20261026, Value: localhost:8000/dk/categories/qa-20261026-001
+								56 text Customer service
+								57 content list
+									58 link Shipping information, Value: localhost:8000/dk/shipping
+									59 link Return policy, Value: localhost:8000/dk/returns
+									60 link Terms of service, Value: localhost:8000/dk/terms
+									61 link Privacy policy, Value: localhost:8000/dk/privacy
+									62 link Contact, Value: localhost:8000/dk/contact
+									63 link Search, Value: localhost:8000/dk/search
+								64 text Medusa
+								65 content list
+									66 link GitHub, Value: github.com/medusajs
+									67 link Documentation, Value: docs.medusajs.com/
+									68 link Source code, Value: github.com/medusajs/dtc-starter
+								69 text ©  2026  Medusa Store. All rights reserved. Powered by
+								70 link medusajs.com/
+								71 text &
+								72 link nextjs.org/
+			73 pop up button Tab search
+			74 container
+				75 tab group
+					76 tab (selected, settable, boolean) Sign in - Memory usage - 50.1 MB, Value: on
+						77 button Close
+			78 button New Tab
+	79 close button
+	80 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	81 minimize button
+82 menu bar
+	83 Google Chrome for Testing
+	84 File
+	85 Edit
+	86 View
+	87 History
+	88 Bookmarks
+	89 Profiles
+	90 Tab
+	91 Window
+	92 Help
+
+Selected text: ```
+localhost:8000/dk/account
+```
+
+Note: Pay special attention to the content selected by the user. If the user asks a question or refers to the content they are looking at on-screen, they might be referring to the selected content (but they might be referring to something else that's visible, too).

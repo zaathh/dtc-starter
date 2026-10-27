@@ -1,0 +1,60 @@
+{
+  "runId": "RUN-A11Y-20261027-007",
+  "at": "2026-10-27T08:02:23.861Z",
+  "applicationCommit": "fc7dafa1b05f02c1dd886724f8d96d0ee8be0155",
+  "executor": "AI-authored Playwright keyboard-event automation; no pointer clicks, forced focus, fill or screen-reader verification",
+  "runtime": "Local development server; UI and focus may differ from the production baseline",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "steps": [
+    {
+      "name": "product-added",
+      "url": "http://localhost:8000/dk/products/qa-20261026-001-variant?v_id=variant_01M5VE4CMV3WJZZZ25CHY43FA2",
+      "focus": {
+        "tag": "BODY",
+        "testId": null,
+        "name": null,
+        "text": "MenuMedusa StoreAccountCart (1)CartQA Run Variant TeeVariant: M / WhiteQuantity: 1€35.00Re"
+      }
+    },
+    {
+      "name": "header-cart-enter-no-navigation",
+      "url": "http://localhost:8000/dk/products/qa-20261026-001-variant?v_id=variant_01M5VE4CMV3WJZZZ25CHY43FA2",
+      "focus": {
+        "tag": "A",
+        "testId": "nav-cart-link",
+        "name": null,
+        "text": "Cart (1)"
+      }
+    },
+    {
+      "name": "cart-after-escape",
+      "url": "http://localhost:8000/dk/cart",
+      "focus": {
+        "tag": "BUTTON",
+        "testId": null,
+        "name": null,
+        "text": "Cart (1)"
+      }
+    },
+    {
+      "name": "blocked",
+      "url": "http://localhost:8000/dk/cart",
+      "focus": {
+        "tag": "BUTTON",
+        "testId": null,
+        "name": null,
+        "text": "Remove"
+      }
+    }
+  ],
+  "observations": [
+    "Enter on the nested header Cart link did not navigate. Attempting the popover Go to cart action; a workaround does not pass the header link."
+  ],
+  "status": "incomplete",
+  "orders": [],
+  "browser": "156.0.8078.4",
+  "error": "Keyboard Tab could not reach a[href*=\"/checkout\"]"
+}

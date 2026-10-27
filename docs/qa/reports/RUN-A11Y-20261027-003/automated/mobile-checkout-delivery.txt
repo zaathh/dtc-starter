@@ -1,0 +1,61 @@
+- main:
+  - navigation:
+    - link "Back":
+      - /url: /dk/cart
+      - img
+      - text: Back
+    - link "Medusa Store":
+      - /url: /dk
+  - heading "Shipping Address" [level=2]:
+    - text: Shipping Address
+    - img
+  - paragraph:
+    - button "Edit"
+  - paragraph: Shipping Address
+  - paragraph: QA Accessibility
+  - paragraph: 1 Fictional QA Street
+  - paragraph: 2100, Copenhagen
+  - paragraph: DK
+  - paragraph: Contact
+  - paragraph
+  - paragraph: qa-a11y-mobile-1793085293386@example.test
+  - paragraph: Billing Address
+  - paragraph: Billing and delivery address are the same.
+  - heading "Delivery" [level=2]
+  - text: Shipping method How would you like you order delivered
+  - radiogroup:
+    - radio "Standard Shipping €10.00" [checked]:
+      - radio [checked]
+      - text: Standard Shipping €10.00
+    - radio "Express Shipping €10.00":
+      - radio [checked]
+      - text: Express Shipping €10.00
+  - button "Continue to payment"
+  - heading "Payment" [level=2]
+  - heading "Review" [level=2]
+  - heading "In your Cart" [level=2]
+  - text: Subtotal (excl. shipping and taxes) €35.00 Shipping €10.00 Taxes €0.00 Total €45.00
+  - table:
+    - rowgroup:
+      - 'row "QA Run Variant Tee Variant: M / White 1x €35.00 €35.00"':
+        - cell:
+          - link:
+            - /url: /dk/products/qa-20261026-001-variant
+            - img
+        - 'cell "QA Run Variant Tee Variant: M / White"':
+          - paragraph: QA Run Variant Tee
+          - paragraph: "Variant: M / White"
+        - cell "1x €35.00 €35.00":
+          - paragraph: 1x
+          - text: €35.00 €35.00
+  - button: Add Promotion Code(s)
+  - paragraph:
+    - text: Powered by
+    - link:
+      - /url: https://www.medusajs.com
+      - img
+    - text: "&"
+    - link:
+      - /url: https://nextjs.org
+      - img
+- alert: Checkout

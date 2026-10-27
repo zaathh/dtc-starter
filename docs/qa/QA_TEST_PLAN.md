@@ -1,6 +1,6 @@
 # QA Test Plan — Medusa DTC Starter
 
-Status: Version 1.4 — local manual, responsive, initial critical-flow automation and a scoped Lighthouse baseline linked. Detailed business criteria, coverage gaps and performance budgets remain pending; no release acceptance is implied.
+Status: Version 1.5 — local manual, responsive, initial critical-flow automation, Lighthouse baseline and scoped accessibility evidence linked. Detailed business criteria, coverage gaps and performance budgets remain pending; no release acceptance is implied.
 Planning date: October 26, 2026 (Asia/Jakarta).
 Upstream: https://github.com/medusajs/dtc-starter
 Portfolio fork: https://github.com/zaathh/dtc-starter
@@ -211,7 +211,7 @@ The eight agreed phases are milestone gates. Continue to the next phase only on 
 | Phase 3 manual QA | Detailed cases, run records, findings | Case-level readiness | Manual and mobile/tablet follow-ups recorded; BUG-001 and BUG-002 remain open with proposed classifications |
 | Phase 4 automation | Critical-flow tests and run instructions | Understood flows, tool approval and prepared local fixtures | Initial Chromium suite implemented: 17 scenarios × 3 viewport sizes; API/country/full-footer automation and Firefox/WebKit/CI remain deferred |
 | Phase 5 performance | Reproducible baseline artifacts | Production build, controlled setup | Scoped 24-measurement mobile/desktop Lighthouse baseline recorded; budgets and optimization comparison pending |
-| Phase 6 accessibility | Automated and manual scoped assessment | Tool approval, agreed page/process scope | Not started |
+| Phase 6 accessibility | Automated and manual scoped assessment | Tool approval, agreed page/process scope | 38 primary axe scans completed with findings; partial manual probes recorded; VoiceOver/full keyboard and criterion coverage remain open |
 | Phase 7 fixes | Small reviewed changes and targeted checks | Verified issues, change approval | Not started |
 | Phase 8 completion | Retest, regression, comparisons, case study | Earlier artifacts | Not started |
 
@@ -314,3 +314,22 @@ The measurements show repeatable catalog layout shift, product LCP/image-deliver
 | Version | Date | Change | Review status |
 | --- | --- | --- | --- |
 | 1.4 | 2026-10-27 | Linked the scoped local Lighthouse baseline, exact protocol and declared limits | Owner authorized measurement; no performance budget, optimization or release approval implied |
+
+## Phase 6 assessment checkpoint — October 27, 2026
+
+[RUN-A11Y-20261027-003](reports/RUN-A11Y-20261027-003/REPORT.md) records 38 completed primary axe scans and two separate stable-menu rechecks against the existing local production build. Seven actionable finding groups remain open; target-size exceptions and nine incomplete rule occurrences require review. Counts are repeated observations, not unique bugs. Manual keyboard observations and limited zoom/320px/text-spacing probes are retained with their execution methods.
+
+The [55-criterion matrix](accessibility/WCAG22_MATRIX.md) has six demonstrated criterion failures and 49 whole-criterion Not Tested dispositions, including partial observations. VoiceOver output and complete keyboard-only purchase/login are not verified. The automated baseline is complete; the full Phase 6 manual assessment/acceptance gate remains open. Earlier functional owner verification does not imply owner verification of these accessibility findings. No application fixes, conformance claim, risk waiver or automatic Phase 7 progression is authorized by this checkpoint.
+
+| Version | Date | Change | Review status |
+| --- | --- | --- | --- |
+| 1.5 | 2026-10-27 | Linked accessibility baseline, grouped findings and explicit manual criterion gaps | Owner authorized installation/execution; full manual accessibility acceptance pending |
+
+### Phase 6 keyboard follow-up
+
+[RUN-A11Y-20261027-008](reports/RUN-A11Y-20261027-008/REPORT.md) adds completed
+desktop keyboard-event tasks from a direct Cart entry through simulated order,
+and from a direct Account entry through login/logout. Earlier header-navigation
+attempts remain incomplete and retained. This expands partial evidence without
+passing the complete navigation path or the whole WCAG keyboard criterion.
+VoiceOver and broader manual coverage remain open; no Phase 7 fix has started.

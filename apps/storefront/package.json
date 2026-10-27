@@ -16,7 +16,8 @@
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui",
     "test:e2e:report": "playwright show-report",
-    "test:performance": "node tests/performance/run-baseline.mjs"
+    "test:performance": "node tests/performance/run-baseline.mjs",
+    "test:accessibility": "node tests/accessibility/run-assessment.mjs"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.0",
@@ -42,6 +43,7 @@
     "tailwindcss-radix": "^2.8.0"
   },
   "devDependencies": {
+    "@axe-core/playwright": "4.14.0",
     "@babel/core": "^7.17.5",
     "@medusajs/types": "2.22.0",
     "@playwright/test": "1.64.1",
